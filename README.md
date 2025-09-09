@@ -190,6 +190,14 @@
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+Storigent es una startup orientada al desarrollo de soluciones tecnológicas para la gestión y conservación de inventarios. Su principal característica es el diseño de un software que integra funcionalidades de control de stock, guías de cuidado de productos, recomendaciones personalizadas y trazabilidad en el transporte, con el fin de garantizar la calidad y reducir pérdidas en los procesos logísticos.
+
+La propuesta surge como respuesta a la necesidad de muchas empresas de contar con herramientas que permitan optimizar sus recursos y mantener la integridad de sus productos durante todo su ciclo de vida. Bajo esta perspectiva, Storigent busca posicionarse como una alternativa confiable y práctica, enfocada en la mejora continua y la aplicación de tecnología al servicio de la eficiencia empresarial.
+
+Misión: Desarrollar un software innovador que facilite la gestión integral de inventarios y promueva la conservación de los productos mediante soluciones accesibles, eficientes y confiables.
+
+Visión: Convertirse en un referente en la implementación de tecnologías de gestión de inventarios, contribuyendo al progreso de las empresas y al fortalecimiento de cadenas logísticas más sustentables.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática

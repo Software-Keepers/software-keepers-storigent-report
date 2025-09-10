@@ -261,107 +261,111 @@
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
 
-<table>
-    <tr>
-        <th>Sprint #</th>
-        <td>Sprint 1</td>
-    </tr>
-    <tr>
-        <th colspan="2">Sprint Planning Background</th>
-    </tr>
-    <tr>
-        <th>Date</th>
-        <td>2025-08-30</td>
-    </tr>
-    <tr>
-        <th>Time</th>
-        <td>05:30 PM</td>
-    </tr>
-    <tr>
-        <th>Location</th>
-        <td>Reunión virtual a través de Google Meet</td>
-    </tr>
-    <tr>
-        <th>Prepared by</th>
-        <td>Zagaceta Bardales, Rodrigo Enrique</td>
-    </tr>
-    <tr>
-        <th>Attendees (to planning meeting)</th>
-        <td>Calixto Iriarte, David Alejandro; Cespedes Pillco, Jarod Jack; Checa Burga, Oscar Diego; Palomino Murga, Daniel Stalin; Zagaceta Bardales, Rodrigo Enrique</td>
-    </tr>
-    <tr>
-        <th>Sprint n - 1 Review Summary</th>
-        <td>No existe sprint previo</td>
-    </tr>
-    <tr>
-        <th>Sprint n - 1 Retrospective Summary</th>
-        <td>No existe sprint previo</td>
-    </tr>
-    <tr>
-        <th colspan="2">Sprint Goal & User Stories</th>
-    </tr>
-    <tr>
-        <th>Sprint 1 Goal</th>
-        <td>Our focues is on deploying the first version of our landing page. We believe it delivers satisfaction and confidence to our team and future users. This will be confirmed when all the members of the team and a end-users navigates our landing page without any issues.</td>
-    </tr>
-    <tr>
-        <th>Sprint 1 Velocity</th>
-        <td>XX Story Points</td>
-    </tr>
-    <tr>
-        <th>Sum of Story Points</th>
-        <td>XX Story Points</td>
-    </tr>
-</table>
+<div align="center">
+    <table>
+        <tr>
+            <th>Sprint #</th>
+            <td>Sprint 1</td>
+        </tr>
+        <tr>
+            <th colspan="2">Sprint Planning Background</th>
+        </tr>
+        <tr>
+            <th>Date</th>
+            <td>2025-08-30</td>
+        </tr>
+        <tr>
+            <th>Time</th>
+            <td>05:30 PM</td>
+        </tr>
+        <tr>
+            <th>Location</th>
+            <td>Reunión virtual a través de Google Meet</td>
+        </tr>
+        <tr>
+            <th>Prepared by</th>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+        </tr>
+        <tr>
+            <th>Attendees (to planning meeting)</th>
+            <td>Calixto Iriarte, David Alejandro; Cespedes Pillco, Jarod Jack; Checa Burga, Oscar Diego; Palomino Murga, Daniel Stalin; Zagaceta Bardales, Rodrigo Enrique</td>
+        </tr>
+        <tr>
+            <th>Sprint n - 1 Review Summary</th>
+            <td>No existe sprint previo</td>
+        </tr>
+        <tr>
+            <th>Sprint n - 1 Retrospective Summary</th>
+            <td>No existe sprint previo</td>
+        </tr>
+        <tr>
+            <th colspan="2">Sprint Goal & User Stories</th>
+        </tr>
+        <tr>
+            <th>Sprint 1 Goal</th>
+            <td>Our focues is on deploying the first version of our landing page. We believe it delivers satisfaction and confidence to our team and future users. This will be confirmed when all the members of the team and a end-users navigates our landing page without any issues.</td>
+        </tr>
+        <tr>
+            <th>Sprint 1 Velocity</th>
+            <td>XX Story Points</td>
+        </tr>
+        <tr>
+            <th>Sum of Story Points</th>
+            <td>XX Story Points</td>
+        </tr>
+    </table>
+</div>
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
 En este sprint se busca completar la landing page de Storigent, incluyendo el diseño y su despliegue. Para lograr una correcta comunicación, se ha creado la matriz de liderazgo y colaboración (LACX), en la cual se define quien lidera y quien colabora en cada aspecto del sprint.
 
-<table>
-    <tr>
-        <th>Team Member (Last Name, First Name)</th>
-        <th>Github Username</th>
-        <th>Aspect Name 1 Leader (L) / Collaborator (C)</th>
-        <th>Aspect Name 2 Leader (L) / Collaborator (C)</th>
-        <th>Aspect Name 3 Leader (L) / Collaborator (C)</th>
-    </tr>
-    <tr>
-        <td>Calixto Iriarte, David Alejandro</td>
-        <td>DavidCalixto99</td>
-        <td>C</td>
-        <td>C</td>
-        <td>C</td>
-    </tr>
-    <tr>
-        <td>Cespedes Pillco, Jarod Jack</td>
-        <td>PruebaJJC</td>
-        <td>C</td>
-        <td>C</td>
-        <td>C</td>
-    </tr>
-    <tr>
-        <td>Checa Burga, Oscar Diego</td>
-        <td>OscarCheca</td>
-        <td>C</td>
-        <td>C</td>
-        <td>C</td>
-    </tr>
-    <tr>
-        <td>Palomino Murga, Daniel Stalin</td>
-        <td>DanielPM23</td>
-        <td>C</td>
-        <td>C</td>
-        <td>C</td>
-    </tr>
-    <tr>
-        <td>Zagaceta Bardales, Rodrigo Enrique</td>
-        <td>Rodrigo290205</td>
-        <td>C</td>
-        <td>C</td>
-        <td>C</td>
-    </tr>
-</table>
+<div align="center">
+    <table>
+        <tr>
+            <th>Team Member (Last Name, First Name)</th>
+            <th>Github Username</th>
+            <th>Aspect Name 1 Leader (L) / Collaborator (C)</th>
+            <th>Aspect Name 2 Leader (L) / Collaborator (C)</th>
+            <th>Aspect Name 3 Leader (L) / Collaborator (C)</th>
+        </tr>
+        <tr>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>DavidCalixto99</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>PruebaJJC</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>OscarCheca</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>DanielPM23</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>Rodrigo290205</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+        </tr>
+    </table>
+</div>
 
 #### 5.2.1.3. Sprint Backlog 1
 
@@ -370,57 +374,61 @@ El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page f
 _Aquí iría la screenshot de la página de Miro o Trello_   
 Link: _Aquí va el link_
 
-<table>
-    <tr>
-        <th colspan="1">Sprint #</th>
-        <th colspan="7">Sprint 1</th>
-    </tr>
-    <tr>
-        <th colspan="2">User Story</th>
-        <th colspan="6">Work-Item / Task</th>
-    </tr>
-    <tr>
-        <th>ID</th>
-        <th>Title</th>
-        <th>ID</th>
-        <th>Title</th>
-        <th>Description</th>
-        <th>Estimation (Hours)</th>
-        <th>Assigned To</th>
-        <th>Status (To-Do / In-Process / To-Review / Done)</th>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
+<div align="center">
+    <table>
+        <tr>
+            <th colspan="1">Sprint #</th>
+            <th colspan="7">Sprint 1</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Work-Item / Task</th>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation (Hours)</th>
+            <th>Assigned To</th>
+            <th>Status (To-Do / In-Process / To-Review / Done)</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 En esta sección se presentan los avances en la implementación de la solución, específicamente en el desarrollo de la Landing Page correspondiente al alcance del Sprint actual. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas, los ajustes de estilo y las mejoras en la interfaz de usuario. A continuación, se muestra una tabla que resume los commits relevantes asociados a este componente.
 
-<table>
-    <tr>
-        <th>Repository</th>
-        <th>Branch</th>
-        <th>Commit ID</th>
-        <th>Commit Message</th>
-        <th>Commit On (Date)</th>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
+<div align="center">
+    <table>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit On (Date)</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 

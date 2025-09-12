@@ -459,10 +459,148 @@ Se documenta la información obtenida durante las entrevistas, incluyendo los pe
 sus respuestas más relevantes y observaciones que aportan valor al análisis posterior. 
 Este registro permite tener una base sólida para la interpretación de resultados.
 
+<strong>Segmento objetivo 1: Emprendedores</strong>
+
+<strong>Entrevista 1: Manuel Wilfredo Serna Juancho</strong>
+
+Captura:
+
+<img src="static/img/chapter 2/img-entrevista-Manuel.png" alt="Entrevista Manuel" style="width: px;"></img>
+
+Resumen:
+
+Manuel Wilfredo Serna Juancho, un joven soltero de 21 años residente en Cercado, Lima, es el emprendedor detrás de una pequeña empresa dedicada a la distribución de productos lácteos artesanales a minimarkets y bodegas.
+
+Gestión y Desafíos: Actualmente, su gestión de inventario es una combinación manual y digital, utilizando Excel y un cuaderno. Esta metodología fragmentada le impide tener un control preciso del stock, a menudo desconociendo las unidades disponibles o los productos vencidos. Su principal desafío y fuente de frustración es la cadena de frío durante el transporte, ya que los transportistas no siempre mantienen la temperatura adecuada, lo que impacta negativamente la calidad del producto y resulta en pérdidas económicas al tener que desechar mercancía.
+
+Tecnología y Habilidades: Para su negocio, Manuel se apoya en herramientas digitales como WhatsApp para los pedidos y Excel para un control básico, operando principalmente desde su celular Android y una laptop con Windows. Para interactuar con clientes y proveedores, utiliza mayormente WhatsApp y Facebook, complementando con correo electrónico y llamadas para los proveedores. Reconoce que le falta la habilidad para manejar un software especializado de gestión de inventarios.
+
+Expectativas y Necesidades: Manuel desearía un software como Storigent que le proporcionara alertas de inventario bajo, seguimiento en tiempo real del transporte con monitoreo de la temperatura y guías de cuidado del producto. Sus respuestas reflejan una personalidad práctica, consciente de las ineficiencias y las pérdidas que estas conllevan, y con una clara orientación hacia la optimización mediante herramientas tecnológicas que le ofrezcan visibilidad y control, especialmente en aspectos críticos como la conservación y el tránsito de sus productos.
+
+<strong>Entrevista 2: Jacqueline Shelti Alvarado Portalatino</strong>
+
+Captura:
+
+<img src="static/img/chapter 2/img-entrevista-Jacqueline.png" alt="Entrevista Jacqueline" style="width: px;"></img>
+
+Resumen: 
+
+Jacqueline Shelti Alvarado Portalatino, una mujer soltera de 28 años que reside en San Isidro, es la emprendedora detrás de un negocio de polos personalizados.
+
+Gestión y Desafíos: Actualmente, su gestión de inventario es una combinación de métodos manuales y digitales básicos, utilizando una libreta de apuntes y Excel para registrar las cantidades de polos. Esta metodología le genera dificultades al conservar y transportar productos, ya que se arrugan, se manchan o incluso se pierden durante el envío. Su principal desafío y frustración surge al aceptar pedidos grandes y darse cuenta de que no tiene suficiente stock de polos o vinilo, con fechas límite de entrega ajustadas. Reconoce que le falta mejorar la organización del stock por tallas, colores y modelos, así como el manejo del inventario de DTF y la gestión financiera.
+
+Tecnología y Habilidades: Para su negocio, Jacqueline utiliza herramientas digitales como Facebook, WhatsApp Business, Instagram y, ocasionalmente, TikTok. Opera principalmente desde su celular Android y una laptop con Windows. Para interactuar con clientes y proveedores, se apoya en WhatsApp y su teléfono.
+
+Expectativas y Necesidades: Jacqueline desearía un software como Storigent que le proporcionara información en tiempo real sobre el punto exacto de los pedidos en tránsito, el tiempo restante para la llegada al cliente y la confirmación de la condición del producto. Entre las funcionalidades que le gustaría encontrar, destacan: alertas de stock por tallas y colores, registro automático de pedidos, y un sistema de tracking a tiempo real para el seguimiento de envíos. No conoce marcas o soluciones similares específicas en el mercado. Sus respuestas reflejan una personalidad práctica, organizada y con una clara orientación hacia la eficiencia y el control, buscando soluciones tecnológicas para optimizar sus procesos y minimizar las frustraciones en la gestión de su emprendimiento.
+
+<strong>Segmento objetivo 2: Empresas</strong>
+
+<strong>Entrevista 1: Xenia Palomino Murga</strong>
+
+Captura:
+
+<img src="static/img/chapter 2/img-entrevista-Xenia.png" alt="Entrevista Xenia" style="width: px;"></img>
+
+Resumen:
+
+Xenia Palomino Murga, una ingeniera de alimentos de 25 años y jefa de logística en la empresa Gloria, reside en La Molina y es soltera. Gloria es una empresa líder en el mercado peruano, dedicada a la producción, distribución y comercialización de productos lácteos, alimentos y bebidas.
+
+Gestión y Desafíos: Actualmente, su gestión de inventario se basa en un sistema ERP SAP, complementado con módulos específicos para la gestión de almacenes, trazabilidad de lotes y producción. Almacenan y transportan principalmente productos lácteos, derivados, conservas y bebidas. El mayor desafío que enfrentan es mantener la cadena de frío para los productos perecederos, especialmente durante transportes largos o a rutas alejadas que pueden demorar más de lo previsto. Sus frustraciones se centran en la inflexibilidad de los sistemas actuales, que no permiten integrar fácilmente variables como la temperatura y la humedad, complicando la gestión de productos que requieren condiciones específicas.
+
+Tecnología y Habilidades: Para sus operaciones, Xenia y su equipo utilizan tecnologías como sensores de temperatura, códigos de barras y GPS en el transporte. Los dispositivos de uso frecuente incluyen tablets para supervisores, escáneres de códigos de barras, laptops y equipos móviles con aplicaciones corporativas. Los canales digitales para la gestión logística son el ERP, correo corporativo, un dashboard interno de control y una aplicación móvil para la comunicación con choferes y personal de almacén. Las habilidades clave que considera necesarias para su equipo incluyen el dominio de sistemas digitales, datos, protocolos de conservación y trazabilidad, además de una rápida capacidad de reacción ante emergencias logísticas.
+
+Expectativas y Necesidades: Xenia desearía un software como Storigent que ofrezca alertas inmediatas sobre la temperatura si esta excede el rango permitido, notificaciones de stock crítico y productos próximos a vencerse. La única funcionalidad explícita que mencionó querer en un software como Storigent es una "integración completa". Sus respuestas reflejan una personalidad altamente organizada y detallista, con un enfoque crítico en la optimización de procesos y la resolución de problemas específicos relacionados con la cadena de frío y la gestión de productos perecederos. Su orientación es claramente hacia soluciones tecnológicas que brinden un control preciso y en tiempo real, evidenciando una mentalidad proactiva y orientada a la eficiencia.
+
+<strong>Entrevista 2: Sebastián Díaz Paredes</strong>
+
+Captura:
+
+<img src="static/img/chapter 2/img-entrevista-Sebastian.png" alt="Entrevista Sebastián" style="width: px;"></img>
+
+Resumen: 
+
+Sebastián Díaz, un ingeniero industrial de 32 años, soltero y residente en San Borja, se desempeña como jefe de logística en una distribuidora de productos alimenticios y bebidas.
+
+Gestión y Desafíos: Actualmente, Sebastián gestiona los inventarios y el almacén utilizando un sistema básico de Excel para reportes mensuales, complementado mayormente con métodos manuales. Los principales problemas que enfrenta en el transporte y almacenamiento de productos, especialmente bebidas, son la necesidad de mantenerlos en zonas ventiladas. Ha experimentado pérdidas debido a la mala manipulación de productos y errores en el registro del stock.
+
+Tecnología y Habilidades: Para el registro y control de calidad, la empresa se limita al uso de códigos de barras tradicionales, sin otros tipos de sensores. Los dispositivos que utilizan son laptops, tablets y escáneres de códigos de barras. Para las operaciones y comunicación, emplean canales digitales como el correo electrónico, WhatsApp y un sistema ERP para el registro de pedidos e inventario. Sebastián considera que las habilidades clave para su equipo en la gestión de inventarios son una buena organización, atención al detalle del stock, manejo de herramientas digitales y la capacidad de estar preparados ante imprevistos.
+
+Expectativas y Necesidades: Sus principales frustraciones con los sistemas actuales son la lentitud en el registro de entradas y salidas, la poca fiabilidad de los reportes y la dificultad para integrar la información con otras áreas como ventas o facturación. Sus respuestas reflejan una personalidad práctica, consciente de las deficiencias operativas y la necesidad de sistemas más eficientes y confiables para optimizar la gestión de inventarios y reducir pérdidas. La entrevista concluye antes de que pueda especificar qué tipo de notificación considera útil.
+
 ### 2.2.3. Análisis de entrevistas
 Se analiza la información recopilada en las entrevistas, identificando patrones comunes, insights clave 
 y necesidades recurrentes. Este análisis contribuye a la construcción de arquetipos y a la definición de 
 funcionalidades relevantes para el producto.
+
+Emprendedores:
+
+Edad:
+
+<p align="center">
+    <img src="static/img/chapter 2/img-emprendedores-grafico-edades.png" alt="Edad Emprendedores" style="width: 300px;"></img>
+</p>
+
+Dispositivos:
+
+<p align="center">
+    <img src="static/img/chapter 2/img-emprendedores-grafico-dispositivos.png" alt="Dispositivos Emprendedores" style="width: 300px;"></img>
+</p>
+
+Expectativas:
+
+<p align="center">
+    <img src="static/img/chapter 2/img-emprendedores-grafico-expectativas.png" alt="Expectativas Emprendedores" style="width: 300px;"></img>
+</p>
+
+Frustraciones:
+
+<p align="center">
+    <img src="static/img/chapter 2/img-emprendedores-grafico-frustraciones.png" alt="Frustraciones Emprendedores" style="width: 300px;"></img>
+</p>
+
+Herramientas Digitales:
+
+<p align="center">
+    <img src="static/img/chapter 2/img-emprendedores-grafico-herramientas-digitales.png" alt="Herramientas Digitales Emprendedores" style="width: 300px;"></img>
+</p>
+
+Personalidad:
+
+<p align="center">
+    <img src="static/img/chapter 2/img-emprendedores-grafico-personalidad.png" alt="Personalidad Emprendedores" style="width: 300px;"></img>
+</p>
+
+Empresas:
+
+Dispositvos:
+
+<p align="center">
+    <img src="static/img/chapter 2/img-empresas-grafico-dispositivos.png" alt="Dispositivos Empresas" style="width: 300px;"></img>
+</p>
+
+Expectativas:
+
+<p align="center">
+    <img src="static/img/chapter 2/img-empresas-grafico-expectativas.png" alt="Expectativas Empresas" style="width: 300px;"></img>
+</p>
+
+Frustraciones:
+
+<p align="center">
+    <img src="static/img/chapter 2/img-empresas-grafico-frustraciones.png" alt="Frustraciones Empresas" style="width: 300px;"></img>
+</p>
+
+Herramientas Digitales:
+
+<p align="center">
+    <img src="static/img/chapter 2/img-empresas-grafico-herramientas-digitales.png" alt="Herramientas Digitales Empresas" style="width: 300px;"></img>
+</p>
+
+Personalidad:
+
+<p align="center">
+    <img src="static/img/chapter 2/img-empresas-grafico-personalidad.png" alt="Personalidad Empresas" style="width: 300px;"></img>
+</p>
 
 ## 2.3. Needfinding
 Se describe el proceso de identificación profunda de necesidades reales de los usuarios, 
@@ -470,14 +608,27 @@ utilizando herramientas de diseño centrado en el usuario. Este proceso permite 
 frustraciones y objetivos, más allá de lo evidente.
 
 ### 2.3.1. User Personas
-Se presentan perfiles representativos de los usuarios objetivo, construidos a partir de los datos obtenidos 
-en entrevistas. Estos perfiles incluyen información demográfica, comportamientos, objetivos, frustraciones y 
-preferencias tecnológicas, y sirven como guía para el diseño del producto.
+a construcción de los siguientes User Personas se basa en el análisis cualitativo y cuantitativo de entrevistas realizadas a representantes de dos segmentos clave: Emprendedores y Empresas. Se han considerado características objetivas (edad, dispositivos, herramientas digitales, canales de interacción) y subjetivas (personalidad, frustraciones, expectativas, influencias) para definir arquetipos representativos.
+Estos artefactos permiten visualizar con claridad las necesidades, comportamientos y motivaciones de los usuarios potenciales de Storigent, facilitando el diseño de soluciones centradas en el usuario y estrategias de comunicación efectivas.
+
+<strong>Emprendedores:</strong>
+
+<p align="center">
+    <img src="static/img/chapter 2/img-user-persona-emprendedores.png" alt="User Persona Emprendedores" style="width: 600px;"></img>
+</p>
+
+<strong>Empresas:</strong>
+
+<p align="center">
+    <img src="static/img/chapter 2/img-user-persona-empresas.png" alt="User Persona Empresas" style="width: 600px;"></img>
+</p>
 
 ### 2.3.2. User Task Matrix
 Se organiza la información sobre las tareas clave que los usuarios realizan en relación con la gestión 
 de inventarios, vinculándolas con sus objetivos y necesidades. Esta matriz permite identificar oportunidades 
 de mejora en la experiencia del usuario.
+
+
 
 ### 2.3.3. User Journey Mapping
 Se visualiza el recorrido del usuario al interactuar con el producto, identificando momentos críticos, 

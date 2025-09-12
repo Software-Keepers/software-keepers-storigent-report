@@ -914,14 +914,39 @@ Estas tareas son críticas para la operación diaria de ambos segmentos. Refleja
 - Las coincidencias permiten diseñar funcionalidades comunes en Storigent, mientras que las diferencias sugieren la necesidad de personalización por segmento.
 
 ### 2.3.3. User Journey Mapping
-Se visualiza el recorrido del usuario al interactuar con el producto, identificando momentos críticos, 
-emociones, puntos de dolor y oportunidades de mejora. Este mapeo ayuda a entender la experiencia completa 
-del usuario y a diseñar soluciones más efectivas.
+Los siguientes User Journey Maps As-Is ilustran el recorrido actual de los usuarios representados por los User Personas 
+Manuelina Torres (Emprendedora) y Sebastián Palomino (Empresa). Este recorrido muestra cómo interactúan 
+con sus procesos operativos sin contar con una solución como Storigent, destacando sus objetivos, canales,
+problemas, experiencias y oportunidades de mejora en cada etapa del journey: AWARE, JOIN, USE, DEVELOP y LEAVE.
+
+<strong>Emprendedores:</strong>
+
+<p align="center">
+    <img src="static/img/chapter 2/img-user-journey-emprendedores.png" alt="User Journey Emprendedores" style="width: 800px;"></img>
+</p>
+
+<strong>Empresas:</strong>
+
+<p align="center">
+    <img src="static/img/chapter 2/img-user-journey-empresas.png" alt="User Journey Empresas" style="width: 800px;"></img>
+</p>
 
 ### 2.3.4. Empathy Mapping
 Se representa gráficamente lo que el usuario piensa, siente, dice y hace, con el objetivo 
 de comprender su experiencia desde una perspectiva más humana y empática. Esta herramienta permite 
 profundizar en la dimensión emocional del usuario.
+
+<strong>Emprendedores:</strong>
+
+<p align="center">
+    <img src="static/img/chapter 2/img-empathy-mapping-emprendedores.png" alt="Empathy Map Emprendedores" style="width: 600px;"></img>
+</p>
+
+<strong>Empresas:</strong>
+
+<p align="center">
+    <img src="static/img/chapter 2/img-empathy-mapping-empresas.png" alt="Empathy Map Empresas" style="width: 600px;"></img>
+</p>
 
 ## 2.4. Big Picture EventStorming
 Se realiza una exploración colaborativa de los eventos clave dentro del sistema, 

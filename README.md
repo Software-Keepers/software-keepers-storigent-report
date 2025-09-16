@@ -201,6 +201,95 @@ Visión: Convertirse en un referente en la implementación de tecnologías de ge
 ### 1.1.2. Perfiles de integrantes del equipo
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
+#### ¿Cuál es el problema? / ¿Qué? (What)
+
+El problema principal es que muchas empresas no cuentan con una solución integral para la gestión de inventarios, lo que significa que sus procesos suelen ser fragmentados, manuales o limitados a softwares básicos. Esta falta de integración provoca que no solo se dificulte el control en tiempo real del stock, sino que además no se consideren aspectos críticos como:
+
+•	La conservación de los productos, a través de guías de cuidado y recomendaciones específicas.
+
+•	La trazabilidad en el transporte, que garantice conocer el estado y ubicación de los bienes a lo largo de la cadena de suministro.
+
+
+#### ¿Cuándo? (When)
+
+El problema de la gestión ineficiente de inventarios ocurre principalmente en los momentos críticos del ciclo logístico, cuando los productos están más expuestos a deterioro, pérdidas o falta de control. Esto sucede en dos escenarios clave: durante el almacenamiento, cuando los bienes permanecen por períodos prolongados sin un monitoreo adecuado de sus condiciones de conservación, y durante el transporte, cuando no existe trazabilidad suficiente para garantizar que lleguen en buen estado a su destino.
+
+Es precisamente en esos momentos cuando los productos aún mantienen su valor, pero no cuentan con un sistema integral que asegure su cuidado y trazabilidad cuando se vuelve crucial intervenir. Sin un control adecuado, los inventarios corren el riesgo de sufrir excesos o quiebres de stock, desperdicio de mercancía perecible y sobrecostos logísticos que afectan directamente la competitividad de las empresas.
+
+
+#### ¿Dónde? (Where)
+
+El problema de la gestión ineficiente de inventarios ocurre en los espacios logísticos y de distribución donde los productos se almacenan, manipulan y transportan. Se presenta principalmente en almacenes y centros de distribución y vehículos de transporte, que son los puntos clave de la cadena de suministro y, al mismo tiempo, los más vulnerables a fallas de control.
+
+En estos escenarios, la ausencia de sistemas integrales genera riesgos como el deterioro de productos por condiciones inadecuadas de conservación, pérdidas por errores en el registro de stock y retrasos durante el transporte por falta de trazabilidad. Este problema se intensifica en empresas que operan con volúmenes altos de inventario, productos sensibles (como alimentos) o cadenas logísticas extensas que requieren precisión y coordinación constante.
+
+Sin embargo, la problemática no se limita únicamente a zonas rurales o empresas pequeñas. También está presente en entornos urbanos y corporativos, donde, a pesar de contar con más infraestructura, la complejidad del manejo de inventarios y la demanda creciente superan la capacidad de los sistemas tradicionales.
+
+
+#### ¿Quienes? (Who) 
+
+Está dirigido a:
+
+•	Empresas pequeñas y grandes: Negocios que buscan optimizar la gestión de sus inventarios y mejorar la trazabilidad de sus productos. En el caso de las pequeñas empresas, requieren soluciones accesibles y fáciles de usar que reduzcan errores y pérdidas por falta de control. Por su parte, las grandes empresas necesitan herramientas más escalables que les permitan gestionar mayores volúmenes de productos, optimizar costos operativos y mantener un control eficiente en toda su cadena logística.
+
+•	Emprendedores: Personas que están iniciando un negocio y necesitan una plataforma práctica, económica y adaptable para gestionar sus inventarios desde cero. Su principal interés es contar con un sistema que les facilite crecer de manera ordenada, competitiva y con menores riesgos de pérdidas.
+
+
+#### ¿Por qué? (Why)
+
+El problema de la gestión ineficiente de inventarios ocurre por diversas razones que afectan tanto a pequeñas como a grandes empresas, así como a emprendedores.
+
+En primer lugar, muchas organizaciones carecen de herramientas tecnológicas adecuadas para administrar sus productos, lo que las obliga a depender de métodos manuales como hojas de cálculo o registros físicos. Esto incrementa la probabilidad de cometer errores, perder información o generar inconsistencias en el stock.
+
+En segundo lugar, se observa una falta de trazabilidad en el transporte y conservación de productos, lo cual dificulta conocer en tiempo real dónde se encuentra un bien, en qué condiciones está siendo trasladado y si llegará al destino en buen estado. Esto no solo afecta la operatividad de la empresa, sino que también puede dañar la confianza del cliente final.
+
+Otro factor clave es la desconexión entre la gestión de inventarios y las guías de cuidado de los productos, lo que ocasiona pérdidas por deterioro, almacenamiento inadecuado o vencimientos, especialmente en sectores donde la calidad y la conservación son críticas (como alimentos, farmacéuticos o bienes sensibles).
+
+Finalmente, el crecimiento de los negocios y la complejidad de las cadenas logísticas modernas hacen que los sistemas tradicionales se vuelvan insuficientes. Las empresas requieren soluciones escalables, automatizadas y accesibles que les permitan mantener competitividad y eficiencia en un mercado cada vez más exigente.
+
+
+#### ¿Cómo? (How)
+
+Los usuarios acceden y utilizan Storigent en situaciones específicas donde la gestión de inventarios y la trazabilidad de productos resultan críticas para su negocio. Generalmente, lo emplean cuando:
+
+•	Requieren un control en tiempo real del estado de sus inventarios para evitar pérdidas, excesos o quiebres de stock.
+
+•	Desean asegurar la conservación adecuada de los productos, siguiendo guías de cuidado específicas que reduzcan deterioros o vencimientos.
+
+•	Buscan reducir costos operativos, optimizando los procesos de almacenamiento, transporte y distribución.
+
+•	Quieren centralizar la gestión en una sola plataforma, evitando depender de múltiples sistemas dispersos o registros manuales.
+
+El producto se utiliza en plataformas digitales accesibles desde computadoras, con una interfaz amigable que facilita su adopción tanto en pequeñas como en grandes empresas, así como en emprendimientos que recién inician. Su diseño está pensado para funcionar de manera flexible y escalable, permitiendo a cada usuario adaptarlo a las condiciones de su negocio y al volumen de sus operaciones.
+
+
+#### ¿Cuánto? (How much)
+
+La falta de una gestión eficiente de inventarios y trazabilidad genera altos costos económicos y operativos para las empresas y emprendedores. Estos costos se reflejan en:
+
+•	Pérdidas por deterioro o vencimiento de productos, especialmente en sectores como alimentos, farmacéuticos o productos sensibles.
+
+•	Sobrecostos por exceso de inventario, lo que implica mayor gasto en almacenamiento y capital inmovilizado.
+
+•	Quiebres de stock, que ocasionan retrasos en entregas y pérdida de clientes por incumplimiento.
+
+Frente a este contexto, la propuesta de Storigent implica una inversión estimada de:
+
+•	Desarrollo de software: S/ 70,000
+
+•	Implementación y capacitación inicial: S/ 20,000
+
+•	Pruebas piloto y mejoras: S/ 15,000
+
+•	Difusión y marketing digital: S/ 10,000
+
+•	Mantenimiento y soporte (6 meses): S/ 25,000
+
+Inversión total estimada: S/ 140,000
+
+Este monto resulta mínimo en comparación con las pérdidas generadas por una gestión ineficiente de inventarios y logística. Al implementar Storigent, las empresas pueden reducir hasta en un 30% los costos asociados a desperdicios, exceso de inventario y fallas en la trazabilidad, lo que genera un retorno de inversión significativo en el corto y mediano plazo.
+
+
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 #### 1.2.2.2. Lean UX Assumptions.

@@ -292,8 +292,53 @@ Este monto resulta mínimo en comparación con las pérdidas generadas por una g
 
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+
+En un contexto donde la gestión de inventarios y la trazabilidad logística se han convertido en factores clave para la competitividad empresarial, se hace evidente la necesidad de una plataforma digital que facilite el control, conservación y transporte de productos de manera eficiente. Dicha solución debe proporcionar a empresas y emprendedores una experiencia práctica, confiable y adaptable a las características de su operación.
+
+Como grupo, nos comprometemos a resolver este desafío mediante una colaboración estrecha con los usuarios que requieren optimizar la administración de sus inventarios, así como con empresas que buscan mejorar su trazabilidad y reducir pérdidas operativas. Nos enfocaremos en comprender profundamente las necesidades y expectativas de nuestros clientes, utilizando esta información para diseñar y desarrollar una solución innovadora que satisfaga sus requerimientos de manera integral.
+
+
 #### 1.2.2.2. Lean UX Assumptions.
+
+#### Bussiness Assumptions
+
+1.	Demanda de mercado: Asumimos que tanto emprendedores como empresas pequeñas y grandes enfrentan dificultades recurrentes en la gestión de inventarios y requieren soluciones tecnológicas que les permitan reducir errores, optimizar procesos y mejorar la trazabilidad.
+	
+2.	Disposición al uso: Asumimos que los usuarios estarán dispuestos a migrar desde métodos manuales (como hojas de cálculo o registros físicos) hacia una plataforma digital, siempre que esta sea intuitiva, accesible y no requiera conocimientos técnicos avanzados.
+	
+3.	Impacto económico positivo: Asumimos que la implementación de Storigent generará un ahorro significativo en costos operativos, reduciendo pérdidas por exceso de stock, deterioro de productos y fallas en el transporte, lo que facilitará la recuperación de la inversión inicial.
+	
+4.	Accesibilidad tecnológica: Asumimos que la mayoría de los usuarios cuentan con acceso a dispositivos móviles o computadoras con conexión a internet, lo que permite utilizar Storigent en distintos contextos empresariales sin barreras significativas de infraestructura.
+	
+5.	Escalabilidad de la solución: Asumimos que la plataforma podrá adaptarse al crecimiento de los negocios, permitiendo que un emprendedor que inicia con pocos productos pueda seguir utilizando la herramienta conforme aumente el volumen y complejidad de sus operaciones.
+    
+6.	Confianza y adopción: Asumimos que, al integrar guías de cuidado, trazabilidad en transporte y gestión centralizada de inventarios, Storigent logrará diferenciarse de soluciones parciales existentes, generando confianza y fidelidad en los usuarios.
+
+#### User Assumptions
+
+•	Los usuarios buscan una solución integral que combine gestión de inventarios, guías de conservación y trazabilidad en transporte.
+
+•	Valoran la accesibilidad y conveniencia, pudiendo usar la plataforma desde cualquier lugar y dispositivo.
+
+•	Están dispuestos a invertir en una herramienta confiable que reduzca errores y mejore la eficiencia.
+
+•	Esperan que las funciones de cuidado de productos sean claras y fáciles de aplicar en su negocio.
+
+•	Valoran la seguridad y transparencia en el manejo de sus datos y operaciones.
+
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+•  Creemos que los emprendedores y empresas necesitan una solución integral para gestionar sus inventarios, conservar sus productos y garantizar la trazabilidad en el transporte.
+
+•  Creemos que si ofrecemos una plataforma accesible y fácil de usar, los usuarios estarán más dispuestos a adoptar Storigent en lugar de depender de métodos manuales o herramientas dispersas.
+
+•  Creemos que al brindar información clara y en tiempo real, los usuarios reducirán errores en el control de inventarios, mejorarán la eficiencia operativa y disminuirán pérdidas por deterioro o exceso de stock.
+
+•  Creemos que si garantizamos seguridad y transparencia en los datos, los usuarios confiarán en la plataforma y la utilizarán como parte esencial de sus operaciones.
+
+•  Creemos que al demostrar un impacto positivo en la reducción de costos y riesgos, los usuarios estarán dispuestos a invertir en Storigent como una solución sostenible y escalable.
+
 #### 1.2.2.4. Lean UX Canvas
 ## 1.3. Segmentos objetivo
 

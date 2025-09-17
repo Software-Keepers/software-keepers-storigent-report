@@ -323,40 +323,40 @@ En este sprint se busca completar la landing page de Storigent, incluyendo el di
 <div align="center">
     <table>
         <tr>
-            <th>Team Member (Last Name, First Name)</th>
+            <th>Team Member</th>
             <th>Github Username</th>
-            <th>Landing Page Design [Leader (L) / Collaborator (C)]</th>
-            <th>Landing Page Deployment [Leader (L) / Collaborator (C)]</th>
+            <th>Landing Page Design</th>
+            <th>Landing Page Deployment</th>
         </tr>
         <tr>
             <td>Calixto Iriarte, David Alejandro</td>
             <td>DavidCalixto99</td>
-            <td>C</td>
-            <td>C</td>
+            <td>Leader</td>
+            <td>Collaborator</td>
         </tr>
         <tr>
             <td>Cespedes Pillco, Jarod Jack</td>
             <td>PruebaJJC</td>
-            <td>C</td>
-            <td>C</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
         </tr>
         <tr>
             <td>Checa Burga, Oscar Diego</td>
             <td>OscarCheca</td>
-            <td>C</td>
-            <td>C</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
         </tr>
         <tr>
             <td>Palomino Murga, Daniel Stalin</td>
             <td>DanielPM23</td>
-            <td>C</td>
-            <td>C</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
         </tr>
         <tr>
             <td>Zagaceta Bardales, Rodrigo Enrique</td>
             <td>Rodrigo290205</td>
-            <td>C</td>
-            <td>C</td>
+            <td>Collaborator</td>
+            <td>Leader</td>
         </tr>
     </table>
 </div>

@@ -450,7 +450,7 @@ _Aquí las fotos de la landing page desplegada_
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la Landing Page, dividiéndose por secciones según el diseño y el contenido definido previamente.
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la Landing Page y la elaboración del reporte del proyecto, dividiéndose por secciones según el diseño y el contenido definido previamente.
 
 A continuación, se detalla la participación específica de cada integrante del equipo:
 
@@ -462,23 +462,23 @@ A continuación, se detalla la participación específica de cada integrante del
         </tr>
         <tr>
             <td>Calixto Iriarte, David Alejandro</td>
-            <td></td>
+            <td>Elaboración del Capítulo IV del reporte</td>
         </tr>
         <tr>
             <td>Cespedes Pillco, Jarod Jack</td>
-            <td></td>
+            <td>Elaboración del Capítulo V del reporte</td>
         </tr>
         <tr>
             <td>Checa Burga, Oscar Diego</td>
-            <td></td>
+            <td>Elaboración del Capítulo I del reporte</td>
         </tr>
         <tr>
             <td>Palomino Murga, Daniel Stalin</td>
-            <td></td>
+            <td>Elaboración del Capítulo III y parte del Capítulo IV del reporte</td>
         </tr>
         <tr>
             <td>Zagaceta Bardales, Rodrigo Enrique</td>
-            <td></td>
+            <td>Elaboración del Capítulo II del reporte</td>
         </tr>
     </table>
 </div>

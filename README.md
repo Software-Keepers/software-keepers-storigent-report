@@ -325,14 +325,12 @@ En este sprint se busca completar la landing page de Storigent, incluyendo el di
         <tr>
             <th>Team Member (Last Name, First Name)</th>
             <th>Github Username</th>
-            <th>Aspect Name 1 Leader (L) / Collaborator (C)</th>
-            <th>Aspect Name 2 Leader (L) / Collaborator (C)</th>
-            <th>Aspect Name 3 Leader (L) / Collaborator (C)</th>
+            <th>Landing Page Design [Leader (L) / Collaborator (C)]</th>
+            <th>Landing Page Deployment [Leader (L) / Collaborator (C)]</th>
         </tr>
         <tr>
             <td>Calixto Iriarte, David Alejandro</td>
             <td>DavidCalixto99</td>
-            <td>C</td>
             <td>C</td>
             <td>C</td>
         </tr>
@@ -341,12 +339,10 @@ En este sprint se busca completar la landing page de Storigent, incluyendo el di
             <td>PruebaJJC</td>
             <td>C</td>
             <td>C</td>
-            <td>C</td>
         </tr>
         <tr>
             <td>Checa Burga, Oscar Diego</td>
             <td>OscarCheca</td>
-            <td>C</td>
             <td>C</td>
             <td>C</td>
         </tr>
@@ -355,12 +351,10 @@ En este sprint se busca completar la landing page de Storigent, incluyendo el di
             <td>DanielPM23</td>
             <td>C</td>
             <td>C</td>
-            <td>C</td>
         </tr>
         <tr>
             <td>Zagaceta Bardales, Rodrigo Enrique</td>
             <td>Rodrigo290205</td>
-            <td>C</td>
             <td>C</td>
             <td>C</td>
         </tr>

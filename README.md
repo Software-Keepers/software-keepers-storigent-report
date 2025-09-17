@@ -254,6 +254,36 @@
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
+
+**1. Project Management:**   
+  - **Trello:** Herramienta de gestión de tableros para la organización de tareas y sprints. [https://trello.com/es](https://trello.com/es)
+
+**2. Requirements Management:**
+  - **UXPressia:** Herramienta en línea enfocada en experiencia de usuario (UX) que permite crear de forma colaborativa y visual mapas de experiencia del cliente, customer journey maps, personas y mapas de impacto. [https://uxpressia.com/](https://uxpressia.com/)
+
+**3. Product UX/UI Design:**
+  - **Figma:** Herramienta de prototipado y diseño de alta fidelidad y responsivo. [https://www.figma.com/es-es/](https://www.figma.com/es-es/)
+
+**4. Software Development:**
+  - **Webstorm:** IDE de la familia JetBrains para desarrollo con Vue.js (Javascript, HTML, CSS). [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)
+  - **Node.js y npm:** Entorno y gestor de paquetes para la SPA (Single-Page Application) en Vue.js. [https://nodejs.org/es/](https://nodejs.org/es/)
+  - **Vue CLI:** Scaffold y scripts de desarrollo (vue create, vue serve). [https://cli.vuejs.org/#getting-started](https://cli.vuejs.org/#getting-started)   
+    Comando de instalación: ```npm install -g @vue/cli```
+  - **Vue.js:** Framework progresivo para la SPA (Single-Page Application). [https://vuejs.org/](https://vuejs.org/)
+  - **Javascript:** Lenguaje de programación orientado a objectos usado principalmente para crear interactividad y dinamismo en páginas web. [https://developer.mozilla.org/es/docs/Web/JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)   
+  - **CSS:** Lenguaje de estilos que controla la presentación y el diseño visual de una página web. [https://developer.mozilla.org/es/docs/Web/CSS](https://developer.mozilla.org/es/docs/Web/CSS)   
+  - **HTML:** Lenguaje de marcado que define la estructura y el contenido de una página web. [https://developer.mozilla.org/es/docs/Web/HTML](https://developer.mozilla.org/es/docs/Web/HTML)   
+
+**5. Software Deployment:**   
+  - **Azure CLI:** Automatización de despliegues y gestión de recursos. [https://learn.microsoft.com/es-es/cli/azure/what-is-azure-cli?view=azure-cli-latest](https://learn.microsoft.com/es-es/cli/azure/what-is-azure-cli?view=azure-cli-latest)   
+  - **Azure Static Web Apps:** Publicación de la Landing Page y Single-Page Application bundles.   
+
+**6. Software Documentation:**   
+  - **Git:** Sistema de control de versiones distribuido que permite registrar cambios en el código y trabajar de forma colaborativa.   
+  - **GitHub:** Plataforma en la nube basada en Git que facilita la colaboración, gestión de proyectos y hospedaje de repositorios.   
+  - **Markdown:** Lenguaje de marcado ligero y fácil de usar, diseñado para dar formato a texto plano, generalmente usado en la documentación de proyectos. [https://markdown.es/](https://markdown.es/)   
+  - **PlantUML** (plantuml4idea): Herramienta para generar diagramas a partir de texto, integrable en Webstorm mediante el plugin *plantuml4idea*. [https://plugins.jetbrains.com/plugin/7017-plantuml4idea](https://plugins.jetbrains.com/plugin/7017-plantuml4idea)   
+
 ### 5.1.2. Source Code Management
 ### 5.1.3. Source Code Style Guide & Conventions
 ### 5.1.4. Software Deployment Configuration

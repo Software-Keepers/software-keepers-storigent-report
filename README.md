@@ -1090,6 +1090,23 @@ Se define un lenguaje común entre todos los actores del proyecto, que facilite 
 y coherente durante el desarrollo de Storigent. Este lenguaje compartido evita ambigüedades y asegura 
 que todos los involucrados comprendan los conceptos clave de forma unificada.
 
+- <strong>Product Entry (Ingreso de producto):</strong> Proceso mediante el cual un producto es registrado al llegar al almacén, incluyendo la lectura de su etiqueta RFID y la validación de su estado inicial.
+- <strong>RFID Tag (Etiqueta RFID):</strong> Identificador único que permite rastrear y registrar automáticamente la ubicación y estado del producto dentro del sistema.
+- <strong>Climate Monitoring (Monitoreo climático):</strong> Supervisión constante de las condiciones ambientales del almacén (temperatura, humedad, etc.) para asegurar la conservación adecuada de los productos.
+- <strong>Storage Conditions (Condiciones de almacenamiento):</strong> Parámetros físicos del entorno donde se guarda el producto, que deben ajustarse según sus necesidades de conservación.
+- <strong>Care Guide (Guía de cuidado):</strong> Instrucciones específicas para el manejo y conservación del producto, visibles para el personal del almacén.
+- <strong>Condition Report (Reporte de condición):</strong> Documento generado automáticamente que resume el estado actual del producto, basado en datos de sensores y revisiones.
+- <strong>Conservation Recommendation (Recomendación de conservación):</strong> Sugerencia emitida por el sistema para mejorar las condiciones de almacenamiento o transporte del producto ante riesgos detectados.
+- <strong>Preventive Maintenance (Mantenimiento preventivo):</strong> Acciones programadas para evitar el deterioro de productos o fallos en el sistema de conservación.
+- <strong>Tracking (Seguimiento):</strong> Proceso de monitoreo en tiempo real de la ubicación del producto durante su transporte entre almacenes o hacia el destino final.
+- <strong>Inventory Level (Nivel de inventario):</strong> Cantidad actual de unidades disponibles de un producto en el sistema.
+- <strong>Low Inventory Alert (Alerta de bajo inventario):</strong> Notificación automática que indica que el stock de un producto ha alcanzado un umbral mínimo.
+- <strong>Inventory Audit (Auditoría de inventario):</strong> Revisión periódica del inventario para validar la cantidad y estado de los productos registrados.
+- <strong>Warehouse Transfer (Transferencia entre almacenes):</strong> Proceso de envío de productos de un almacén a otro, incluyendo su seguimiento y confirmación de recepción.
+- <strong>Critical Conditions (Condiciones críticas):</strong> Situaciones detectadas por el sistema que pueden poner en riesgo la conservación o entrega del producto.
+- <strong>Delivery Confirmation (Confirmación de entrega):</strong> Validación de que el producto ha llegado correctamente a su destino final.
+- <strong>Alerts (Alertas):</strong> Mensajes generados por el sistema ante eventos que requieren atención inmediata, como condiciones críticas o fallos en el monitoreo.
+
 # Capítulo III: Requirements Specification
 ## 3.1. User Stories
 ## 3.2. Impact Mapping

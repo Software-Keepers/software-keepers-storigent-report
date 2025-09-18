@@ -2089,7 +2089,6 @@ A continuación mostraremos capturas de la landing page desplegada:
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-
 Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la Landing Page y la elaboración del reporte del proyecto, dividiéndose por secciones según el diseño y el contenido definido previamente.
 
 A continuación, se detalla la participación específica de cada integrante del equipo:
@@ -2125,6 +2124,10 @@ A continuación, se detalla la participación específica de cada integrante del
 
 **Evidencia de Colaboración en GitHub**   
 A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+<div style="text-align: center; margin-top: 10px;">
+    <img src="static/img/chapter-5-team-collaboration-evidence.png" alt="Team Collab" />
+</div>
 
 **Repositorio de Trabajo:** [https://github.com/Software-Keepers/software-keepers-storigent-report](https://github.com/Software-Keepers/software-keepers-storigent-report)   
 

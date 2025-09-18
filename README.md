@@ -507,16 +507,172 @@ que todos los involucrados comprendan los conceptos clave de forma unificada.
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
+Se establecen las directrices generales de estilo que guiarán el diseño visual y la identidad
+de Storigent. Estas pautas aseguran coherencia en todos los elementos gráficos y de comunicación, 
+reforzando la imagen de marca y facilitando la experiencia del usuario.
+### Branding
+Storigent se presenta como una marca tecnológica enfocada en **eficiencia, confianza y conservación inteligente**. La identidad busca transmitir **seriedad y profesionalismo**, sin perder cercanía con emprendedores.
+
+- **Logo**: Simple, minimalista, con un ícono alusivo a inventario/trazabilidad (cajas).
+- **Identidad visual**: Debe mantener coherencia en todos los canales (web, móvil, presentaciones).
+
+### Typography
+El tipo de tipografía selecionada es roboto, esta tipografia es legible, ideales para interfaces digitales.
+
+<img src="static/img/chapter 4/img-font.png" alt="Tipografías Roboto" style="width: 400px;">
+
+**Jerarquías:**
+    - Títulos: negrita, mayor tamaño (24–32 px).
+    - Subtítulos: peso medio (18–22 px).
+    - Texto base: regular (14–16 px).
+
+### Colors
+Paleta cromática inspirada en **confianza y tecnología como el color azul**:
+
+<img src="static/img/chapter 4/img-colors.png" alt="Paleta de colores" style="width: 500px;">
+
+
+### Spacing
+Uso consistente de márgenes y paddings para asegurar claridad y orden visual.
+
+<img src="static/img/chapter 4/img-space.png" alt="Espaciado" style="width: 400px;">
+
+### Corners
+Esquinas redondeadas (14-18 px) para un aspecto moderno y amigable.
+
+<img src="static/img/chapter 4/img-corners.png" alt="Esquinas redondeadas" style="width: 400px;">
+
+### Tone of Communication
+- **Formal pero accesible**: lenguaje claro, sin tecnicismos excesivos.
+- **Respetuoso y confiable**: evitando humor o informalidades.
+- **Sereno y profesional**: transmitiendo seguridad y estabilidad.
+
 ### 4.1.2. Web Style Guidelines
+En esta sección se detallan los **estándares visuales y de interacción** para asegurar consistencia en la experiencia de usuario de Storigent, optimizada para interfaces web responsive.
+
+**Dispositivos Compatibles**
+- **Computadora de escritorio** (pantallas anchas con dashboard completo).
+- **Laptop personal** (layout adaptado).
+- **Tablets** (navegación lateral adaptada en menú hamburguesa).
+- **Smartphones** (interfaz simplificada con navegación inferior y contenido apilado).
+
+
+**Componentes Clave**
+- **Header fijo**:
+    - Logo de Storigent (izquierda).
+    - Menú de navegación (centro/derecha).
+    - Botón de *Login/Registro* destacado en el extremo derecho.
+
+- **Dashboard (usuarios autenticados)**:
+    - **Sidebar vertical** con accesos a: Inventario, Monitoreo, Trazabilidad, Guías, Reportes.
+    - Área de **contenido modular** con tarjetas de información (inventario, métricas ambientales, movimientos).
+
+- **Cards de Inventario y Monitoreo**:
+    - Nombre del producto, stock disponible, estado de conservación.
+    - Iconos de alerta (ej. stock bajo, condiciones anormales).
+    - Botón de acción (*Editar*, *Eliminar*).
+
+- **Filtros de Búsqueda / Listado**:
+    - Por categoría de producto, estado de conservación, stock, ubicación.
+    - Interfaz desplegable en móviles para optimizar espacio.
+
+**Botones**
+- **Estilo base**: Redondeados, sombra suave.
+    - **Primario**: Azul (#2D9CDB).
+    - **Secundario**: Verde (#27AE60).
+- **Hover**: Ligero cambio de color + animación suave (0.3s).
+- **Estados**:
+    - *Disabled*: Gris claro (#BDBDBD).
+    - *Active*: Azul más oscuro (#1565C0).
+- **Accesibilidad**: Altura mínima de 44px.
+
+**Navegación e Interacciones**
+- **Hover**: Sombras suaves, íconos activos, subrayado en enlaces.
+- **Focus (accesibilidad)**: Bordes resaltados visibles para navegación con teclado.
+- **Menú móvil**: Menú tipo *hamburguesa* con deslizamiento lateral.
+
+**Accesibilidad**
+- Contraste mínimo **AA** entre texto y fondo.
+- Navegación habilitada tanto por **mouse como por teclado**.
+- **Texto alternativo** en imágenes.
+- Uso de **ARIA-labels** en botones y componentes críticos.
+
+**Animaciones**
+- Suaves y no invasivas:
+    - **Fade-in** para carga de componentes.
+    - **Slide-up** para notificaciones y alertas.
+- Duración estándar: **0.3 – 0.5s**.
+- Evitar animaciones excesivas que distraigan.
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
+En la plataforma **Storigent**, se implementan sistemas de organización que optimizan la gestión de inventarios y la trazabilidad en el transporte de productos, facilitando tanto la administración de materiales como el monitoreo de sus condiciones de conservación. La estructura visual del contenido se organiza bajo los siguientes principios:
+
+1. **Jerarquía visual**:  
+   Los elementos principales como *“Inventario Actual”*, *“Monitoreo Climático”* y *“Trazabilidad de Transporte”* ocupan posiciones destacadas en el dashboard. Esta jerarquía permite que el usuario identifique de inmediato los módulos críticos para la operación.
+
+2. **Jerarquía tipográfica**:  
+   Se estableció una jerarquía de fuentes que diferencia claramente títulos, subtítulos, métricas y descripciones. Por ejemplo, los nombres de productos en inventario tienen mayor peso visual que la descripción de las guías de cuidado.
+
+3. **Organización secuencial**:  
+   Procesos como el registro de un nuevo producto o la creación de un reporte se presentan paso a paso, permitiendo que el usuario complete sus tareas de manera ordenada y sin confusión.
+
+4. **Organización matricial**:  
+   En el módulo de reportes y estadísticas, la información se muestra en tablas y gráficos comparativos, lo que permite a los usuarios analizar diferentes variables como niveles de stock, condiciones climáticas y estado del transporte en paralelo.
+
+5. **Alineación y color**:  
+   Todos los elementos visuales (tarjetas, botones e iconos) mantienen una alineación coherente para garantizar claridad. Los colores cumplen un rol funcional: el azul como color primario transmite confianza, mientras que tonos secundarios (verde para condiciones óptimas y rojo para alertas) ayudan a destacar el estado del inventario.
+
+
 ### 4.2.2. Labeling Systems
+En **Storigent**, se utiliza un sistema de etiquetado claro y simple para que los usuarios comprendan fácilmente las funciones y estados de la plataforma.
+
+- **Lenguaje sencillo**: Etiquetas como *“Inventario”*, *“Monitoreo”*, *“Trazabilidad”* y *“Guías de Cuidado”* permiten que los usuarios identifiquen sin dificultad cada módulo.
+- **Jerarquía visual**: Alertas críticas, como *“Condición fuera de rango”* o *“Stock bajo”*, se destacan con colores llamativos y mayor tamaño tipográfico.
+- **Organización secuencial**: En los procesos de creación de guías o carga de datos, se aplican etiquetas paso a paso: *“Paso 1: Datos del producto”*, *“Paso 2: Condiciones de conservación”*.
+- **Organización matricial**: En paneles de reportes, etiquetas como *“Producto”*, *“Temperatura”*, *“Humedad”*, *“Ubicación actual”* permiten visualizar y comparar fácilmente diferentes métricas.
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+Se han definido las siguientes etiquetas SEO y meta para mejorar la visibilidad de **Storigent** en buscadores y brindar información clara al usuario:
+
+- **Meta title**: *Storigent – Gestión y Conservación Inteligente de Inventarios*
+- **Meta tag Author**: *Equipo Storigent*
+- **Meta tag Description**: *Plataforma de gestión de inventarios con tecnología RFID y monitoreo climático, optimizando la conservación de productos y la trazabilidad en el transporte.*
+- **Meta tag Keywords**: *gestión de inventarios, conservación de productos, trazabilidad, transporte, RFID, monitoreo climático*
+- **SEO tag Header**: Encabezados `<h1>` y `<h2>` para destacar módulos como *Inventario*, *Monitoreo*, *Reportes* y *Trazabilidad*.
+- **SEO tag URL**: Estructura amigable como:
+    - `storigent.com/inventario`
+    - `storigent.com/monitoreo`
+    - `storigent.com/trazabilidad`
 ### 4.2.4. Searching Systems
+
+Para garantizar que los usuarios encuentren rápidamente lo que necesitan, se han implementado diferentes sistemas de búsqueda:
+
+- **Barra de búsqueda global**: Permite localizar productos, reportes o guías escribiendo el nombre o código RFID.
+- **Filtros de búsqueda**: Refinan resultados por categoría de producto, ubicación de almacén, estado de conservación o rango de fechas.
+- **Búsqueda avanzada**: Permite combinar múltiples criterios como *producto + condición climática + almacén*.
+- **Inicio rápido**: Botón de acceso inmediato al *Dashboard principal*, útil para reorientar al usuario cuando está navegando por múltiples secciones.
+
 ### 4.2.5. Navigation Systems
+
+Los sistemas de navegación en **Storigent** guían a los usuarios de manera clara y eficiente, tanto en la landing page como en la aplicación web:
+
+- **Landing Page**: Diseño vertical con secciones como *Inicio*, *Beneficios*, *Características*, *Casos de uso*, *Contacto*, evitando saturar al usuario con exceso de información.
+- **Dashboard (app web)**:
+    - Sidebar lateral con accesos directos a módulos clave: *Inventario, Monitoreo, Trazabilidad, Guías, Reportes*.
+    - Iconos e indicadores que destacan las secciones activas.
+- **Móviles/Tablets**: Menú tipo hamburguesa que despliega las mismas secciones que el sidebar, optimizado para pantallas pequeñas.
+- **Flujo de navegación**: Pensado para que el usuario pueda llegar a cualquier funcionalidad en un máximo de 3 clics desde el dashboard.
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
+En esta sección se presentan los wireframes de la landing page de Storigent, diseñados para ofrecer una experiencia de usuario clara y atractiva. Los wireframes muestran la estructura básica de la página, incluyendo la disposición de los elementos clave como el encabezado, secciones de beneficios, características del producto, planes, contacto y llamadas a la acción.
+<img src="static/img/chapter 4/img-landing-page-wireframe.svg" alt="Wireframe Landing Page" style="width: 600px;">
+
 ### 4.3.2. Landing Page Mock-up
+Se presentan los mock-ups de la landing page de Storigent, que reflejan el diseño visual final basado en las directrices de estilo establecidas. Los mock-ups incluyen detalles como tipografía, colores, imágenes y botones, proporcionando una vista previa realista de cómo se verá la página en producción.
+<img src="static/img/chapter 4/img-landing-page-mockup.png" alt>="Mock-up Landing Page" style="width: 600px;">
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams

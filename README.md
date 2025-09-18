@@ -652,7 +652,7 @@ A continuación, se detalla la participación específica de cada integrante del
         </tr>
         <tr>
             <td>Cespedes Pillco, Jarod Jack</td>
-            <td>Elaboración del Capítulo V del reporte</td>
+            <td>Elaboración del Capítulo V del reporte e implementación de la vista de Plans and Prices</td>
         </tr>
         <tr>
             <td>Checa Burga, Oscar Diego</td>
@@ -664,7 +664,7 @@ A continuación, se detalla la participación específica de cada integrante del
         </tr>
         <tr>
             <td>Zagaceta Bardales, Rodrigo Enrique</td>
-            <td>Elaboración del Capítulo II del reporte</td>
+            <td>Elaboración del Capítulo II del reporte e implementación de la vista de Contact Section and Footer</td>
         </tr>
     </table>
 </div>

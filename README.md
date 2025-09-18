@@ -85,7 +85,6 @@
 <br><br>
 
 <h1>Student Outcome</h1>
-</br>
 <table>
         <thead>
             <tr>

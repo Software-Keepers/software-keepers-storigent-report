@@ -118,7 +118,7 @@
                 <br><br>Zagaceta Bardales, Rodrigo Enrique: Verifiqué el correcto trabajo del informe en base a las instrucciones brindadas por el Project Statement.
                 </td>
                 <td>TB1 
-                <br><br>Calixto Iriarte, David Alejandro: 
+                <br><br>Calixto Iriarte, David Alejandro: Tuve una vision mas amplia con respecto a los requerimientos necesarios para el dearrollo del proyecto y de como realizarlos de manera adecuada.
                 <br><br>Cespedes Pillco, Jarod Jack: En esta primera fase del proyecto, aprendí que con una buena planificación podemos cumplir objetivos sin retrasos. Me dí cuenta que al respetar las ideas de los demás, la colaboración del equipo se fortalecía. Y reforcé mi sentido de responsabilidad para evitar causar daños al equipo.
                 <br><br>Checa Burga, Oscar Diego: En conclusión había comunicación, pero falto coordinación para revisar a fondo el proyecto por temas de horario.   
                 <br><br>Palomino Murga, Daniel Stalin: Este proyecto nos permite crear un entorno colaborativo e inclusivo, donde cada integrante aporta sus ideas y fortalezas para enriquecer la propuesta. Al establecer metas claras, planificar las tareas y cumplir los objetivos planteados, garantizamos un desarrollo ordenado y eficiente. De esta manera, Storigent se encamina hacia una solución digital sólida y alineada con las necesidades de sus usuarios.

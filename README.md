@@ -340,7 +340,30 @@ Como grupo, nos comprometemos a resolver este desafío mediante una colaboració
 •  Creemos que al demostrar un impacto positivo en la reducción de costos y riesgos, los usuarios estarán dispuestos a invertir en Storigent como una solución sostenible y escalable.
 
 #### 1.2.2.4. Lean UX Canvas
+
 ## 1.3. Segmentos objetivo
+
+#### 1. Empresas (pequeñas y grandes)
+
+Negocios de distintos tamaños en sectores como retail, alimentos, logística, farmacéutica y manufactura. Buscan optimizar la gestión de inventarios, reducir pérdidas y mejorar la trazabilidad.
+
+Demografía: Localizadas principalmente en centros urbanos e industriales, con equipos desde decenas hasta cientos de empleados.
+
+Necesidades clave: Control en tiempo real, conservación de productos y reducción de costos operativos.
+
+Información Estadística de sustento: De acuerdo con ComexPerú (2023, Reporte MYPES), “el 99,5 % de las empresas en el Perú corresponden a micro y pequeñas empresas”.
+
+#### 2. Emprendedores
+
+Personas en etapa inicial de negocio que requieren una solución práctica y accesible para controlar su inventario desde cero.
+
+Demografía: Jóvenes de 25–40 años, concentrados en áreas urbanas y con adaptación digital.
+
+Necesidades clave: Plataforma simple, económica y escalable que evite pérdidas y facilite el crecimiento ordenado.
+
+Información Estadística de sustento: Como menciona el Ministerio de la Producción (2022, Las MIPYME en Cifras), “en el Perú existen alrededor de 2,2 millones de micro y pequeñas empresas, de las cuales el 94,7 % son microempresas”.
+
+
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores

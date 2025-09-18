@@ -1025,6 +1025,66 @@ Se realiza una exploración colaborativa de los eventos clave dentro del sistema
 permitiendo entender el flujo general de procesos y detectar áreas críticas para el diseño funcional 
 de Storigent. Esta técnica facilita la alineación entre el equipo y la visión del producto.
 
+Step 1: Unstructured Exploration
+
+Este primer paso del Event Storming de Storigent representa una exploración libre y sin estructura del flujo completo del producto dentro del sistema. Se identifican eventos clave como la recepción del producto, el monitoreo de condiciones climáticas, la activación del tracking, y la sincronización de inventarios. Esta etapa permite visualizar de forma general todos los procesos involucrados en la gestión, conservación y trazabilidad del inventario, sin aún definir roles ni comandos específicos.
+
+<img src="static/img/chapter 2/img-big-picture-event-storming-step-1.png" alt="Event Storming Step 1" style="width: 800px;"></img>
+
+Step 2: Timelines
+
+En esta etapa se organiza el flujo de eventos en líneas temporales claras, mostrando cómo se encadenan los procesos dentro del sistema de Storigent. Se distinguen rutas según condiciones críticas, mantenimiento preventivo, y logística de transporte. Esta visualización permite entender cuándo ocurren los eventos clave como inspección, ajustes de almacenamiento, activación de tracking, auditorías de inventario y transferencias entre almacenes, facilitando la planificación y optimización de cada fase del ciclo de vida del producto.
+
+<img src="static/img/chapter 2/img-big-picture-event-storming-step-2.png" alt="Event Storming Step 2" style="width: 800px;"></img>
+
+Step 3: Pain Points
+
+En este paso se identifican los principales puntos de dolor que Storigent busca resolver mediante flujos separados que responden a preguntas clave: cómo asegurar la conservación del producto, cómo garantizar su llegada segura, cómo evitar el desabastecimiento y cómo rastrear transferencias entre almacenes; cada flujo muestra los eventos críticos que generan fricción en la operación, permitiendo enfocar el diseño del sistema en soluciones específicas para cada problema.
+
+<img src="static/img/chapter 2/img-big-picture-event-storming-step-3.png" alt="Event Storming Step 3" style="width: 800px;"></img>
+
+Step 4: Pivotal Points
+
+Este paso destaca los puntos clave del sistema donde se toman decisiones críticas que afectan la conservación, logística y disponibilidad del producto; se identifican eventos como la detección de condiciones críticas, alertas de bajo inventario, y entregas con problemas, los cuales activan acciones como mantenimiento preventivo, generación de reportes, alertas logísticas y reabastecimiento, permitiendo que Storigent responda de forma inteligente y automatizada ante situaciones que requieren intervención inmediata.
+
+<img src="static/img/chapter 2/img-big-picture-event-storming-step-4.png" alt="Event Storming Step 4" style="width: 800px;"></img>
+
+Step 5: Commands
+
+Este paso define los comandos que activan los eventos del sistema, asignando responsabilidades claras a roles como operadores de almacén, técnicos de mantenimiento, inspectores de calidad, coordinadores logísticos y gestores de inventario; cada acción —como registrar entradas, escanear RFID, iniciar monitoreo, programar mantenimiento o activar el tracking— está vinculada a un evento específico, lo que permite estructurar el flujo operativo de Storigent de forma precisa y automatizada.
+
+<img src="static/img/chapter 2/img-big-picture-event-storming-step-5.png" alt="Event Storming Step 5" style="width: 800px;"></img>
+
+Step 6: Polices
+
+Este paso define las políticas que rigen el funcionamiento del sistema, agrupando reglas operativas como el uso obligatorio de RFID, cumplimiento climático, generación de reportes, gestión de inventario, umbrales de stock, programación de revisiones y confirmación de transferencias; estas políticas aseguran que cada acción dentro de Storigent se ejecute bajo criterios estandarizados, permitiendo trazabilidad, control de calidad y respuesta eficiente ante condiciones críticas.
+
+<img src="static/img/chapter 2/img-big-picture-event-storming-step-6.png" alt="Event Storming Step 6" style="width: 800px;"></img>
+
+Step 7: Read Models
+
+Este paso organiza la información que el sistema debe mostrar en distintas ventanas o vistas, agrupando los datos por procesos como recepción, almacenamiento, conservación, envío, alertas, mantenimiento, auditoría y transferencias; cada modelo de lectura permite visualizar el estado actual de los productos, condiciones ambientales, historial de mantenimiento, ubicación en tránsito, niveles de inventario y eventos críticos, facilitando la toma de decisiones en tiempo real dentro de Storigent.
+
+<img src="static/img/chapter 2/img-big-picture-event-storming-step-7.png" alt="Event Storming Step 7" style="width: 800px;"></img>
+
+Step 8: External Systems
+
+Este paso identifica las ventanas del sistema que se conectan con plataformas externas, como módulos de entrada, almacenamiento, envío, alertas y transferencias; cada una agrupa tareas específicas que pueden integrarse con otros sistemas —por ejemplo, escaneo RFID, monitoreo climático, seguimiento logístico o gestión de inventario— permitiendo que Storigent se comunique de forma fluida con tecnologías externas para mejorar la trazabilidad, automatización y eficiencia operativa.
+
+<img src="static/img/chapter 2/img-big-picture-event-storming-step-8.png" alt="Event Storming Step 8" style="width: 800px;"></img>
+
+Step 9: Aggregates
+
+Este paso agrupa los elementos clave del sistema en seis agregados principales: Producto, Monitoreo, Inventario, Envío, Mantenimiento y Soporte; cada agregado reúne tareas relacionadas que comparten lógica y responsabilidad, como el uso de sensores IoT para rastreo y monitoreo, auditorías de inventario, gestión de alertas, preparación de envíos y mantenimiento preventivo, permitiendo que Storigent mantenga una estructura modular, escalable y coherente para el manejo integral de inventarios.
+
+<img src="static/img/chapter 2/img-big-picture-event-storming-step-9.png" alt="Event Storming Step 9" style="width: 800px;"></img>
+
+Step 10: Bounded Contexts
+
+Este paso define los límites funcionales del sistema dividiéndolo en seis contextos independientes: Producto, Monitoreo, Inventario, Envío, Mantenimiento y Soporte; cada contexto agrupa procesos que comparten lógica y datos, como el uso de sensores IoT en monitoreo y mantenimiento, la validación de condiciones de almacenamiento, la gestión de entregas y stock, y la asistencia al usuario, permitiendo que Storigent mantenga una arquitectura modular, escalable y alineada con principios de diseño orientado a dominio.
+
+<img src="static/img/chapter 2/img-big-picture-event-storming-step-10.png" alt="Event Storming Step 10" style="width: 800px;"></img>
+
 ## 2.5. Ubiquitous Language
 Se define un lenguaje común entre todos los actores del proyecto, que facilite la comunicación clara 
 y coherente durante el desarrollo de Storigent. Este lenguaje compartido evita ambigüedades y asegura 

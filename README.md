@@ -1687,19 +1687,424 @@ Enlace del video del prototipo interactivo de la aplicación web de Storigent: h
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
+
+**1. Project Management:**   
+  - **Trello:** Herramienta de gestión de tableros para la organización de tareas y sprints. [https://trello.com/es](https://trello.com/es)
+
+**2. Requirements Management:**
+  - **UXPressia:** Herramienta en línea enfocada en experiencia de usuario (UX) que permite crear de forma colaborativa y visual mapas de experiencia del cliente, customer journey maps, personas y mapas de impacto. [https://uxpressia.com/](https://uxpressia.com/)
+
+**3. Product UX/UI Design:**
+  - **Figma:** Herramienta de prototipado y diseño de alta fidelidad y responsivo. [https://www.figma.com/es-es/](https://www.figma.com/es-es/)
+
+**4. Software Development:**
+  - **Webstorm:** IDE de la familia JetBrains para desarrollo con Vue.js (Javascript, HTML, CSS). [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)
+  - **Node.js y npm:** Entorno y gestor de paquetes para la SPA (Single-Page Application) en Vue.js. [https://nodejs.org/es/](https://nodejs.org/es/)
+  - **Vue CLI:** Scaffold y scripts de desarrollo (vue create, vue serve). [https://cli.vuejs.org/#getting-started](https://cli.vuejs.org/#getting-started)   
+    Comando de instalación: ```npm install -g @vue/cli```
+  - **Vue.js:** Framework progresivo para la SPA (Single-Page Application). [https://vuejs.org/](https://vuejs.org/)
+  - **Javascript:** Lenguaje de programación orientado a objectos usado principalmente para crear interactividad y dinamismo en páginas web. [https://developer.mozilla.org/es/docs/Web/JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)   
+  - **CSS:** Lenguaje de estilos que controla la presentación y el diseño visual de una página web. [https://developer.mozilla.org/es/docs/Web/CSS](https://developer.mozilla.org/es/docs/Web/CSS)   
+  - **HTML:** Lenguaje de marcado que define la estructura y el contenido de una página web. [https://developer.mozilla.org/es/docs/Web/HTML](https://developer.mozilla.org/es/docs/Web/HTML)   
+
+**5. Software Deployment:**   
+  - **Azure CLI:** Automatización de despliegues y gestión de recursos. [https://learn.microsoft.com/es-es/cli/azure/what-is-azure-cli?view=azure-cli-latest](https://learn.microsoft.com/es-es/cli/azure/what-is-azure-cli?view=azure-cli-latest)   
+  - **Azure Static Web Apps:** Publicación de la Landing Page y Single-Page Application bundles.   
+
+**6. Software Documentation:**   
+  - **Git:** Sistema de control de versiones distribuido que permite registrar cambios en el código y trabajar de forma colaborativa.   
+  - **GitHub:** Plataforma en la nube basada en Git que facilita la colaboración, gestión de proyectos y hospedaje de repositorios.   
+  - **Markdown:** Lenguaje de marcado ligero y fácil de usar, diseñado para dar formato a texto plano, generalmente usado en la documentación de proyectos. [https://markdown.es/](https://markdown.es/)   
+  - **PlantUML** (plantuml4idea): Herramienta para generar diagramas a partir de texto, integrable en Webstorm mediante el plugin *plantuml4idea*. [https://plugins.jetbrains.com/plugin/7017-plantuml4idea](https://plugins.jetbrains.com/plugin/7017-plantuml4idea)   
+
 ### 5.1.2. Source Code Management
+
+Nuestro proyecto seguirá las convenciones de flujo de trabajo definidas por el modelo GitFlow para el control de versiones de desarrollo. Teniendo a GitHub como plataforma y sistema de control de versiones.   
+
+A continuación detallaremos la implementación del modelo GitFlow y se proporcionará los URL de los repositorios de GitHub de cada producto del trabajo.
+
+**Repositorios de GitHub:**
+- Organización en GitHub: [https://github.com/Software-Keepers](https://github.com/Software-Keepers)   
+- Reporte: [https://github.com/Software-Keepers/software-keepers-storigent-report](https://github.com/Software-Keepers/software-keepers-storigent-report)   
+- Landing Page: [https://github.com/Software-Keepers/software-keepers-storigent-landing-page](https://github.com/Software-Keepers/software-keepers-storigent-landing-page)
+
+**Flujo de Trabajo GitFlow:** GitFlow es un modelo de flujo de trabajo para administrar y gestionar branches en un proyecto Git, propuesto por Vincent Driessen, diseñado para facilitar el desarrollo colaborativo.   
+
+**Estructuras de Ramas o Branches:**
+- **Main Branch:** Es la rama principal de la aplicación, contiene las versiones estables y sin errores listas para ser lanzadas públicamente.
+- **Develop Branch:** Es la rama base para el desarrollo activo, aquí se integran todas las funcionalidades nuevas antes de que se considere un lanzamiento.
+- **Feature Branch:** Es la rama que se usa para desarrollar nuevas funcionalidades o mejoras específicas del proyecto.
+- **Release Branch:** Es la rama que se utiliza para preparar una versión estable del proyecto donde se corrigen bug menores, se actualizan versiones y se ajustan las configuraciones necesarias.
+
+**Versionamiento Semántico:** Aplicaremos el sistema de versionamiento semántico (Semantic Versioning) para dar nombre a los releases de nuestra aplicación.
+
+**Convenciones de Commits:** Para hacer commits claros y estructurados en nuestro proyecto, utilizaremos la especificación Conventional Commits. Aquí tenemos a los que más usaremos en el desarrollo de ete proyecto:   
+- ```feat```: Para nuevas características.
+- ```fix```: Para arreglo de errores o *bugs*.
+- ```docs```: Para cambios en la documentación del proyecto.
+- ```refactor```: Para la refactorización de código que no añade características ni corrige errores.
+- ```chore```: Para actualizaciones que no afectan al código original.
+
 ### 5.1.3. Source Code Style Guide & Conventions
+
+Uno de los principios fundamentales que aplicamos durante el desarrollo de Storigent fue la importancia de mantener un código ordenado, legible y escalable. Es por ello que, nos propusimos a adoptar una cultura de desarrollo consciente, donde cada línea de código aporte claridad, coherencia y mantenibilidad a largo plazo.   
+
+Estas convenciones se emplearon en los entornos utilizados durante el proceso de desarrollo. A continuación, presentaremos nuestras buenas prácticas organizadas por bloques clave: HTML y CSS.   
+
+**Convenciones HTML:**   
+
+**1. Etiquetas Semánticas:** Utilizamos etiquetas semánticas como ```<header>```, ```<footer>```, ```<nav>``` y ```<section>``` para mejorar la estructura lógica del contenido de la página web.   
+
+**2. Jerarquía de Encabezados:** Respetamos el orden de las etiquetas de encabezado (de ```<h1>``` a ```<h6>```) de forma progresiva.   
+
+**3. Cierre Correcto de Etiquetas:** Todas las etiquetas deben ser cerradas explícitamente. Por ejemplo: ```<p>Soy un párrafo de ejemplo</p>```    
+
+**4. Uso Correcto de Minúsculas:** Todos los elementos y atributos se deben escribir en minúscula para mantener una estructura uniforme y limpia.    
+
+**5. Valores de Atributos dentro de Comillas Dobles:** Cuando se asigna un valor a un atributo, estos siempre deberán ir dentro de comillas dobles. Por ejemplo: ```<input type="text" placeholder="Escribe tu correo...">```    
+
+**6. Uso del Atributo ```alt``` y Asignación de Dimensiones en Imágenes:** Las etiquetas ```<img>``` deben incluir los atributos ```alt```, ```width``` y ```height``` para mejorar la accesibilidad y optimizar el tiempo de carga. Por ejemplo: ```<img src="strgn-logo.png" alt="Storigent Logo" width="128" height="128">```   
+
+**7. Evitar Anidamientos Innecesarios:** Evitamos el uso excesivo de la etiqueta ```<div>```. Logrando una estructura de código HTML limpia y fácil de entender.   
+
+**Convenciones CSS:**   
+
+**1. Guiónes como Separadores Por Defecto en Nombres:** Por ejemplo: ```.payment-card```   
+
+**2. Clases Desccriptivas y Reusables:** Usamos nombres como ```.payment-card``` y ```.btn-confirm``` en lugar de nombres genéricos como ```.card1```.   
+
+**3. Uso de Variables CSS:** Definiremos variables como ```--default-bg-color``` y ```--default-font```.   
+
+**4. Evitar Asignar Cero a Unidades:** Se debe escribir así: ```margin: 0;``` Y no así: ```margin: 0px;```   
+
+**5. Separación Visual de Reglas:** Cada selector se escribe en líneas distintas.   
+
+**6. Uso de Animaciones Suaves:** Utilizaremos animaciones como ```transition: all 0.3s ease-in-out;``` para efectos visuales sin sobrecargar la experiencia.   
+
+**Convenciones Generales de Desarrollo:**
+
+**1. Convención de Nombrado:**   
+- Los nombres de los archivos deberán ir en minúscula y separadas por guiones. Por ejemplo: ```artcle-entity.js```   
+- Los nombres de clases o componentes deberán seguir el formato *PascalCase*. Por ejemplo: ```ArticleAssembler```
+- Los nombres de las variables deben ser descriptivas. Evitar usar nombres como: ```x```, ```tmp```
+
+**2. Componentes Reutilizables:** Creamos elementos como ```PrimaryButton``` y ```SecondaryButton``` que pueden agilizar significativamente el desarrollo de las vistas.   
+
+**3. Documentación en el Código:** Agregaremos definiciones y descripciones en funciones, clases y bloques de lógica compleja.   
+
+**4. Versionado y Commits Semánticos:** Crearemos ramas como ```feat/choose-your-plan-view``` y ```fix/contact-form```; y redactaremos commits como ```feat: add validation in register button``` y ```fix: unexpected behavior of calculate function```.   
+
 ### 5.1.4. Software Deployment Configuration
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
+
+<div align="center">
+    <table>
+        <tr>
+            <th>Sprint #</th>
+            <td>Sprint 1</td>
+        </tr>
+        <tr>
+            <th colspan="2">Sprint Planning Background</th>
+        </tr>
+        <tr>
+            <th>Date</th>
+            <td>2025-08-30</td>
+        </tr>
+        <tr>
+            <th>Time</th>
+            <td>05:30 PM</td>
+        </tr>
+        <tr>
+            <th>Location</th>
+            <td>Reunión virtual a través de Google Meet</td>
+        </tr>
+        <tr>
+            <th>Prepared by</th>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+        </tr>
+        <tr>
+            <th>Attendees (to planning meeting)</th>
+            <td>Calixto Iriarte, David Alejandro; Cespedes Pillco, Jarod Jack; Checa Burga, Oscar Diego; Palomino Murga, Daniel Stalin; Zagaceta Bardales, Rodrigo Enrique</td>
+        </tr>
+        <tr>
+            <th>Sprint n - 1 Review Summary</th>
+            <td>No existe sprint previo</td>
+        </tr>
+        <tr>
+            <th>Sprint n - 1 Retrospective Summary</th>
+            <td>No existe sprint previo</td>
+        </tr>
+        <tr>
+            <th colspan="2">Sprint Goal & User Stories</th>
+        </tr>
+        <tr>
+            <th>Sprint 1 Goal</th>
+            <td>Our focues is on deploying the first version of our landing page. We believe it delivers satisfaction and confidence to our team and future users. This will be confirmed when all the members of the team and a end-users navigates our landing page without any issues.</td>
+        </tr>
+        <tr>
+            <th>Sprint 1 Velocity</th>
+            <td>12 Story Points</td>
+        </tr>
+        <tr>
+            <th>Sum of Story Points</th>
+            <td>12 Story Points</td>
+        </tr>
+    </table>
+</div>
+
 #### 5.2.1.2. Aspect Leaders and Collaborators
+
+En este sprint se busca completar la landing page de Storigent, incluyendo el diseño y su despliegue. Para lograr una correcta comunicación, se ha creado la matriz de liderazgo y colaboración (LACX), en la cual se define quien lidera y quien colabora en cada aspecto del sprint.
+
+<div align="center">
+    <table>
+        <tr>
+            <th>Team Member</th>
+            <th>Github Username</th>
+            <th>Landing Page Design</th>
+            <th>Landing Page Deployment</th>
+        </tr>
+        <tr>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>DavidCalixto99</td>
+            <td>Leader</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>PruebaJJC</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>OscarCheca</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>DanielPM23</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>Rodrigo290205</td>
+            <td>Collaborator</td>
+            <td>Leader</td>
+        </tr>
+    </table>
+</div>
+
 #### 5.2.1.3. Sprint Backlog 1
+
+El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page funcional para el proyecto Storigent. A continuación se muestra una captura de pantalla de las historias de usuario que se buscan trabajar en este sprint.
+
+<div align="center">
+    <table>
+        <tr>
+            <th colspan="1">Sprint #</th>
+            <th colspan="7">Sprint 1</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Work-Item / Task</th>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation (Hours)</th>
+            <th>Assigned To</th>
+            <th>Status (To-Do / In-Process / To-Review / Done)</th>
+        </tr>
+        <tr>
+            <td>US01</td>
+            <td>Información general y beneficios</td>
+            <td>T01</td>
+            <td>Diseñar vista principal</td>
+            <td>Crear una sección principal donde presentamos nuestro producto</td>
+            <td>2</td>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US01</td>
+            <td>Información general y beneficios</td>
+            <td>T02</td>
+            <td>Diseñar vista de beneficios</td>
+            <td>Crear una sección donde mencionamos al usuario los beneficios de optar por nuestra plataforma</td>
+            <td>3</td>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US02</td>
+            <td>Características principales</td>
+            <td>T03</td>
+            <td>Diseñar vista de características</td>
+            <td>Crear una sección donde mostramos las características que posee nuestro proyecto</td>
+            <td>2</td>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US05</td>
+            <td>Planes y contacto</td>
+            <td>T04</td>
+            <td>Diseñar vista de planes y precios</td>
+            <td>Crear una sección donde ofrecemos planes con sus respectivos precios</td>
+            <td>2</td>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US05</td>
+            <td>Planes y contactos</td>
+            <td>T05</td>
+            <td>Diseñar vista de contacto</td>
+            <td>Crear una sección donde habrá un formulario de contacto, allí el usuario podrá ingresar sus datos</td>
+            <td>3</td>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>In-Progress</td>
+        </tr>
+        <tr>
+            <td>US03</td>
+            <td>Contenido para emprendedores</td>
+            <td>T06</td>
+            <td>Diseñar vista de casos de uso para emprendedores</td>
+            <td>Crear una vista donde mostramos casos de uso para los usuarios emprendedores o pequeños negocios</td>
+            <td>2</td>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>In-Progress</td>
+        </tr>
+        <tr>
+            <td>US04</td>
+            <td>Contenido para empresas</td>
+            <td>T07</td>
+            <td>Diseñar vista de casos de uso para empresas</td>
+            <td>Crear una vista donde mostramos casos de uso para los usuarios empresa</td>
+            <td>2</td>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>In-Progress</td>
+        </tr>
+        <tr>
+            <td>US06</td>
+            <td>Registro</td>
+            <td>T08</td>
+            <td>Diseñar vista de registro de usuario</td>
+            <td>Crear una vista donde el usuario pueda registrarse, un formulario donde el usuario pueda poner sus datos personales y crear una cuenta en la plataforma</td>
+            <td>3</td>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>To-Do</td>
+        </tr>
+        <tr>
+            <td>US07</td>
+            <td>Editar Pefil</td>
+            <td>T09</td>
+            <td>Diseñar vista de perfil de usuario</td>
+            <td>Crear una vista donde el usuario pueda ver su perfil y los datos que ha registrado a la hora de la creación de su cuenta</td>
+            <td>3</td>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>To-Do</td>
+        </tr>
+        <tr>
+            <td>US08</td>
+            <td>Editar Perfil</td>
+            <td>T10</td>
+            <td>Diseñar vista de edición de datos personales</td>
+            <td>Crear una vista donde el usuario pueda modificar o cambiar los datos de su cuenta actual</td>
+            <td>3</td>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>To-Do</td>
+        </tr>
+    </table>
+</div>
+
 #### 5.2.1.4. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances en la implementación de la solución, específicamente en el desarrollo de la Landing Page correspondiente al alcance del Sprint actual. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas, los ajustes de estilo y las mejoras en la interfaz de usuario. A continuación, se muestra una tabla que resume los commits relevantes asociados a este componente.
+
+<div align="center">
+    <table>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit On (Date)</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
+
+En el primer sprint, logramos desarrollar parcialmente la implementación del despliegue del landing page. Donde se muestra las diferentes divisiones que el usuario podrá visualizar como lo sería la información sobre el startup y nuestro producto. A continuación mostramos algunas evidencias:
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante este Sprint no se desarrollaron ni documentaron Web Services, dado que el enfoque principal estuvo en la implementación de la Landing Page como primer entregable del sistema. Por lo tanto, no se cuenta con endpoints disponibles ni documentación generada en OpenAPI en esta etapa del proyecto.
+
+La documentación de servicios será considerada en los siguientes Sprints, una vez que se inicie el desarrollo del backend y se establezca la estructura básica de la API que permitirá la integración con las vistas web implementadas.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+A continuación mostraremos capturas de la landing page desplegada:
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la Landing Page y la elaboración del reporte del proyecto, dividiéndose por secciones según el diseño y el contenido definido previamente.
+
+A continuación, se detalla la participación específica de cada integrante del equipo:
+
+<div align="center">
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Actividades</th>
+        </tr>
+        <tr>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>Elaboración del Capítulo IV del reporte</td>
+        </tr>
+        <tr>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>Elaboración del Capítulo V del reporte e implementación de la vista de Plans and Prices</td>
+        </tr>
+        <tr>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>Elaboración del Capítulo I del reporte</td>
+        </tr>
+        <tr>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>Elaboración del Capítulo III y parte del Capítulo IV del reporte</td>
+        </tr>
+        <tr>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>Elaboración del Capítulo II del reporte e implementación de la vista de Contact Section and Footer</td>
+        </tr>
+    </table>
+</div>
+
+**Evidencia de Colaboración en GitHub**   
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+**Repositorio de Trabajo:** [https://github.com/Software-Keepers/software-keepers-storigent-report](https://github.com/Software-Keepers/software-keepers-storigent-report)   
+
+Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.
 
 # Conclusiones
 
@@ -1708,3 +2113,4 @@ Enlace del video del prototipo interactivo de la aplicación web de Storigent: h
 # Anexos
 ### Anexo A: Entrevistas Completas
 - Enlace a las entrevistas: [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215489_upc_edu_pe/EcThJtRL6aJFq7Wk32pNBjQBOfF9F6D4RgZPk9REMN0-uA?e=UzTDLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+

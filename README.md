@@ -668,93 +668,17 @@ Los sistemas de navegación en **Storigent** guían a los usuarios de manera cla
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 En esta sección se presentan los wireframes de la landing page de Storigent, diseñados para ofrecer una experiencia de usuario clara y atractiva. Los wireframes muestran la estructura básica de la página, incluyendo la disposición de los elementos clave como el encabezado, secciones de beneficios, características del producto, planes, contacto y llamadas a la acción.
-
-Enlace de figma: https://www.figma.com/design/qwHi79P94qIkriNRHf70fj/storigent-landing-page?node-id=0-1&t=SJVIJyrhJJoBU470-1
-
 <img src="static/img/chapter 4/img-landing-page-wireframe.svg" alt="Wireframe Landing Page" style="width: 600px;">
 
 ### 4.3.2. Landing Page Mock-up
 Se presentan los mock-ups de la landing page de Storigent, que reflejan el diseño visual final basado en las directrices de estilo establecidas. Los mock-ups incluyen detalles como tipografía, colores, imágenes y botones, proporcionando una vista previa realista de cómo se verá la página en producción.
-
-Enlace de figma: https://www.figma.com/design/qwHi79P94qIkriNRHf70fj/storigent-landing-page?node-id=0-1&t=SJVIJyrhJJoBU470-1
-
 <img src="static/img/chapter 4/img-landing-page-mockup.png" alt>="Mock-up Landing Page" style="width: 600px;">
-
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
-
-Se presentan los wireframes de la aplicación web de Storigent, diseñados para optimizar la experiencia del usuario en la gestión de inventarios y monitoreo climático. Los wireframes muestran la estructura básica de las diferentes secciones de la aplicación, incluyendo el dashboard, módulos de inventario, monitoreo, trazabilidad y reportes.
-
-Enlace de figma: https://www.figma.com/design/hkuxm77RRZjlHUsfjd7c9q/storigent-landing-page-mockup?node-id=0-1&t=Scj5PwJG9jv2Iz95-1
-
-<img src="static/img/chapter 4/img-login.png" alt="Wireframe Login" style="width: 400px;">
-
-<img src="static/img/chapter 4/img-register.png" alt="Wireframe Register" style="width: 400px;">
-
-<img src="static/img/chapter 4/img-dashboard.png" alt="Wireframe Dashboard" style="width: 600px;">
-
-<img src="static/img/chapter 4/img-reports.png" alt="Wireframe Reports" style="width: 600px;">
-
-<img src="static/img/chapter 4/img-inventory.png" alt="Wireframe Inventory" style="width: 600px;">
-
-<img src="static/img/chapter 4/img-inventory1.png" alt="Wireframe Inventory1" style="width: 600px">
-
-<img src="static/img/chapter 4/img-product-info.png" alt="Wireframe Product Info" style="width: 600px;">
-
-<img src="static/img/chapter 4/img-monitoreo.png" alt="Wireframe Monitoring" style="width: 600px;">
-
-<img src="static/img/chapter 4/img-traceability.png" alt="Wireframe Traceability" style="width: 600px;">
-
-<img src="static/img/chapter 4/img-guide.png" alt="Wireframe Guides" style="width: 600px;">
-
-
 ### 4.4.2. Web Applications Wireflow Diagrams
-
-Se presentan los diagramas de flujo de la aplicación web de Storigent, que ilustran las rutas de navegación y las interacciones del usuario dentro de la plataforma. Estos diagramas ayudan a visualizar cómo los usuarios se desplazan entre diferentes secciones y funcionalidades, asegurando una experiencia fluida y coherente.
-
-<img src="static/img/chapter 4/img-diagram1.png" alt="Diagram" style="width: 600px;">
-<img src="static/img/chapter 4/img-diagram2.png" alt="Diagram" style="width: 600px;">
-<img src="static/img/chapter 4/img-diagram3.png" alt="Diagram" style="width: 600px;">
-<img src="static/img/chapter 4/img-diagram4.png" alt="Diagram" style="width: 600px;">
-<img src="static/img/chapter 4/img-diagram5.png" alt="Diagram" style="width: 600px;">
-<img src="static/img/chapter 4/img-diagram6.png" alt="Diagram" style="width: 600px;">
-<img src="static/img/chapter 4/img-diagram7.png" alt="Diagram" style="width: 600px;">
-
 ### 4.4.2. Web Applications Mock-ups
-
-Enlace de figma: https://www.figma.com/design/hkuxm77RRZjlHUsfjd7c9q/storigent-landing-page-mockup?node-id=0-1&t=Scj5PwJG9jv2Iz95-1
-
-Se presentan los mock-ups de la aplicación web de Storigent, que reflejan el diseño visual final basado en las directrices de estilo establecidas. Los mock-ups incluyen detalles como tipografía, colores, imágenes y botones, proporcionando una vista previa realista de cómo se verá la aplicación en producción.
-
-<img src="static/img/chapter 4/img-login.png" alt="Wireframe Login" style="width: 400px;">
-
-<img src="static/img/chapter 4/img-register-m.png" alt="Wireframe Register" style="width: 400px;">
-
-<img src="static/img/chapter 4/img-dashboard-m.png" alt="Wireframe Dashboard" style="width: 600px;">
-
-<img src="static/img/chapter 4/img-reports-m.png" alt="Wireframe Reports" style="width: 600px;">
-
-<img src="static/img/chapter 4/img-inventory-m.png" alt="Wireframe Inventory" style="width: 600px;">
-
-<img src="static/img/chapter 4/img-inventory1-m.png" alt="Wireframe Inventory1" style="width: 600px">
-
-<img src="static/img/chapter 4/img-product-info-m.png" alt="Wireframe Product Info" style="width: 600px;">
-
-<img src="static/img/chapter 4/img-monitoreo-m.png" alt="Wireframe Monitoring" style="width: 600px;">
-
-<img src="static/img/chapter 4/img-traceability-m.png" alt="Wireframe Traceability" style="width: 600px;">
-
-<img src="static/img/chapter 4/img-guide-m.png" alt="Wireframe Guides" style="width: 600px;">
-
-
 ### 4.4.3. Web Applications User Flow Diagrams
-Se presentan los diagramas de flujo de usuario de la aplicación web de Storigent, que ilustran las rutas de navegación y las interacciones del usuario dentro de la plataforma. Estos diagramas ayudan a visualizar cómo los usuarios se desplazan entre diferentes secciones y funcionalidades, asegurando una experiencia fluida y coherente.
-
-<img src="static/img/chapter 4/img-diagram8.png" alt="Wireframe Diagram8" style="width: 600px;">
-
 ## 4.5. Web Applications Prototyping
-Enlace del video:https://youtu.be/b1qELohI7n8
-
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level EventStorming
 ### 4.6.2. Software Architecture Context Diagram

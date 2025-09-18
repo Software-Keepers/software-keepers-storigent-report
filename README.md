@@ -668,11 +668,14 @@ Los sistemas de navegación en **Storigent** guían a los usuarios de manera cla
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 En esta sección se presentan los wireframes de la landing page de Storigent, diseñados para ofrecer una experiencia de usuario clara y atractiva. Los wireframes muestran la estructura básica de la página, incluyendo la disposición de los elementos clave como el encabezado, secciones de beneficios, características del producto, planes, contacto y llamadas a la acción.
+
 <img src="static/img/chapter 4/img-landing-page-wireframe.svg" alt="Wireframe Landing Page" style="width: 600px;">
 
 ### 4.3.2. Landing Page Mock-up
 Se presentan los mock-ups de la landing page de Storigent, que reflejan el diseño visual final basado en las directrices de estilo establecidas. Los mock-ups incluyen detalles como tipografía, colores, imágenes y botones, proporcionando una vista previa realista de cómo se verá la página en producción.
+
 <img src="static/img/chapter 4/img-landing-page-mockup.png" alt="Mock-up Landing Page" style="width: 600px;">
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams

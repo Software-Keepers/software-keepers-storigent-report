@@ -412,11 +412,11 @@ Estas convenciones se emplearon en los entornos utilizados durante el proceso de
         </tr>
         <tr>
             <th>Sprint 1 Velocity</th>
-            <td>XX Story Points</td>
+            <td>12 Story Points</td>
         </tr>
         <tr>
             <th>Sum of Story Points</th>
-            <td>XX Story Points</td>
+            <td>12 Story Points</td>
         </tr>
     </table>
 </div>

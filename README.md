@@ -686,8 +686,13 @@ Se presentan los mock-ups de la landing page de Storigent, que reflejan el dise√
 ### 4.6.1. Design-Level EventStorming
 ### 4.6.2. Software Architecture Context Diagram
 <img src="static/img/chapter 4/diagram-context.png" alt="Context Diagram" style="width: 600px;" >
+
 ### 4.6.3. Software Architecture Container Diagrams
+<img src="static/img/chapter 4/diagram-container.png" alt="Container Diagram" style="width: 600px;" >
+
 ### 4.6.4. Software Architecture Components Diagrams
+<img src="static/img/chapter 4/diagram-component.png" alt="Component Diagram" style="width: 600px;" >
+
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 ### 4.7.2. Class Dictionary

@@ -470,9 +470,6 @@ En este sprint se busca completar la landing page de Storigent, incluyendo el di
 
 El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page funcional para el proyecto Storigent. A continuación se muestra una captura de pantalla de las historias de usuario que se buscan trabajar en este sprint.
 
-_Aquí iría la screenshot de la página de Miro o Trello_   
-Link: _Aquí va el link_
-
 <div align="center">
     <table>
         <tr>
@@ -494,14 +491,104 @@ Link: _Aquí va el link_
             <th>Status (To-Do / In-Process / To-Review / Done)</th>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>US01</td>
+            <td>Información general y beneficios</td>
+            <td>T01</td>
+            <td>Diseñar vista principal</td>
+            <td>Crear una sección principal donde presentamos nuestro producto</td>
+            <td>2</td>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US01</td>
+            <td>Información general y beneficios</td>
+            <td>T02</td>
+            <td>Diseñar vista de beneficios</td>
+            <td>Crear una sección donde mencionamos al usuario los beneficios de optar por nuestra plataforma</td>
+            <td>3</td>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US02</td>
+            <td>Características principales</td>
+            <td>T03</td>
+            <td>Diseñar vista de características</td>
+            <td>Crear una sección donde mostramos las características que posee nuestro proyecto</td>
+            <td>2</td>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US05</td>
+            <td>Planes y contacto</td>
+            <td>T04</td>
+            <td>Diseñar vista de planes y precios</td>
+            <td>Crear una sección donde ofrecemos planes con sus respectivos precios</td>
+            <td>2</td>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US05</td>
+            <td>Planes y contactos</td>
+            <td>T05</td>
+            <td>Diseñar vista de contacto</td>
+            <td>Crear una sección donde habrá un formulario de contacto, allí el usuario podrá ingresar sus datos</td>
+            <td>3</td>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>In-Progress</td>
+        </tr>
+        <tr>
+            <td>US03</td>
+            <td>Contenido para emprendedores</td>
+            <td>T06</td>
+            <td>Diseñar vista de casos de uso para emprendedores</td>
+            <td>Crear una vista donde mostramos casos de uso para los usuarios emprendedores o pequeños negocios</td>
+            <td>2</td>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>In-Progress</td>
+        </tr>
+        <tr>
+            <td>US04</td>
+            <td>Contenido para empresas</td>
+            <td>T07</td>
+            <td>Diseñar vista de casos de uso para empresas</td>
+            <td>Crear una vista donde mostramos casos de uso para los usuarios empresa</td>
+            <td>2</td>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>In-Progress</td>
+        </tr>
+        <tr>
+            <td>US06</td>
+            <td>Registro</td>
+            <td>T08</td>
+            <td>Diseñar vista de registro de usuario</td>
+            <td>Crear una vista donde el usuario pueda registrarse, un formulario donde el usuario pueda poner sus datos personales y crear una cuenta en la plataforma</td>
+            <td>3</td>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>To-Do</td>
+        </tr>
+        <tr>
+            <td>US07</td>
+            <td>Editar Pefil</td>
+            <td>T09</td>
+            <td>Diseñar vista de perfil de usuario</td>
+            <td>Crear una vista donde el usuario pueda ver su perfil y los datos que ha registrado a la hora de la creación de su cuenta</td>
+            <td>3</td>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>To-Do</td>
+        </tr>
+        <tr>
+            <td>US08</td>
+            <td>Editar Perfil</td>
+            <td>T10</td>
+            <td>Diseñar vista de edición de datos personales</td>
+            <td>Crear una vista donde el usuario pueda modificar o cambiar los datos de su cuenta actual</td>
+            <td>3</td>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>To-Do</td>
         </tr>
     </table>
 </div>

@@ -620,8 +620,6 @@ En esta sección se presentan los avances en la implementación de la solución,
 
 En el primer sprint, logramos desarrollar parcialmente la implementación del despliegue del landing page. Donde se muestra las diferentes divisiones que el usuario podrá visualizar como lo sería la información sobre el startup y nuestro producto. A continuación mostramos algunas evidencias:
 
-_Aquí van screenshots de las diferentes sacciones o vistas de la landing page_
-
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 Durante este Sprint no se desarrollaron ni documentaron Web Services, dado que el enfoque principal estuvo en la implementación de la Landing Page como primer entregable del sistema. Por lo tanto, no se cuenta con endpoints disponibles ni documentación generada en OpenAPI en esta etapa del proyecto.
@@ -631,8 +629,6 @@ La documentación de servicios será considerada en los siguientes Sprints, una 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 A continuación mostraremos capturas de la landing page desplegada:
-
-_Aquí las fotos de la landing page desplegada_
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -672,8 +668,6 @@ A continuación, se detalla la participación específica de cada integrante del
 **Evidencia de Colaboración en GitHub**   
 A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
 
-_Aquí una foto de las estadísticas de commits de cada integrante_
-
-**Repositorio de Trabajo:** Link del repositorio
+**Repositorio de Trabajo:** [https://github.com/Software-Keepers/software-keepers-storigent-report](https://github.com/Software-Keepers/software-keepers-storigent-report)   
 
 Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.

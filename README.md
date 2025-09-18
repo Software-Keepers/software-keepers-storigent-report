@@ -678,10 +678,78 @@ Se presentan los mock-ups de la landing page de Storigent, que reflejan el dise�
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+
+Se presentan los wireframes de la aplicación web de Storigent, diseñados para optimizar la experiencia del usuario en la gestión de inventarios y trazabilidad. Los wireframes muestran la estructura básica de las diferentes secciones de la aplicación, incluyendo el dashboard, módulos de inventario, monitoreo climático, trazabilidad y reportes.
+
+<img src="static/img/chapter 4/img-login.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-register.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-dashboard.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-inventory.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-inventory1.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-product-info.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-reports.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-monitoreo.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-traceability.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-guide.png" alt="Wireframe Web App" style="width: 600px;" >
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams
+<img src="static/img/chapter 4/img-diagram1.png " alt=" Diagram" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-diagram2.png " alt=" Diagram" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-diagram3.png " alt=" Diagram" style="width: 600px;" >
+
+
+<img src="static/img/chapter 4/img-diagram4.png " alt=" Diagram" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-diagram5.png " alt=" Diagram" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-diagram6.png " alt=" Diagram" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-diagram7.png " alt=" Diagram" style="width: 600px;" >
+
 ### 4.4.2. Web Applications Mock-ups
+
+Se presentan los mock-ups de la aplicación web de Storigent, que reflejan el diseño visual final basado en las directrices de estilo establecidas. Los mock-ups incluyen detalles como tipografía, colores, imágenes y botones, proporcionando una vista previa realista de cómo se verá la aplicación en producción.
+
+<img src="static/img/chapter 4/img-login-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-register-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-dashboard-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-inventory-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-inventory1-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-product-info-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-reports-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-monitoreo-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-traceability-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-guide-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
 ### 4.4.3. Web Applications User Flow Diagrams
+
+<img src="static/img/chapter 4/img-diagram8.png" alt="Wireframe Web App" style="width: 600px;">
+
 ## 4.5. Web Applications Prototyping
+
+Enlace del video del prototipo interactivo de la aplicación web de Storigent: https://youtu.be/b1qELohI7n8
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level EventStorming
 ### 4.6.2. Software Architecture Context Diagram

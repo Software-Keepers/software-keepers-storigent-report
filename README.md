@@ -101,7 +101,7 @@
                 <br><br>Zagaceta Bardales, Rodrigo Enrique: Realicé el contenido correspondiente desde el punto 2.1 hasta el 2.5, abarcando el proceso de competidores, entrevistas y needfinding.
                 </td>
                 <td>TB1 
-                <br><br>Calixto Iriarte, David Alejandro: 
+                <br><br>Calixto Iriarte, David Alejandro: Pude entender el enfoque que tenemos llevar como grupo al momento de desarrollar nuestro proyecto de trabajo final, aun veo que queda cosas que implementar cuando avancemos con los hitos de entregas.
                 <br><br>Cespedes Pillco, Jarod Jack: En esta primera etapa del proyecto, desarrollé habilidades de liderazgo compartido al aprender a guiar y también a seguir las indicaciones de mis otros compañeros y reconocí que el trabajo de equipo aumenta la confianza y el compromiso del equipo.
                 <br><br>Checa Burga, Oscar Diego: Considero que este primer paso es importante para guiar por el buen camino nuestro proyecto, la comunicación grupal es fundamental para realizar un buen proyecto.
                 <br><br>Palomino Murga, Daniel Stalin: Considero que este avance representa un paso clave para consolidar las bases de Storigent, ya que nos permite alinear la propuesta visual y funcional con los objetivos del proyecto. La correcta organización del diseño, junto con la aplicación de principios de usabilidad, será fundamental para garantizar una experiencia clara y efectiva para los usuarios. Como en todo trabajo colaborativo, la comunicación constante y el compromiso del equipo son factores decisivos para lograr un desarrollo exitoso.
@@ -111,7 +111,7 @@
         <tr>
                 <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
                 <td>TB1 
-                <br><br>Calixto Iriarte, David Alejandro: 
+                <br><br>Calixto Iriarte, David Alejandro: Con la ayuda de mi grupo establecimos objetivos a realizar para esta entrega, tomando en cuenta la prioridad de cada punto a desarrollar. Se tuvo que usar herramientas especificas cada capitulo del proyecto.
                 <br><br>Cespedes Pillco, Jarod Jack: Jarod Jack Céspedes Pillco (TB1): Fomenté un ambiente de respeto e inclusión al valorar las opiniones de todos mi compañeros, utilicé canales de comunicación para organizar tareas y dar seguimiento al avance del equipo, y me aseguré de cumplir mis responsabilidades en los plazos acordados.
                 <br><br>Checa Burga, Oscar Diego: Como grupo hubo colaboración y comunicación, sin embargo considero que pudimos tener mas reuniones para revisar mas a fondo el proyecto, por temas de horarios no se pudo.
                 <br><br>Palomino Murga, Daniel Stalin: Desarrollo el capitulo 3 y también los puntos 4.1, 4.2, 4.3, 4.4 y 4.5 del capitulo 4, también aporto con tres entrevistas para el capitulo 2 y por ultimo el desarrollo la sección de características del Frontend del landing page.

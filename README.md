@@ -46,25 +46,39 @@
 </p>
 <br>
 <h1 align="center">Registro de versiones del Informe</h1>
-</br>
 <table>
-        <thead>
-            <tr>
-                <th>Versión</th>
-                <th>Fecha</th>
-                <th>Autor</th>
-                <th>Descripción de modificaciones</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th></th>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-      </tbody>
+    <thead>
+        <tr>
+            <th>Versión</th>
+            <th>Fecha</th>
+            <th>Autor</th>
+            <th>Descripción de modificaciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><th>v0.1</th><td>2025-09-01</td><td>Zagaceta Bardales, Rodrigo Enrique</td><td>Se añadió el archivo README.md con información inicial del proyecto.</td></tr>
+        <tr><th>v0.2</th><td>2025-09-01</td><td>Calixto Iriarte, David Alejandro. Cespedes Pillco, Jarod Jack. Checa Burga, Oscar Diego. Palomino Murga, Daniel Stalin. Zagaceta Bardales, Rodrigo Enrique</td><td>Se creó la rama del capítulo 1 hasta el capítulo 5.</td></tr>
+        <tr><th>v0.3</th><td>2025-09-04</td><td>Zagaceta Bardales, Rodrigo Enrique</td><td>Se agregaron estrategias y tácticas frente a competidores en la documentación.</td></tr>
+        <tr><th>v0.4</th><td>2025-09-05</td><td>Céspedes Pillco, Jarod Jack</td><td>Se añadió contenido al archivo README.md en la rama del capítulo 5.</td></tr>
+        <tr><th>v0.5</th><td>2025-09-07</td><td>Palomino Murga, Daniel Stalin</td><td>Se añadió contenido sobre estrategias y tácticas frente a competidores en el capítulo 3.</td></tr>
+        <tr><th>v0.6</th><td>2025-09-09</td><td>Céspedes Pillco, Jarod Jack</td><td>Se añadió la tabla de planificación del sprint 1.</td></tr>
+        <tr><th>v0.7</th><td>2025-09-09</td><td>Checa Burga, Oscar Diego</td><td>Se actualizó el archivo README-Chapter1.md.</td></tr>
+        <tr><th>v0.8</th><td>2025-09-10</td><td>Céspedes Pillco, Jarod Jack</td><td>Se añadió sección de líderes y colaboradores del sprint.</td></tr>
+        <tr><th>v0.9</th><td>2025-09-12</td><td>Zagaceta Bardales, Rodrigo Enrique</td><td>Se añadió contenido de mapeo de experiencia del usuario y mapa de empatía.</td></tr>
+        <tr><th>v0.10</th><td>2025-09-13</td><td>Calixto Iriarte, David Alejandro</td><td>Se creó la rama del capítulo 4 con contenido sobre estrategias y tácticas frente a competidores.</td></tr>
+        <tr><th>v0.11</th><td>2025-09-15</td><td>Checa Burga, Oscar Diego</td><td>Se añadió contenido sobre el contexto y la declaración del problema en el capítulo 1.</td></tr>
+        <tr><th>v0.12</th><td>2025-09-16</td><td>Palomino Murga, Daniel Stalin</td><td>Se añadieron imágenes para el mapeo de impacto en el capítulo 3.</td></tr>
+        <tr><th>v0.13</th><td>2025-09-16</td><td>Checa Burga, Oscar Diego</td><td>Se añadieron declaraciones de problemas Lean UX, supuestos y una hipótesis.</td></tr>
+        <tr><th>v0.14</th><td>2025-09-17</td><td>Zagaceta Bardales, Rodrigo Enrique</td><td>Se añadieron videos de entrevistas y líneas de tiempo para cada una.</td></tr>
+        <tr><th>v0.15</th><td>2025-09-17</td><td>Zagaceta Bardales, Rodrigo Enrique</td><td>Se añadió el contenido del lenguaje ubicuo del proyecto.</td></tr>
+        <tr><th>v0.16</th><td>2025-09-17</td><td>Palomino Murga, Daniel Stalin</td><td>Se añadieron imágenes correspondientes al capítulo 4 y se actualizó el archivo README.md.</td></tr>
+        <tr><th>v0.17</th><td>2025-09-17</td><td>Céspedes Pillco, Jarod Jack</td><td>Se añadió contenido sobre configuración del entorno de desarrollo de software.</td></tr>
+        <tr><th>v0.18</th><td>2025-09-17</td><td>Céspedes Pillco, Jarod Jack</td><td>Se añadió contenido sobre gestión del código fuente.</td></tr>
+        <tr><th>v0.19</th><td>2025-09-17</td><td>Céspedes Pillco, Jarod Jack</td><td>Se añadió contenido sobre guía de estilo y convenciones del código fuente.</td></tr>
+    </tbody>
 </table>
+
+
 
 <br><br>
 # Project Report Collaboration Insights

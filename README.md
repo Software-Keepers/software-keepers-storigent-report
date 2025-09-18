@@ -764,21 +764,27 @@ Enlace del video del prototipo interactivo de la aplicación web de Storigent: h
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 #Product Context
+
 <img src="static/img/chapter 4/product-diagram.png" alt="Product Diagram" style="width: 600px;" >
 
 #Inventory Context
+
 <img src="static/img/chapter 4/inventory-diagram.png" alt="Inventory Diagram" style="width: 600px;" >
 
 #Shipment Context
+
 <img src="static/img/chapter 4/shipment-diagram.png" alt="Shipment Diagram" style="width: 600px;" >
 
 #Monitoring Context
+
 <img src="static/img/chapter 4/product-diagram.png" alt="Product Diagram" style="width: 600px;" >
 
 #Maintenance Context
+
 <img src="static/img/chapter 4/maintenance-diagram.png" alt="Maintenance Diagram" style="width: 600px;" >
 
 #Support Context
+
 <img src="static/img/chapter 4/support-diagram.png" alt="Support Diagram" style="width: 600px;" >
 
 ### 4.7.2. Class Dictionary

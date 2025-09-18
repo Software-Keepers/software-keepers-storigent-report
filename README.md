@@ -1308,9 +1308,93 @@ que todos los involucrados comprendan los conceptos clave de forma unificada.
 
 # Capítulo III: Requirements Specification
 ## 3.1. User Stories
-## 3.2. Impact Mapping
-## 3.3. Product Backlog
+Se presentan las historias de usuario que describen las funcionalidades
+clave del producto desde la perspectiva del usuario final. Cada historia sigue el formato estándar
+"Como [tipo de usuario], quiero [acción] para [beneficio]". Estas historias guían el desarrollo y priorización
+de características en el backlog del producto.
 
+| **Epic/story ID** | **Título**                                | **Descripción**                                                                                                                                | **Criterios de Aceptación** | **Relacionado con Epic ID** |
+|------------------:|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|-----------------------|
+|      **E01-US01** | Información general y beneficios          | Como visitante (emprendedor) quiero ver un resumen y beneficios de Storigent para entender cómo puede ayudarme a gestionar productos y crecer. | Given un visitante accede a la landing page. When solicita información general. Then el sistema devuelve un resumen del software y sus beneficios principales. |E01                    |
+|      **E01-US02** | Características principales               | Como visitante quiero conocer las funcionalidades claves (RFID, monitoreo, trazabilidad, guías) para evaluar la solución.                      | Given un visitante solicita la sección de características. When se consulta dicha sección. Then el sistema presenta la lista de funcionalidades clave y su descripción. |E01|
+|      **E01-US03** | Contenido para Emprendedores              | Como visitante emprendedor quiero información y casos de uso orientados a pequeños negocios para evaluar la aplicabilidad.                     | Given un visitante pertenece al segmento emprendedor. When solicita contenido para emprendedores. Then el sistema entrega casos de uso y ejemplos adaptados a negocios pequeños. |E01|
+|      **E01-US04** | Contenido para Empresas                   | Como visitante representante de empresa quiero información orientada a operaciones a escala para evaluar la escalabilidad del producto.        | Given un visitante pertenece al segmento empresas. When solicita contenido empresarial. Then el sistema entrega beneficios, requisitos y casos relevantes para empresas. |E01|
+|      **E01-US05** | Planes y contacto                         | Como visitante quiero conocer planes de precios y vías de contacto para decidir si contratar.                                                  | Given un visitante solicita información comercial. When pide datos sobre planes o contacto. Then el sistema proporciona los tipos de suscripción disponibles y un mecanismo para dejar una solicitud de contacto. |E01|
+|      **E01-US06** | Registro                                  | Como visitante quiero poder iniciar el proceso de registro desde la landing para comenzar a usar la plataforma.                                | Given un visitante manifiesta intención de registrarse. When proporciona datos de registro válidos. Then el sistema crea la cuenta (o inicia el flujo de registro) y devuelve confirmación. |E01|
+|     **E01-US07**  | Editar perfil                             |Como usuario registrado quiero actualizar mis datos personales y preferencias para mantener mi cuenta al día.|Given un usuario autenticado. When envía cambios válidos a su perfil. Then el sistema actualiza los datos y confirma la modificación.|E01|
+|      **E02-US07** | Registrar producto                        | Como administrador quiero registrar productos en inventario para mantener un control actualizado del catálogo.                                 | Given un administrador autorizado. When envía datos válidos de un nuevo producto. Then el sistema guarda el producto en inventario y lo hace disponible para consulta. |E02|
+|      **E02-US08** | Actualizar cantidades de stock            | Como administrador quiero actualizar las cantidades para reflejar entradas y salidas de inventario.                                            | Given un producto existente. When llega una actualización de cantidad válida. Then el sistema calcula y registra el nuevo nivel de stock. |E02|
+|      **E02-US09** | Notificaciones de stock bajo              | Como administrador quiero recibir alertas automáticas cuando el stock alcance niveles críticos para reabastecer a tiempo.                      | Given un producto con umbral mínimo configurado. When el nivel de stock llega o cae por debajo del umbral. Then el sistema envía una notificación a los responsables definidos. |E02|
+|     **E02-US010** | Reportes de inventario                    | Como administrador quiero generar reportes de inventario para análisis y auditoría.                                                            | Given datos de inventario para un período especificado. When se solicita un reporte. Then el sistema genera un documento con resumen de cantidades, movimientos y alertas del período. |E02|
+|     **E03-US011** | Monitoreo en tiempo real                  | Como administrador quiero registrar y consultar en tiempo real temperatura y humedad para controlar la conservación.                           | Given sensores activos que transmiten lecturas. When llegan nuevas lecturas. Then el sistema registra las lecturas y las pone disponibles para consulta en tiempo real. |E03|
+|      **E03-US12** | Alertas de condiciones ambientales        | Como administrador quiero recibir alertas cuando las condiciones ambientales excedan límites definidos para prevenir daños.                    | Given límites de conservación configurados por ubicación o categoría. When una lectura excede esos límites. Then el sistema genera una alerta que identifica el parámetro, el sensor y la hora. |E03|
+|      **E03-US13** | Guías de cuidado y conservación           | Como usuario quiero acceder a guías de conservación asociadas a cada producto o categoría para seguir buenas prácticas.                        | Given un producto con categoría asignada. When se solicita la guía de conservación correspondiente. Then el sistema devuelve la guía vigente con metadatos (versión, fecha de actualización). |E03|
+|      **E04-US14** | Identificación de cargas con RFID         | Como responsable de logística quiero que las cargas tengan tags RFID para identificarlas automáticamente en puntos de control.                 | Given una carga con etiqueta RFID asociada. When un lector registra la etiqueta en un punto de control. Then el sistema guarda el evento con tag, timestamp y punto de control, asociándolo al envío. |E04|
+|      **E04-US15** | Consulta de ubicación en tránsito         | Como responsable quiero conocer la ubicación y estado actual de un envío para planificar recepción.                                            | Given un envío con eventos de ubicación registrados. When se solicita el estado actual del envío por su ID. Then el sistema devuelve la última ubicación conocida y el estado correspondiente. |E04|
+|      **E04-US16** | Historial de movimientos y trazabilidad   | Como responsable quiero el historial completo de movimientos para auditoría y verificación logística.                                          | Given eventos de movimiento registrados para un envío. When se solicita el historial (posible filtro por rango de fechas). Then el sistema devuelve la lista cronológica de eventos con timestamps y ubicaciones. |E04|
+|      **E05-US17** | Inicio de sesión                          | Como usuario registrado quiero autenticarme para acceder a mis recursos y acciones autorizadas.                                                | Given credenciales válidas para una cuenta activa. When se realiza la solicitud de autenticación. Then el sistema autentica al usuario y devuelve prueba de sesión (token o equivalente).<br>Given credenciales inválidas. When se solicita autenticación. Then el sistema rechaza la solicitud y devuelve un error. |E05|
+|      **E06-US18** | API - Endpoints de Inventario (Developer) | Como developer quiero endpoints RESTful para consultar, crear y actualizar inventario para integrar sistemas externos.                         | Given un request GET válido a `/api/inventory/{id}` con id existente. When el request se procesa. Then la API responde 200 con los datos del inventario en JSON.<br>Given un POST con payload válido. When se procesa. Then la API responde 201 Created con la representación del recurso.<br>Given payload inválido. When se procesa. Then la API responde 400 Bad Request con detalle del error. |T01|
+|      **E07-US19** | API - Endpoint de Tracking (Developer)    | Como developer quiero un endpoint RESTful para consultar estado y ubicación de envíos para integraciones externas.                             | Given un request GET válido a `/api/shipments/{id}` con id existente. When se procesa el request. Then la API responde 200 con ubicación y estado del envío.<br>Given id no existente. When se procesa. Then la API responde 404 Not Found con mensaje de error. |T02|
+
+
+
+**EPICS**
+
+Las Epics que identificamos son las siguientes:
+
+
+| **Epic ID***  | **Título**                                | **Descripción**                                                                                                                         |
+| -------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **EP01** | Landing Page                           | Como visitante quiero acceder a una página informativa de Storigent para conocer la solución y sus beneficios, con secciones adaptadas a segmentos. |
+| **EP02** | Gestión de Inventarios                 | Como administrador quiero registrar y actualizar niveles de stock para garantizar disponibilidad, generar alertas de inventario bajo y evitar quiebres. |
+| **EP03** | Conservación y Monitoreo Climatológico | Como administrador quiero monitorear temperatura y humedad de los almacenes para asegurar la conservación de los productos, además de acceder a guías de cuidado. |
+| **EP04** | Tracking y Trazabilidad                | Como responsable de logística quiero realizar un seguimiento en tiempo real de los productos en transporte entre almacenes, garantizando la trazabilidad. |
+| **EP05** | Autenticación de Usuarios              | Como usuario (emprendedor o empresa) quiero registrarme, iniciar sesión y cerrar sesión para acceder de manera segura a las funcionalidades del sistema. |
+| **TS01** | API – Gestión de Inventarios           | Como developer quiero exponer un endpoint RESTful para consultar y actualizar inventarios de manera integrada con aplicaciones externas. |
+| **TS02** | API – Tracking de Transporte           | Como developer quiero exponer un endpoint RESTful para consultar la ubicación y estado de envíos en tránsito y permitir la actualización del tracking. |
+
+## 3.2. Impact Mapping
+Se presenta los Impact Mapping que relaciona los objetivos del negocio con los actores involucrados,
+sus necesidades y las funcionalidades del producto. Este mapa ayuda a visualizar cómo cada característica
+contribuye a alcanzar los objetivos estratégicos de Storigent.
+
+_Impact Mapping Emprendedor_
+<img src="static/img/chapter 3/img-impactmapping-emprendedor.png"></img><br>
+
+_Impact Mapping Empresa_
+<img src="static/img/chapter 3/img-impactmapping-empresa.png"></img><br>
+
+## 3.3. Product Backlog
+Se detalla el backlog del producto, priorizando las historias de usuario y funcionalidades
+según su valor para el usuario y el negocio. Este backlog sirve como guía para la planificación
+de sprints y la gestión del desarrollo ágil.
+
+**Product Backlog – Storigent**
+
+| **# Orden** | **User Story Id** | **Título**                             | **Descripción**                                                                                                                            | **Story Points (1/2/3/5/8)** |
+|-------------|-------------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
+| 1           | E01-US01          | Información general y beneficios       | Como visitante (emprendedor) quiero ver un resumen y beneficios de Storigent para entender cómo puede ayudarme a gestionar productos.       | 2                            |
+| 2           | E01-US02          | Características principales            | Como visitante quiero conocer las funcionalidades claves (RFID, monitoreo, trazabilidad, guías) para evaluar la solución.                  | 3                            |
+| 3           | E01-US03          | Contenido para Emprendedores           | Como visitante emprendedor quiero información y casos de uso orientados a pequeños negocios para evaluar la aplicabilidad.                 | 2                            |
+| 4           | E01-US04          | Contenido para Empresas                | Como visitante representante de empresa quiero información orientada a operaciones a escala para evaluar la escalabilidad del producto.    | 2                            |
+| 5           | E01-US05          | Planes y contacto                      | Como visitante quiero conocer planes de precios y vías de contacto para decidir si contratar.                                              | 2                            |
+| 6           | E01-US06          | Registro                               | Como visitante quiero poder iniciar el proceso de registro desde la landing para comenzar a usar la plataforma.                            | 3                            |
+| 7           | E01-US07          | Editar perfil                          | Como usuario registrado quiero poder editar mi perfil (nombre, correo, contraseña) para mantener mi información actualizada.               | 3                            |
+| 8           | E02-US08          | Registrar producto                     | Como administrador quiero registrar productos en inventario para mantener un control actualizado del catálogo.                             | 3                            |
+| 9           | E02-US09          | Actualizar cantidades de stock         | Como administrador quiero actualizar las cantidades para reflejar entradas y salidas de inventario.                                        | 2                            |
+| 10          | E02-US10          | Notificaciones de stock bajo           | Como administrador quiero recibir alertas automáticas cuando el stock alcance niveles críticos.                                            | 5                            |
+| 11          | E02-US011         | Reportes de inventario                 | Como administrador quiero generar reportes de inventario para análisis y auditoría.                                                        | 5                            |
+| 12          | E03-US012         | Monitoreo en tiempo real               | Como administrador quiero registrar y consultar en tiempo real temperatura y humedad para controlar la conservación.                       | 5                            |
+| 13          | E03-US13          | Alertas de condiciones ambientales     | Como administrador quiero recibir alertas cuando las condiciones ambientales excedan límites definidos.                                    | 5                            |
+| 14          | E03-US14          | Guías de cuidado y conservación        | Como usuario quiero acceder a guías de conservación asociadas a cada producto o categoría para seguir buenas prácticas.                    | 3                            |
+| 15          | E04-US15          | Identificación de cargas con RFID      | Como responsable de logística quiero que las cargas tengan tags RFID para identificarlas automáticamente en puntos de control.             | 8                            |
+| 16          | E04-US16          | Consulta de ubicación en tránsito      | Como responsable quiero conocer la ubicación y estado actual de un envío para planificar recepción.                                        | 3                            |
+| 17          | E04-US17          | Historial de movimientos y trazabilidad| Como responsable quiero el historial completo de movimientos para auditoría y verificación logística.                                      | 5                            |
+| 18          | E05-US18          | Inicio de sesión                       | Como usuario registrado quiero autenticarme para acceder a mis recursos y acciones autorizadas.                                            | 3                            |
+| 19          | E06-US19          | API - Endpoints de Inventario          | Como developer quiero endpoints RESTful para consultar, crear y actualizar inventario para integrar sistemas externos.                     | 8                            |
+| 20          | E07-US20          | API - Endpoint de Tracking             | Como developer quiero un endpoint RESTful para consultar estado y ubicación de envíos para integraciones externas.                         | 8                            |
+
+              
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines

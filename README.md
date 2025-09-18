@@ -94,7 +94,7 @@
         <tr>
                 <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
                 <td>TB1 
-                <br><br>Calixto Iriarte, David Alejandro: 
+                <br><br>Calixto Iriarte, David Alejandro: Para esta entrega realice entrevistas de las cuales obtuvimos informacion acerca de las necesidades, objetivos y frustraciones de nuestros segmentos objetivos como empresarios/emprendedores. Ademas, ayude con el desarrollo del Software Architecture Diagrams y Database Diagram.
                 <br><br>Cespedes Pillco, Jarod Jack: Asumí el rol de líder en algunas reuniones para coordinar las actividades del equipo, propuse ideas y también escuché las de mis compañeros antes de tomar decisiones y apoyé a mis compañeros en la organización de tareas y resolución de conflictos.
                 <br><br>Checa Burga, Oscar Diego: Llevo a cabo el desarrollo de la descripción de la startup, Antecedentes y problemática, LEAN UX Problem Statements, LEAN UX Assumptions, LEAN UX Hypothesis Statements, LEAN UX CANVAS y Segmentos Obejtivos. 
                 <br><br>Palomino Murga, Daniel Stalin: Desarrollo el capitulo 3 y también los puntos 4.1, 4.2, 4.3, 4.4 y 4.5 del capitulo 4, también aporto con tres entrevistas para el capitulo 2 y por ultimo el desarrollo la sección de características del Frontend del landing page.

@@ -467,6 +467,12 @@ Captura:
 
 <img src="static/img/chapter 2/img-entrevista-Manuel.png" alt="Entrevista Manuel" style="width: px;"></img>
 
+Duración: 5:02 minutos
+
+Línea de Tiempo: 0:00 - 4:56
+
+Enlace a la entrevista: [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215489_upc_edu_pe/EcThJtRL6aJFq7Wk32pNBjQBOfF9F6D4RgZPk9REMN0-uA?e=UzTDLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 Resumen:
 
 Manuel Wilfredo Serna Juancho, un joven soltero de 21 años residente en Cercado, Lima, es el emprendedor detrás de una pequeña empresa dedicada a la distribución de productos lácteos artesanales a minimarkets y bodegas.
@@ -483,6 +489,12 @@ Captura:
 
 <img src="static/img/chapter 2/img-entrevista-Jacqueline.png" alt="Entrevista Jacqueline" style="width: px;"></img>
 
+Duración: 6:06 minutos
+
+Línea de Tiempo: 4:57 - 10:59
+
+Enlace a la entrevista: [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215489_upc_edu_pe/EcThJtRL6aJFq7Wk32pNBjQBOfF9F6D4RgZPk9REMN0-uA?e=UzTDLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 Resumen: 
 
 Jacqueline Shelti Alvarado Portalatino, una mujer soltera de 28 años que reside en San Isidro, es la emprendedora detrás de un negocio de polos personalizados.
@@ -493,6 +505,32 @@ Tecnología y Habilidades: Para su negocio, Jacqueline utiliza herramientas digi
 
 Expectativas y Necesidades: Jacqueline desearía un software como Storigent que le proporcionara información en tiempo real sobre el punto exacto de los pedidos en tránsito, el tiempo restante para la llegada al cliente y la confirmación de la condición del producto. Entre las funcionalidades que le gustaría encontrar, destacan: alertas de stock por tallas y colores, registro automático de pedidos, y un sistema de tracking a tiempo real para el seguimiento de envíos. No conoce marcas o soluciones similares específicas en el mercado. Sus respuestas reflejan una personalidad práctica, organizada y con una clara orientación hacia la eficiencia y el control, buscando soluciones tecnológicas para optimizar sus procesos y minimizar las frustraciones en la gestión de su emprendimiento.
 
+<strong>Entrevista 3: Luis Alberto Calixto Ramírez</strong>
+
+Captura:
+
+<img src="static/img/chapter 2/img-entrevista-Luis.png" alt="Entrevista Luis" style="width: px;"></img>
+
+Duración: 15:58 minutos
+
+Línea de Tiempo: 11:00 - 26:58
+
+Enlace a la entrevista: [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215489_upc_edu_pe/EcThJtRL6aJFq7Wk32pNBjQBOfF9F6D4RgZPk9REMN0-uA?e=UzTDLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Resumen:
+
+Luis Alberto Calixto Ramírez, un hombre casado de 50 años, es el gerente de tienda de Calvin Klein.
+
+Gestión y Desafíos: Utiliza un sistema RFID (radiofrecuencia por ondas) en tienda para determinar la cantidad, ubicación y rastreo rápido de la mercadería. Todos los productos manejan un chip, y las prendas tienen chips distintos por talla (S, M, L, XL) para un conteo preciso. Los códigos de barras con chips RFID a menudo se dañan con el uso de los clientes, el manipuleo o el traslado, impidiendo su lectura o duplicando las cantidades y alterando las guías.
+Problemas con la llegada a tiempo de la mercadería importada (desde Panamá, por containers para cada estación) debido a factores como el clima, aranceles o tiempos de transporte.
+
+Tecnología y Habilidades El core de su gestión de inventario es el sistema RFID y los códigos de barras con chips integrados en cada producto. Se apoya en una "pistola" lectora de códigos de barras, que interactúa con los chips RFID para identificar la ubicación y cantidades en tienda.
+Canales de Interacción: La comunicación con proveedores se gestiona a través del proceso de importación por containers, mientras que la interacción con clientes se realiza en el "punto de venta" (la tienda).
+Habilidad clave: Ante la falta de mercadería importada a tiempo, Luis implementa la estrategia de reemplazar temporalmente productos con artículos de temporadas anteriores que posean cualidades o características similares.
+
+Expectativas y Necesidades: Las respuestas de Luis reflejan una personalidad práctica y resolutiva. Es consciente de las ineficiencias causadas por el daño de los chips RFID y los retrasos en la importación.
+Sus necesidades implícitas giran en torno a una mayor fiabilidad del sistema RFID para evitar errores de inventario y una mejor visibilidad o control sobre la cadena de suministro internacional para mitigar las frustraciones por los retrasos. Su habilidad para reemplazar productos muestra la necesidad de agilidad para mantener la oferta en tienda.
+
 <strong>Segmento objetivo 2: Empresas</strong>
 
 <strong>Entrevista 1: Xenia Palomino Murga</strong>
@@ -500,6 +538,12 @@ Expectativas y Necesidades: Jacqueline desearía un software como Storigent que 
 Captura:
 
 <img src="static/img/chapter 2/img-entrevista-Xenia.png" alt="Entrevista Xenia" style="width: px;"></img>
+
+Duración: 7:32 minutos
+
+Línea de Tiempo: 26:59 - 34:27
+
+Enlace a la entrevista: [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215489_upc_edu_pe/EcThJtRL6aJFq7Wk32pNBjQBOfF9F6D4RgZPk9REMN0-uA?e=UzTDLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Resumen:
 
@@ -517,6 +561,12 @@ Captura:
 
 <img src="static/img/chapter 2/img-entrevista-Sebastian.png" alt="Entrevista Sebastián" style="width: px;"></img>
 
+Duración: 9:48 minutos
+
+Línea de Tiempo: 34:28 - 44:13
+
+Enlace a la entrevista: [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215489_upc_edu_pe/EcThJtRL6aJFq7Wk32pNBjQBOfF9F6D4RgZPk9REMN0-uA?e=UzTDLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 Resumen: 
 
 Sebastián Díaz, un ingeniero industrial de 32 años, soltero y residente en San Borja, se desempeña como jefe de logística en una distribuidora de productos alimenticios y bebidas.
@@ -526,6 +576,28 @@ Gestión y Desafíos: Actualmente, Sebastián gestiona los inventarios y el alma
 Tecnología y Habilidades: Para el registro y control de calidad, la empresa se limita al uso de códigos de barras tradicionales, sin otros tipos de sensores. Los dispositivos que utilizan son laptops, tablets y escáneres de códigos de barras. Para las operaciones y comunicación, emplean canales digitales como el correo electrónico, WhatsApp y un sistema ERP para el registro de pedidos e inventario. Sebastián considera que las habilidades clave para su equipo en la gestión de inventarios son una buena organización, atención al detalle del stock, manejo de herramientas digitales y la capacidad de estar preparados ante imprevistos.
 
 Expectativas y Necesidades: Sus principales frustraciones con los sistemas actuales son la lentitud en el registro de entradas y salidas, la poca fiabilidad de los reportes y la dificultad para integrar la información con otras áreas como ventas o facturación. Sus respuestas reflejan una personalidad práctica, consciente de las deficiencias operativas y la necesidad de sistemas más eficientes y confiables para optimizar la gestión de inventarios y reducir pérdidas. La entrevista concluye antes de que pueda especificar qué tipo de notificación considera útil.
+
+<strong>Entrevista 3: Ingrid Iriarte</strong>
+
+Captura:
+
+<img src="static/img/chapter 2/img-entrevista-Ingrid.png" alt="Entrevista Ingrid" style="width: 600px;"></img>
+
+Duración: 11:57 minutos
+
+Línea de Tiempo: 44:14 - 56:10
+
+Enlace a la entrevista: [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215489_upc_edu_pe/EcThJtRL6aJFq7Wk32pNBjQBOfF9F6D4RgZPk9REMN0-uA?e=UzTDLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Resumen:
+
+Ingrid Iriarte, de 50 años, es Jefa de Tienda en Perú Forus desde 2008, específicamente para la marca Hashpapis, donde supervisa un amplio inventario que incluye calzado, accesorios, carteras, medias y productos de limpieza.
+
+Gestión y Desafíos: Su gestión de inventario es mensual, enfocada en el conteo físico de las unidades, así como en el registro de ingresos y salidas totales. La recepción de mercadería se agiliza mediante lectores específicos para los embalajes de cajas. Los almacenes están organizados meticulosamente por sectores, con áreas separadas para hombres y damas y anaqueles específicos. Aunque reconoce que la conservación de productos de cuero durante los envíos en invierno podría presentar un desafío, afirma que los errores de calidad son mínimos, atribuyéndolo a "procesos bien ya definidos" dentro de la empresa, lo que indica un sistema de control de calidad robusto.
+
+Tecnología y Habilidades: Para su negocio, Ingrid se apoya en tecnología específica para la gestión de inventarios, utilizando "capturadores" y "lectoras de barras" que facilitan la rapidez del conteo físico. El programa principal que utiliza es SIAL, un software integral que maneja la recepción de mercadería, el control general de inventarios, los ingresos y toda la operativa de la tienda, incluyendo la gestión de cajas y cobros. También emplea tablets para ciertas lecturas y hace uso extensivo de códigos de barras en los productos, que son leídos y cargados al sistema para la emisión de boletas. Para interactuar con soporte o resolver inconvenientes con los programas, utiliza el correo electrónico, un programa interno denominado "Mesa de Ayuda" y un canal de comunicación vía WhatsApp. Sus respuestas reflejan una habilidad sólida en el manejo de estas herramientas tecnológicas y una clara comprensión de los procesos operativos.
+
+Expectativas y Necesidades: A partir de sus declaraciones, Ingrid Iriarte no expresa ninguna necesidad o expectativa de implementar nuevas tecnologías o realizar cambios significativos en sus herramientas actuales. Su descripción de los procesos y la funcionalidad del programa SIAL, junto con el uso de capturadores y lectoras, sugiere que las herramientas y los sistemas actuales satisfacen eficazmente sus requerimientos operativos y de gestión de inventario. Su enfoque está en la eficiencia de los procesos establecidos y la capacidad de las herramientas existentes para asegurar un control preciso y una resolución rápida de cualquier incidencia. Sus respuestas reflejan una personalidad organizada, metódica y segura de los sistemas y procesos en uso, con una clara orientación hacia la optimización mediante las soluciones tecnológicas ya implementadas que le ofrecen visibilidad y control en su gestión diaria.
 
 ### 2.2.3. Análisis de entrevistas
 Se analiza la información recopilada en las entrevistas, identificando patrones comunes, insights clave 
@@ -1009,3 +1081,11 @@ que todos los involucrados comprendan los conceptos clave de forma unificada.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+# Conclusiones
+
+# Bibliografía
+
+# Anexos
+### Anexo A: Entrevistas Completas
+- Enlace a las entrevistas: [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215489_upc_edu_pe/EcThJtRL6aJFq7Wk32pNBjQBOfF9F6D4RgZPk9REMN0-uA?e=UzTDLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)

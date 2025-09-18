@@ -226,15 +226,202 @@
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+Storigent es una startup orientada al desarrollo de soluciones tecnológicas para la gestión y conservación de inventarios. Su principal característica es el diseño de un software que integra funcionalidades de control de stock, guías de cuidado de productos, recomendaciones personalizadas y trazabilidad en el transporte, con el fin de garantizar la calidad y reducir pérdidas en los procesos logísticos.
+
+La propuesta surge como respuesta a la necesidad de muchas empresas de contar con herramientas que permitan optimizar sus recursos y mantener la integridad de sus productos durante todo su ciclo de vida. Bajo esta perspectiva, Storigent busca posicionarse como una alternativa confiable y práctica, enfocada en la mejora continua y la aplicación de tecnología al servicio de la eficiencia empresarial.
+
+Misión: Desarrollar un software innovador que facilite la gestión integral de inventarios y promueva la conservación de los productos mediante soluciones accesibles, eficientes y confiables.
+
+Visión: Convertirse en un referente en la implementación de tecnologías de gestión de inventarios, contribuyendo al progreso de las empresas y al fortalecimiento de cadenas logísticas más sustentables.
+
 ### 1.1.2. Perfiles de integrantes del equipo
+
+| Foto                                                                            | Apellido y Nombre                    | Código     | Carrera                | Habilidades                                                                                                                                                                                                                                                                                                                                                                                     |
+| ------------------------------------------------------------------------------- | ------------------------------------ | ---------- | ---------------------- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![oscar](/static/img/img-Oscar.jpeg "Oscar Checa Profile Image") | Checa Burga, Oscar Diego | U2023E492| Ingeniería de Software | Soy Oscar Checa, estudio la carrera de Ingenieria de Software en la UPC. Me considero una persona responsable y paciente. Tengo conocimientos en C++, Python y un poco de JavaScript.                                                                                                                                                                                        |
+| ![rodrigo](/static/img/img-Rodrigo.jpeg)                                        | Zagaceta Bardales, Rodrigo Enrique     | U202215489 | Ingeniería de Software | Soy Rodrigo Zagaceta tengo conocimientos medios en diversos lenguajes de programación, me considero una persona responsable y con la intención de generar un buen entendimiento entre todos los miembros del equipo. |
+| ![Daniel](/static/img/img-Daniel.jpeg "Daniel Palomino Profile Image")           | Palomino Murga, Daniel Stalin         | U20201B253 | Ingeniería de Software | Soy estudiante de Ingeniería de Software en la UPC, actualmente cursando el 5to ciclo de mi carrera y tengo 21 años. Me considero una persona amable, tranquila y perseverante, cualidades que me ayudan tanto en el ámbito académico como en el trabajo en equipo. Me gusta desarrollar proyectos de manera organizada, prestando atención a los detalles para lograr resultados de calidad. En el trabajo colaborativo, me esfuerzo por aportar ideas y respetar las ideas de mis compañeros, apoyarlos y alcanzar los objetivos en conjunto.Tengo experiencia en C++, Java, JavaScript, HTML y CSS, Python.                                           |
+| ![David]()                                                                           | Calixto Iriarte, David Alejandro    | U20201B441 | Ingeniería de Software |                                                                                                                                                                                                               |
+| ![Jarod](/static/img/img-Jarod.jpeg "Jarod Cespedes Profile Image")                             | Cespedes Pillco, Jarod Jack           | U202318588 | Ingeniería de Software | Soy Jarod Cespedes y actualmente estoy cursando el quinto ciclo de la carrera Ingeniería de Software. Considero que soy atento, creativo y colaborador, siempre intentando apoyar a mi equipo en lo más que puedo. Además, tengo conocimientos en varios lenguajes de programación como C++, C#, Python y Java. |                                                                                          
+
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
+#### ¿Cuál es el problema? / ¿Qué? (What)
+
+El problema principal es que muchas empresas no cuentan con una solución integral para la gestión de inventarios, lo que significa que sus procesos suelen ser fragmentados, manuales o limitados a softwares básicos. Esta falta de integración provoca que no solo se dificulte el control en tiempo real del stock, sino que además no se consideren aspectos críticos como:
+
+•	La conservación de los productos, a través de guías de cuidado y recomendaciones específicas.
+
+•	La trazabilidad en el transporte, que garantice conocer el estado y ubicación de los bienes a lo largo de la cadena de suministro.
+
+
+#### ¿Cuándo? (When)
+
+El problema de la gestión ineficiente de inventarios ocurre principalmente en los momentos críticos del ciclo logístico, cuando los productos están más expuestos a deterioro, pérdidas o falta de control. Esto sucede en dos escenarios clave: durante el almacenamiento, cuando los bienes permanecen por períodos prolongados sin un monitoreo adecuado de sus condiciones de conservación, y durante el transporte, cuando no existe trazabilidad suficiente para garantizar que lleguen en buen estado a su destino.
+
+Es precisamente en esos momentos cuando los productos aún mantienen su valor, pero no cuentan con un sistema integral que asegure su cuidado y trazabilidad cuando se vuelve crucial intervenir. Sin un control adecuado, los inventarios corren el riesgo de sufrir excesos o quiebres de stock, desperdicio de mercancía perecible y sobrecostos logísticos que afectan directamente la competitividad de las empresas.
+
+
+#### ¿Dónde? (Where)
+
+El problema de la gestión ineficiente de inventarios ocurre en los espacios logísticos y de distribución donde los productos se almacenan, manipulan y transportan. Se presenta principalmente en almacenes y centros de distribución y vehículos de transporte, que son los puntos clave de la cadena de suministro y, al mismo tiempo, los más vulnerables a fallas de control.
+
+En estos escenarios, la ausencia de sistemas integrales genera riesgos como el deterioro de productos por condiciones inadecuadas de conservación, pérdidas por errores en el registro de stock y retrasos durante el transporte por falta de trazabilidad. Este problema se intensifica en empresas que operan con volúmenes altos de inventario, productos sensibles (como alimentos) o cadenas logísticas extensas que requieren precisión y coordinación constante.
+
+Sin embargo, la problemática no se limita únicamente a zonas rurales o empresas pequeñas. También está presente en entornos urbanos y corporativos, donde, a pesar de contar con más infraestructura, la complejidad del manejo de inventarios y la demanda creciente superan la capacidad de los sistemas tradicionales.
+
+
+#### ¿Quienes? (Who) 
+
+Está dirigido a:
+
+•	Empresas pequeñas y grandes: Negocios que buscan optimizar la gestión de sus inventarios y mejorar la trazabilidad de sus productos. En el caso de las pequeñas empresas, requieren soluciones accesibles y fáciles de usar que reduzcan errores y pérdidas por falta de control. Por su parte, las grandes empresas necesitan herramientas más escalables que les permitan gestionar mayores volúmenes de productos, optimizar costos operativos y mantener un control eficiente en toda su cadena logística.
+
+•	Emprendedores: Personas que están iniciando un negocio y necesitan una plataforma práctica, económica y adaptable para gestionar sus inventarios desde cero. Su principal interés es contar con un sistema que les facilite crecer de manera ordenada, competitiva y con menores riesgos de pérdidas.
+
+
+#### ¿Por qué? (Why)
+
+El problema de la gestión ineficiente de inventarios ocurre por diversas razones que afectan tanto a pequeñas como a grandes empresas, así como a emprendedores.
+
+En primer lugar, muchas organizaciones carecen de herramientas tecnológicas adecuadas para administrar sus productos, lo que las obliga a depender de métodos manuales como hojas de cálculo o registros físicos. Esto incrementa la probabilidad de cometer errores, perder información o generar inconsistencias en el stock.
+
+En segundo lugar, se observa una falta de trazabilidad en el transporte y conservación de productos, lo cual dificulta conocer en tiempo real dónde se encuentra un bien, en qué condiciones está siendo trasladado y si llegará al destino en buen estado. Esto no solo afecta la operatividad de la empresa, sino que también puede dañar la confianza del cliente final.
+
+Otro factor clave es la desconexión entre la gestión de inventarios y las guías de cuidado de los productos, lo que ocasiona pérdidas por deterioro, almacenamiento inadecuado o vencimientos, especialmente en sectores donde la calidad y la conservación son críticas (como alimentos, farmacéuticos o bienes sensibles).
+
+Finalmente, el crecimiento de los negocios y la complejidad de las cadenas logísticas modernas hacen que los sistemas tradicionales se vuelvan insuficientes. Las empresas requieren soluciones escalables, automatizadas y accesibles que les permitan mantener competitividad y eficiencia en un mercado cada vez más exigente.
+
+
+#### ¿Cómo? (How)
+
+Los usuarios acceden y utilizan Storigent en situaciones específicas donde la gestión de inventarios y la trazabilidad de productos resultan críticas para su negocio. Generalmente, lo emplean cuando:
+
+•	Requieren un control en tiempo real del estado de sus inventarios para evitar pérdidas, excesos o quiebres de stock.
+
+•	Desean asegurar la conservación adecuada de los productos, siguiendo guías de cuidado específicas que reduzcan deterioros o vencimientos.
+
+•	Buscan reducir costos operativos, optimizando los procesos de almacenamiento, transporte y distribución.
+
+•	Quieren centralizar la gestión en una sola plataforma, evitando depender de múltiples sistemas dispersos o registros manuales.
+
+El producto se utiliza en plataformas digitales accesibles desde computadoras, con una interfaz amigable que facilita su adopción tanto en pequeñas como en grandes empresas, así como en emprendimientos que recién inician. Su diseño está pensado para funcionar de manera flexible y escalable, permitiendo a cada usuario adaptarlo a las condiciones de su negocio y al volumen de sus operaciones.
+
+
+#### ¿Cuánto? (How much)
+
+La falta de una gestión eficiente de inventarios y trazabilidad genera altos costos económicos y operativos para las empresas y emprendedores. Estos costos se reflejan en:
+
+•	Pérdidas por deterioro o vencimiento de productos, especialmente en sectores como alimentos, farmacéuticos o productos sensibles.
+
+•	Sobrecostos por exceso de inventario, lo que implica mayor gasto en almacenamiento y capital inmovilizado.
+
+•	Quiebres de stock, que ocasionan retrasos en entregas y pérdida de clientes por incumplimiento.
+
+Frente a este contexto, la propuesta de Storigent implica una inversión estimada de:
+
+•	Desarrollo de software: S/ 70,000
+
+•	Implementación y capacitación inicial: S/ 20,000
+
+•	Pruebas piloto y mejoras: S/ 15,000
+
+•	Difusión y marketing digital: S/ 10,000
+
+•	Mantenimiento y soporte (6 meses): S/ 25,000
+
+Inversión total estimada: S/ 140,000
+
+Este monto resulta mínimo en comparación con las pérdidas generadas por una gestión ineficiente de inventarios y logística. Al implementar Storigent, las empresas pueden reducir hasta en un 30% los costos asociados a desperdicios, exceso de inventario y fallas en la trazabilidad, lo que genera un retorno de inversión significativo en el corto y mediano plazo.
+
+
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+
+En un contexto donde la gestión de inventarios y la trazabilidad logística se han convertido en factores clave para la competitividad empresarial, se hace evidente la necesidad de una plataforma digital que facilite el control, conservación y transporte de productos de manera eficiente. Dicha solución debe proporcionar a empresas y emprendedores una experiencia práctica, confiable y adaptable a las características de su operación.
+
+Como grupo, nos comprometemos a resolver este desafío mediante una colaboración estrecha con los usuarios que requieren optimizar la administración de sus inventarios, así como con empresas que buscan mejorar su trazabilidad y reducir pérdidas operativas. Nos enfocaremos en comprender profundamente las necesidades y expectativas de nuestros clientes, utilizando esta información para diseñar y desarrollar una solución innovadora que satisfaga sus requerimientos de manera integral.
+
+
 #### 1.2.2.2. Lean UX Assumptions.
+
+#### Bussiness Assumptions
+
+1.	Demanda de mercado: Asumimos que tanto emprendedores como empresas pequeñas y grandes enfrentan dificultades recurrentes en la gestión de inventarios y requieren soluciones tecnológicas que les permitan reducir errores, optimizar procesos y mejorar la trazabilidad.
+	
+2.	Disposición al uso: Asumimos que los usuarios estarán dispuestos a migrar desde métodos manuales (como hojas de cálculo o registros físicos) hacia una plataforma digital, siempre que esta sea intuitiva, accesible y no requiera conocimientos técnicos avanzados.
+	
+3.	Impacto económico positivo: Asumimos que la implementación de Storigent generará un ahorro significativo en costos operativos, reduciendo pérdidas por exceso de stock, deterioro de productos y fallas en el transporte, lo que facilitará la recuperación de la inversión inicial.
+	
+4.	Accesibilidad tecnológica: Asumimos que la mayoría de los usuarios cuentan con acceso a dispositivos móviles o computadoras con conexión a internet, lo que permite utilizar Storigent en distintos contextos empresariales sin barreras significativas de infraestructura.
+	
+5.	Escalabilidad de la solución: Asumimos que la plataforma podrá adaptarse al crecimiento de los negocios, permitiendo que un emprendedor que inicia con pocos productos pueda seguir utilizando la herramienta conforme aumente el volumen y complejidad de sus operaciones.
+    
+6.	Confianza y adopción: Asumimos que, al integrar guías de cuidado, trazabilidad en transporte y gestión centralizada de inventarios, Storigent logrará diferenciarse de soluciones parciales existentes, generando confianza y fidelidad en los usuarios.
+
+#### User Assumptions
+
+•	Los usuarios buscan una solución integral que combine gestión de inventarios, guías de conservación y trazabilidad en transporte.
+
+•	Valoran la accesibilidad y conveniencia, pudiendo usar la plataforma desde cualquier lugar y dispositivo.
+
+•	Están dispuestos a invertir en una herramienta confiable que reduzca errores y mejore la eficiencia.
+
+•	Esperan que las funciones de cuidado de productos sean claras y fáciles de aplicar en su negocio.
+
+•	Valoran la seguridad y transparencia en el manejo de sus datos y operaciones.
+
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+•  Creemos que los emprendedores y empresas necesitan una solución integral para gestionar sus inventarios, conservar sus productos y garantizar la trazabilidad en el transporte.
+
+•  Creemos que si ofrecemos una plataforma accesible y fácil de usar, los usuarios estarán más dispuestos a adoptar Storigent en lugar de depender de métodos manuales o herramientas dispersas.
+
+•  Creemos que al brindar información clara y en tiempo real, los usuarios reducirán errores en el control de inventarios, mejorarán la eficiencia operativa y disminuirán pérdidas por deterioro o exceso de stock.
+
+•  Creemos que si garantizamos seguridad y transparencia en los datos, los usuarios confiarán en la plataforma y la utilizarán como parte esencial de sus operaciones.
+
+•  Creemos que al demostrar un impacto positivo en la reducción de costos y riesgos, los usuarios estarán dispuestos a invertir en Storigent como una solución sostenible y escalable.
+
 #### 1.2.2.4. Lean UX Canvas
+
+| **1. Business problem** | **5. Solutions** | **2. Business outcomes** |
+|--------------------------|------------------|---------------------------|
+| En el Perú, muchas empresas pequeñas, grandes y emprendedores enfrentan pérdidas económicas por una gestión ineficiente de inventarios, la falta de trazabilidad en el transporte y la ausencia de guías de conservación de productos. Esto genera errores, mermas, sobrecostos logísticos y desorden operativo, afectando directamente su competitividad y sostenibilidad en el mercado. | <br><br>• Implementar un sistema de registro y control inteligente de inventarios.<br>• Incluir guías de conservación y recomendaciones personalizadas por tipo de producto.<br>• Generar reportes automáticos de pérdidas, rotación de stock y alertas de desabastecimiento.<br>• Crear una interfaz amigable, accesible desde dispositivos web.<br>• Espacio exclusivo para que las empresas gestionen usuarios, roles y permisos. | • Optimizar la gestión de inventarios y reducir pérdidas.<br>• Mejorar la trazabilidad de los productos en el transporte.<br>• Ofrecer una plataforma escalable tanto para pequeños negocios como grandes empresas. |
+
+| **3. Users** |   | **4. User outcomes and benefits** |
+|--------------|---|-----------------------------------|
+| • Empresas pequeñas y grandes: buscan optimizar costos, mejorar su control operativo y tener trazabilidad en toda la cadena logística.<br><br>• Emprendedores: requieren una plataforma práctica, económica y sencilla para gestionar inventarios desde cero y crecer de manera ordenada. |   | • Reducir errores en el control de inventario.<br>• Disminuir pérdidas por deterioro o mala conservación de productos.<br>• Contar con trazabilidad en tiempo real del transporte de mercancías.<br>• Aumentar la eficiencia en la operación diaria con una herramienta intuitiva.<br>• Escalar su negocio con una solución adaptable a su tamaño y necesidades. |
+
+| **6. Hypothesis** | **7. ¿Qué es lo más importante que debemos aprender primero?** | **8. ¿Cuál es la menor cantidad de trabajo que necesitamos hacer para resolver las dudas y para hacer lo siguiente más importante?** |
+|-------------------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| • Creemos que los usuarios estarán dispuestos a usar una app de gestión integral de inventarios si esta reduce errores y pérdidas económicas.<br>• Sabremos que hemos tenido éxito cuando al menos el 60% de los usuarios reporten una disminución en sus pérdidas operativas en los primeros 3 meses.<br>• Creemos que las guías de conservación de productos son un valor agregado clave.<br>• Sabremos que hemos tenido éxito cuando al menos el 50% de los usuarios las utilicen de forma recurrente. | • Si las empresas están dispuestas a digitalizar sus procesos de inventario con una plataforma accesible.<br>• Qué nivel de interés real existe en la trazabilidad del transporte en distintos sectores.<br>• Si los usuarios encuentran útiles y aplicables las guías de conservación.<br>• Qué barreras de adopción tecnológica enfrentan los emprendedores y pequeñas empresas. | • Crear un landing page informativo con la propuesta de valor de Storigent.<br>• Realizar entrevistas a emprendedores y empresas para validar sus necesidades.<br>• Desarrollar un video demostrativo que explique cómo la plataforma reduce pérdidas y mejora el control. |
+
+
 ## 1.3. Segmentos objetivo
+
+#### 1. Empresas (pequeñas y grandes)
+
+Negocios de distintos tamaños en sectores como retail, alimentos, logística, farmacéutica y manufactura. Buscan optimizar la gestión de inventarios, reducir pérdidas y mejorar la trazabilidad.
+
+Demografía: Localizadas principalmente en centros urbanos e industriales, con equipos desde decenas hasta cientos de empleados.
+
+Necesidades clave: Control en tiempo real, conservación de productos y reducción de costos operativos.
+
+Información Estadística de sustento: De acuerdo con ComexPerú (2023, Reporte MYPES), “el 99,5 % de las empresas en el Perú corresponden a micro y pequeñas empresas”.
+
+#### 2. Emprendedores
+
+Personas en etapa inicial de negocio que requieren una solución práctica y accesible para controlar su inventario desde cero.
+
+Demografía: Jóvenes de 25–40 años, concentrados en áreas urbanas y con adaptación digital.
+
+Necesidades clave: Plataforma simple, económica y escalable que evite pérdidas y facilite el crecimiento ordenado.
+
+Información Estadística de sustento: Como menciona el Ministerio de la Producción (2022, Las MIPYME en Cifras), “en el Perú existen alrededor de 2,2 millones de micro y pequeñas empresas, de las cuales el 94,7 % son microempresas”.
+
+
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
@@ -1145,60 +1332,835 @@ que todos los involucrados comprendan los conceptos clave de forma unificada.
 
 # Capítulo III: Requirements Specification
 ## 3.1. User Stories
-## 3.2. Impact Mapping
-## 3.3. Product Backlog
+Se presentan las historias de usuario que describen las funcionalidades
+clave del producto desde la perspectiva del usuario final. Cada historia sigue el formato estándar
+"Como [tipo de usuario], quiero [acción] para [beneficio]". Estas historias guían el desarrollo y priorización
+de características en el backlog del producto.
 
+| **Epic/story ID** | **Título**                                | **Descripción**                                                                                                                                | **Criterios de Aceptación** | **Relacionado con Epic ID** |
+|------------------:|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|-----------------------|
+|      **E01-US01** | Información general y beneficios          | Como visitante (emprendedor) quiero ver un resumen y beneficios de Storigent para entender cómo puede ayudarme a gestionar productos y crecer. | Given un visitante accede a la landing page. When solicita información general. Then el sistema devuelve un resumen del software y sus beneficios principales. |E01                    |
+|      **E01-US02** | Características principales               | Como visitante quiero conocer las funcionalidades claves (RFID, monitoreo, trazabilidad, guías) para evaluar la solución.                      | Given un visitante solicita la sección de características. When se consulta dicha sección. Then el sistema presenta la lista de funcionalidades clave y su descripción. |E01|
+|      **E01-US03** | Contenido para Emprendedores              | Como visitante emprendedor quiero información y casos de uso orientados a pequeños negocios para evaluar la aplicabilidad.                     | Given un visitante pertenece al segmento emprendedor. When solicita contenido para emprendedores. Then el sistema entrega casos de uso y ejemplos adaptados a negocios pequeños. |E01|
+|      **E01-US04** | Contenido para Empresas                   | Como visitante representante de empresa quiero información orientada a operaciones a escala para evaluar la escalabilidad del producto.        | Given un visitante pertenece al segmento empresas. When solicita contenido empresarial. Then el sistema entrega beneficios, requisitos y casos relevantes para empresas. |E01|
+|      **E01-US05** | Planes y contacto                         | Como visitante quiero conocer planes de precios y vías de contacto para decidir si contratar.                                                  | Given un visitante solicita información comercial. When pide datos sobre planes o contacto. Then el sistema proporciona los tipos de suscripción disponibles y un mecanismo para dejar una solicitud de contacto. |E01|
+|      **E01-US06** | Registro                                  | Como visitante quiero poder iniciar el proceso de registro desde la landing para comenzar a usar la plataforma.                                | Given un visitante manifiesta intención de registrarse. When proporciona datos de registro válidos. Then el sistema crea la cuenta (o inicia el flujo de registro) y devuelve confirmación. |E01|
+|     **E01-US07**  | Editar perfil                             |Como usuario registrado quiero actualizar mis datos personales y preferencias para mantener mi cuenta al día.|Given un usuario autenticado. When envía cambios válidos a su perfil. Then el sistema actualiza los datos y confirma la modificación.|E01|
+|      **E02-US07** | Registrar producto                        | Como administrador quiero registrar productos en inventario para mantener un control actualizado del catálogo.                                 | Given un administrador autorizado. When envía datos válidos de un nuevo producto. Then el sistema guarda el producto en inventario y lo hace disponible para consulta. |E02|
+|      **E02-US08** | Actualizar cantidades de stock            | Como administrador quiero actualizar las cantidades para reflejar entradas y salidas de inventario.                                            | Given un producto existente. When llega una actualización de cantidad válida. Then el sistema calcula y registra el nuevo nivel de stock. |E02|
+|      **E02-US09** | Notificaciones de stock bajo              | Como administrador quiero recibir alertas automáticas cuando el stock alcance niveles críticos para reabastecer a tiempo.                      | Given un producto con umbral mínimo configurado. When el nivel de stock llega o cae por debajo del umbral. Then el sistema envía una notificación a los responsables definidos. |E02|
+|     **E02-US010** | Reportes de inventario                    | Como administrador quiero generar reportes de inventario para análisis y auditoría.                                                            | Given datos de inventario para un período especificado. When se solicita un reporte. Then el sistema genera un documento con resumen de cantidades, movimientos y alertas del período. |E02|
+|     **E03-US011** | Monitoreo en tiempo real                  | Como administrador quiero registrar y consultar en tiempo real temperatura y humedad para controlar la conservación.                           | Given sensores activos que transmiten lecturas. When llegan nuevas lecturas. Then el sistema registra las lecturas y las pone disponibles para consulta en tiempo real. |E03|
+|      **E03-US12** | Alertas de condiciones ambientales        | Como administrador quiero recibir alertas cuando las condiciones ambientales excedan límites definidos para prevenir daños.                    | Given límites de conservación configurados por ubicación o categoría. When una lectura excede esos límites. Then el sistema genera una alerta que identifica el parámetro, el sensor y la hora. |E03|
+|      **E03-US13** | Guías de cuidado y conservación           | Como usuario quiero acceder a guías de conservación asociadas a cada producto o categoría para seguir buenas prácticas.                        | Given un producto con categoría asignada. When se solicita la guía de conservación correspondiente. Then el sistema devuelve la guía vigente con metadatos (versión, fecha de actualización). |E03|
+|      **E04-US14** | Identificación de cargas con RFID         | Como responsable de logística quiero que las cargas tengan tags RFID para identificarlas automáticamente en puntos de control.                 | Given una carga con etiqueta RFID asociada. When un lector registra la etiqueta en un punto de control. Then el sistema guarda el evento con tag, timestamp y punto de control, asociándolo al envío. |E04|
+|      **E04-US15** | Consulta de ubicación en tránsito         | Como responsable quiero conocer la ubicación y estado actual de un envío para planificar recepción.                                            | Given un envío con eventos de ubicación registrados. When se solicita el estado actual del envío por su ID. Then el sistema devuelve la última ubicación conocida y el estado correspondiente. |E04|
+|      **E04-US16** | Historial de movimientos y trazabilidad   | Como responsable quiero el historial completo de movimientos para auditoría y verificación logística.                                          | Given eventos de movimiento registrados para un envío. When se solicita el historial (posible filtro por rango de fechas). Then el sistema devuelve la lista cronológica de eventos con timestamps y ubicaciones. |E04|
+|      **E05-US17** | Inicio de sesión                          | Como usuario registrado quiero autenticarme para acceder a mis recursos y acciones autorizadas.                                                | Given credenciales válidas para una cuenta activa. When se realiza la solicitud de autenticación. Then el sistema autentica al usuario y devuelve prueba de sesión (token o equivalente).<br>Given credenciales inválidas. When se solicita autenticación. Then el sistema rechaza la solicitud y devuelve un error. |E05|
+|      **E06-US18** | API - Endpoints de Inventario (Developer) | Como developer quiero endpoints RESTful para consultar, crear y actualizar inventario para integrar sistemas externos.                         | Given un request GET válido a `/api/inventory/{id}` con id existente. When el request se procesa. Then la API responde 200 con los datos del inventario en JSON.<br>Given un POST con payload válido. When se procesa. Then la API responde 201 Created con la representación del recurso.<br>Given payload inválido. When se procesa. Then la API responde 400 Bad Request con detalle del error. |T01|
+|      **E07-US19** | API - Endpoint de Tracking (Developer)    | Como developer quiero un endpoint RESTful para consultar estado y ubicación de envíos para integraciones externas.                             | Given un request GET válido a `/api/shipments/{id}` con id existente. When se procesa el request. Then la API responde 200 con ubicación y estado del envío.<br>Given id no existente. When se procesa. Then la API responde 404 Not Found con mensaje de error. |T02|
+
+
+
+**EPICS**
+
+Las Epics que identificamos son las siguientes:
+
+
+| **Epic ID***  | **Título**                                | **Descripción**                                                                                                                         |
+| -------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **EP01** | Landing Page                           | Como visitante quiero acceder a una página informativa de Storigent para conocer la solución y sus beneficios, con secciones adaptadas a segmentos. |
+| **EP02** | Gestión de Inventarios                 | Como administrador quiero registrar y actualizar niveles de stock para garantizar disponibilidad, generar alertas de inventario bajo y evitar quiebres. |
+| **EP03** | Conservación y Monitoreo Climatológico | Como administrador quiero monitorear temperatura y humedad de los almacenes para asegurar la conservación de los productos, además de acceder a guías de cuidado. |
+| **EP04** | Tracking y Trazabilidad                | Como responsable de logística quiero realizar un seguimiento en tiempo real de los productos en transporte entre almacenes, garantizando la trazabilidad. |
+| **EP05** | Autenticación de Usuarios              | Como usuario (emprendedor o empresa) quiero registrarme, iniciar sesión y cerrar sesión para acceder de manera segura a las funcionalidades del sistema. |
+| **TS01** | API – Gestión de Inventarios           | Como developer quiero exponer un endpoint RESTful para consultar y actualizar inventarios de manera integrada con aplicaciones externas. |
+| **TS02** | API – Tracking de Transporte           | Como developer quiero exponer un endpoint RESTful para consultar la ubicación y estado de envíos en tránsito y permitir la actualización del tracking. |
+
+## 3.2. Impact Mapping
+Se presenta los Impact Mapping que relaciona los objetivos del negocio con los actores involucrados,
+sus necesidades y las funcionalidades del producto. Este mapa ayuda a visualizar cómo cada característica
+contribuye a alcanzar los objetivos estratégicos de Storigent.
+
+_Impact Mapping Emprendedor_
+<img src="static/img/chapter 3/img-impactmapping-emprendedor.png"></img><br>
+
+_Impact Mapping Empresa_
+<img src="static/img/chapter 3/img-impactmapping-empresa.png"></img><br>
+
+## 3.3. Product Backlog
+Se detalla el backlog del producto, priorizando las historias de usuario y funcionalidades
+según su valor para el usuario y el negocio. Este backlog sirve como guía para la planificación
+de sprints y la gestión del desarrollo ágil.
+
+**Product Backlog – Storigent**
+
+| **# Orden** | **User Story Id** | **Título**                             | **Descripción**                                                                                                                            | **Story Points (1/2/3/5/8)** |
+|-------------|-------------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
+| 1           | E01-US01          | Información general y beneficios       | Como visitante (emprendedor) quiero ver un resumen y beneficios de Storigent para entender cómo puede ayudarme a gestionar productos.       | 2                            |
+| 2           | E01-US02          | Características principales            | Como visitante quiero conocer las funcionalidades claves (RFID, monitoreo, trazabilidad, guías) para evaluar la solución.                  | 3                            |
+| 3           | E01-US03          | Contenido para Emprendedores           | Como visitante emprendedor quiero información y casos de uso orientados a pequeños negocios para evaluar la aplicabilidad.                 | 2                            |
+| 4           | E01-US04          | Contenido para Empresas                | Como visitante representante de empresa quiero información orientada a operaciones a escala para evaluar la escalabilidad del producto.    | 2                            |
+| 5           | E01-US05          | Planes y contacto                      | Como visitante quiero conocer planes de precios y vías de contacto para decidir si contratar.                                              | 2                            |
+| 6           | E01-US06          | Registro                               | Como visitante quiero poder iniciar el proceso de registro desde la landing para comenzar a usar la plataforma.                            | 3                            |
+| 7           | E01-US07          | Editar perfil                          | Como usuario registrado quiero poder editar mi perfil (nombre, correo, contraseña) para mantener mi información actualizada.               | 3                            |
+| 8           | E02-US08          | Registrar producto                     | Como administrador quiero registrar productos en inventario para mantener un control actualizado del catálogo.                             | 3                            |
+| 9           | E02-US09          | Actualizar cantidades de stock         | Como administrador quiero actualizar las cantidades para reflejar entradas y salidas de inventario.                                        | 2                            |
+| 10          | E02-US10          | Notificaciones de stock bajo           | Como administrador quiero recibir alertas automáticas cuando el stock alcance niveles críticos.                                            | 5                            |
+| 11          | E02-US011         | Reportes de inventario                 | Como administrador quiero generar reportes de inventario para análisis y auditoría.                                                        | 5                            |
+| 12          | E03-US012         | Monitoreo en tiempo real               | Como administrador quiero registrar y consultar en tiempo real temperatura y humedad para controlar la conservación.                       | 5                            |
+| 13          | E03-US13          | Alertas de condiciones ambientales     | Como administrador quiero recibir alertas cuando las condiciones ambientales excedan límites definidos.                                    | 5                            |
+| 14          | E03-US14          | Guías de cuidado y conservación        | Como usuario quiero acceder a guías de conservación asociadas a cada producto o categoría para seguir buenas prácticas.                    | 3                            |
+| 15          | E04-US15          | Identificación de cargas con RFID      | Como responsable de logística quiero que las cargas tengan tags RFID para identificarlas automáticamente en puntos de control.             | 8                            |
+| 16          | E04-US16          | Consulta de ubicación en tránsito      | Como responsable quiero conocer la ubicación y estado actual de un envío para planificar recepción.                                        | 3                            |
+| 17          | E04-US17          | Historial de movimientos y trazabilidad| Como responsable quiero el historial completo de movimientos para auditoría y verificación logística.                                      | 5                            |
+| 18          | E05-US18          | Inicio de sesión                       | Como usuario registrado quiero autenticarme para acceder a mis recursos y acciones autorizadas.                                            | 3                            |
+| 19          | E06-US19          | API - Endpoints de Inventario          | Como developer quiero endpoints RESTful para consultar, crear y actualizar inventario para integrar sistemas externos.                     | 8                            |
+| 20          | E07-US20          | API - Endpoint de Tracking             | Como developer quiero un endpoint RESTful para consultar estado y ubicación de envíos para integraciones externas.                         | 8                            |
+
+              
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
+Se establecen las directrices generales de estilo que guiarán el diseño visual y la identidad
+de Storigent. Estas pautas aseguran coherencia en todos los elementos gráficos y de comunicación, 
+reforzando la imagen de marca y facilitando la experiencia del usuario.
+### Branding
+Storigent se presenta como una marca tecnológica enfocada en **eficiencia, confianza y conservación inteligente**. La identidad busca transmitir **seriedad y profesionalismo**, sin perder cercanía con emprendedores.
+
+- **Logo**: Simple, minimalista, con un ícono alusivo a inventario/trazabilidad (cajas).
+- **Identidad visual**: Debe mantener coherencia en todos los canales (web, móvil, presentaciones).
+
+### Typography
+El tipo de tipografía selecionada es roboto, esta tipografia es legible, ideales para interfaces digitales.
+
+<img src="static/img/chapter 4/img-font.png" alt="Tipografías Roboto" style="width: 400px;">
+
+**Jerarquías:**
+    - Títulos: negrita, mayor tamaño (24–32 px).
+    - Subtítulos: peso medio (18–22 px).
+    - Texto base: regular (14–16 px).
+
+### Colors
+Paleta cromática inspirada en **confianza y tecnología como el color azul**:
+
+<img src="static/img/chapter 4/img-colors.png" alt="Paleta de colores" style="width: 500px;">
+
+
+### Spacing
+Uso consistente de márgenes y paddings para asegurar claridad y orden visual.
+
+<img src="static/img/chapter 4/img-space.png" alt="Espaciado" style="width: 400px;">
+
+### Corners
+Esquinas redondeadas (14-18 px) para un aspecto moderno y amigable.
+
+<img src="static/img/chapter 4/img-corners.png" alt="Esquinas redondeadas" style="width: 400px;">
+
+### Tone of Communication
+- **Formal pero accesible**: lenguaje claro, sin tecnicismos excesivos.
+- **Respetuoso y confiable**: evitando humor o informalidades.
+- **Sereno y profesional**: transmitiendo seguridad y estabilidad.
+
 ### 4.1.2. Web Style Guidelines
+En esta sección se detallan los **estándares visuales y de interacción** para asegurar consistencia en la experiencia de usuario de Storigent, optimizada para interfaces web responsive.
+
+**Dispositivos Compatibles**
+- **Computadora de escritorio** (pantallas anchas con dashboard completo).
+- **Laptop personal** (layout adaptado).
+- **Tablets** (navegación lateral adaptada en menú hamburguesa).
+- **Smartphones** (interfaz simplificada con navegación inferior y contenido apilado).
+
+
+**Componentes Clave**
+- **Header fijo**:
+    - Logo de Storigent (izquierda).
+    - Menú de navegación (centro/derecha).
+    - Botón de *Login/Registro* destacado en el extremo derecho.
+
+- **Dashboard (usuarios autenticados)**:
+    - **Sidebar vertical** con accesos a: Inventario, Monitoreo, Trazabilidad, Guías, Reportes.
+    - Área de **contenido modular** con tarjetas de información (inventario, métricas ambientales, movimientos).
+
+- **Cards de Inventario y Monitoreo**:
+    - Nombre del producto, stock disponible, estado de conservación.
+    - Iconos de alerta (ej. stock bajo, condiciones anormales).
+    - Botón de acción (*Editar*, *Eliminar*).
+
+- **Filtros de Búsqueda / Listado**:
+    - Por categoría de producto, estado de conservación, stock, ubicación.
+    - Interfaz desplegable en móviles para optimizar espacio.
+
+**Botones**
+- **Estilo base**: Redondeados, sombra suave.
+    - **Primario**: Azul (#2D9CDB).
+    - **Secundario**: Verde (#27AE60).
+- **Hover**: Ligero cambio de color + animación suave (0.3s).
+- **Estados**:
+    - *Disabled*: Gris claro (#BDBDBD).
+    - *Active*: Azul más oscuro (#1565C0).
+- **Accesibilidad**: Altura mínima de 44px.
+
+**Navegación e Interacciones**
+- **Hover**: Sombras suaves, íconos activos, subrayado en enlaces.
+- **Focus (accesibilidad)**: Bordes resaltados visibles para navegación con teclado.
+- **Menú móvil**: Menú tipo *hamburguesa* con deslizamiento lateral.
+
+**Accesibilidad**
+- Contraste mínimo **AA** entre texto y fondo.
+- Navegación habilitada tanto por **mouse como por teclado**.
+- **Texto alternativo** en imágenes.
+- Uso de **ARIA-labels** en botones y componentes críticos.
+
+**Animaciones**
+- Suaves y no invasivas:
+    - **Fade-in** para carga de componentes.
+    - **Slide-up** para notificaciones y alertas.
+- Duración estándar: **0.3 – 0.5s**.
+- Evitar animaciones excesivas que distraigan.
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
+En la plataforma **Storigent**, se implementan sistemas de organización que optimizan la gestión de inventarios y la trazabilidad en el transporte de productos, facilitando tanto la administración de materiales como el monitoreo de sus condiciones de conservación. La estructura visual del contenido se organiza bajo los siguientes principios:
+
+1. **Jerarquía visual**:  
+   Los elementos principales como *“Inventario Actual”*, *“Monitoreo Climático”* y *“Trazabilidad de Transporte”* ocupan posiciones destacadas en el dashboard. Esta jerarquía permite que el usuario identifique de inmediato los módulos críticos para la operación.
+
+2. **Jerarquía tipográfica**:  
+   Se estableció una jerarquía de fuentes que diferencia claramente títulos, subtítulos, métricas y descripciones. Por ejemplo, los nombres de productos en inventario tienen mayor peso visual que la descripción de las guías de cuidado.
+
+3. **Organización secuencial**:  
+   Procesos como el registro de un nuevo producto o la creación de un reporte se presentan paso a paso, permitiendo que el usuario complete sus tareas de manera ordenada y sin confusión.
+
+4. **Organización matricial**:  
+   En el módulo de reportes y estadísticas, la información se muestra en tablas y gráficos comparativos, lo que permite a los usuarios analizar diferentes variables como niveles de stock, condiciones climáticas y estado del transporte en paralelo.
+
+5. **Alineación y color**:  
+   Todos los elementos visuales (tarjetas, botones e iconos) mantienen una alineación coherente para garantizar claridad. Los colores cumplen un rol funcional: el azul como color primario transmite confianza, mientras que tonos secundarios (verde para condiciones óptimas y rojo para alertas) ayudan a destacar el estado del inventario.
+
+
 ### 4.2.2. Labeling Systems
+En **Storigent**, se utiliza un sistema de etiquetado claro y simple para que los usuarios comprendan fácilmente las funciones y estados de la plataforma.
+
+- **Lenguaje sencillo**: Etiquetas como *“Inventario”*, *“Monitoreo”*, *“Trazabilidad”* y *“Guías de Cuidado”* permiten que los usuarios identifiquen sin dificultad cada módulo.
+- **Jerarquía visual**: Alertas críticas, como *“Condición fuera de rango”* o *“Stock bajo”*, se destacan con colores llamativos y mayor tamaño tipográfico.
+- **Organización secuencial**: En los procesos de creación de guías o carga de datos, se aplican etiquetas paso a paso: *“Paso 1: Datos del producto”*, *“Paso 2: Condiciones de conservación”*.
+- **Organización matricial**: En paneles de reportes, etiquetas como *“Producto”*, *“Temperatura”*, *“Humedad”*, *“Ubicación actual”* permiten visualizar y comparar fácilmente diferentes métricas.
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+Se han definido las siguientes etiquetas SEO y meta para mejorar la visibilidad de **Storigent** en buscadores y brindar información clara al usuario:
+
+- **Meta title**: *Storigent – Gestión y Conservación Inteligente de Inventarios*
+- **Meta tag Author**: *Equipo Storigent*
+- **Meta tag Description**: *Plataforma de gestión de inventarios con tecnología RFID y monitoreo climático, optimizando la conservación de productos y la trazabilidad en el transporte.*
+- **Meta tag Keywords**: *gestión de inventarios, conservación de productos, trazabilidad, transporte, RFID, monitoreo climático*
+- **SEO tag Header**: Encabezados `<h1>` y `<h2>` para destacar módulos como *Inventario*, *Monitoreo*, *Reportes* y *Trazabilidad*.
+- **SEO tag URL**: Estructura amigable como:
+    - `storigent.com/inventario`
+    - `storigent.com/monitoreo`
+    - `storigent.com/trazabilidad`
 ### 4.2.4. Searching Systems
+
+Para garantizar que los usuarios encuentren rápidamente lo que necesitan, se han implementado diferentes sistemas de búsqueda:
+
+- **Barra de búsqueda global**: Permite localizar productos, reportes o guías escribiendo el nombre o código RFID.
+- **Filtros de búsqueda**: Refinan resultados por categoría de producto, ubicación de almacén, estado de conservación o rango de fechas.
+- **Búsqueda avanzada**: Permite combinar múltiples criterios como *producto + condición climática + almacén*.
+- **Inicio rápido**: Botón de acceso inmediato al *Dashboard principal*, útil para reorientar al usuario cuando está navegando por múltiples secciones.
+
 ### 4.2.5. Navigation Systems
+
+Los sistemas de navegación en **Storigent** guían a los usuarios de manera clara y eficiente, tanto en la landing page como en la aplicación web:
+
+- **Landing Page**: Diseño vertical con secciones como *Inicio*, *Beneficios*, *Características*, *Casos de uso*, *Contacto*, evitando saturar al usuario con exceso de información.
+- **Dashboard (app web)**:
+    - Sidebar lateral con accesos directos a módulos clave: *Inventario, Monitoreo, Trazabilidad, Guías, Reportes*.
+    - Iconos e indicadores que destacan las secciones activas.
+- **Móviles/Tablets**: Menú tipo hamburguesa que despliega las mismas secciones que el sidebar, optimizado para pantallas pequeñas.
+- **Flujo de navegación**: Pensado para que el usuario pueda llegar a cualquier funcionalidad en un máximo de 3 clics desde el dashboard.
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
+En esta sección se presentan los wireframes de la landing page de Storigent, diseñados para ofrecer una experiencia de usuario clara y atractiva. Los wireframes muestran la estructura básica de la página, incluyendo la disposición de los elementos clave como el encabezado, secciones de beneficios, características del producto, planes, contacto y llamadas a la acción.
+
+<img src="static/img/chapter 4/img-landing-page-wireframe.svg" alt="Wireframe Landing Page" style="width: 600px;">
+
 ### 4.3.2. Landing Page Mock-up
+Se presentan los mock-ups de la landing page de Storigent, que reflejan el diseño visual final basado en las directrices de estilo establecidas. Los mock-ups incluyen detalles como tipografía, colores, imágenes y botones, proporcionando una vista previa realista de cómo se verá la página en producción.
+
+<img src="static/img/chapter 4/img-landing-page-mockup.png" alt="Mock-up Landing Page" style="width: 600px;">
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+
+Se presentan los wireframes de la aplicación web de Storigent, diseñados para optimizar la experiencia del usuario en la gestión de inventarios y trazabilidad. Los wireframes muestran la estructura básica de las diferentes secciones de la aplicación, incluyendo el dashboard, módulos de inventario, monitoreo climático, trazabilidad y reportes.
+
+<img src="static/img/chapter 4/img-login.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-register.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-dashboard.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-inventory.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-inventory1.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-product-info.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-reports.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-monitoreo.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-traceability.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-guide.png" alt="Wireframe Web App" style="width: 600px;" >
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams
+<img src="static/img/chapter 4/img-diagram1.png " alt=" Diagram" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-diagram2.png " alt=" Diagram" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-diagram3.png " alt=" Diagram" style="width: 600px;" >
+
+
+<img src="static/img/chapter 4/img-diagram4.png " alt=" Diagram" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-diagram5.png " alt=" Diagram" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-diagram6.png " alt=" Diagram" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-diagram7.png " alt=" Diagram" style="width: 600px;" >
+
 ### 4.4.2. Web Applications Mock-ups
+
+Se presentan los mock-ups de la aplicación web de Storigent, que reflejan el diseño visual final basado en las directrices de estilo establecidas. Los mock-ups incluyen detalles como tipografía, colores, imágenes y botones, proporcionando una vista previa realista de cómo se verá la aplicación en producción.
+
+<img src="static/img/chapter 4/img-login-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-register-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-dashboard-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-inventory-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-inventory1-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-product-info-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-reports-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-monitoreo-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-traceability-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+<img src="static/img/chapter 4/img-guide-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
 ### 4.4.3. Web Applications User Flow Diagrams
+
+<img src="static/img/chapter 4/img-diagram8.png" alt="Wireframe Web App" style="width: 600px;">
+
 ## 4.5. Web Applications Prototyping
+
+Enlace del video del prototipo interactivo de la aplicación web de Storigent: https://youtu.be/b1qELohI7n8
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level EventStorming
 ### 4.6.2. Software Architecture Context Diagram
+<img src="static/img/chapter 4/diagram-context.png" alt="Context Diagram" style="width: 600px;" >
+
 ### 4.6.3. Software Architecture Container Diagrams
+<img src="static/img/chapter 4/diagram-container.png" alt="Container Diagram" style="width: 600px;" >
+
 ### 4.6.4. Software Architecture Components Diagrams
+<img src="static/img/chapter 4/diagram-component.png" alt="Component Diagram" style="width: 600px;" >
+
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
+#Product Context
+
+<img src="static/img/chapter 4/product-diagram.png" alt="Product Diagram" style="width: 600px;" >
+
+# Inventory Context
+
+<img src="static/img/chapter 4/inventory-diagram.png" alt="Inventory Diagram" style="width: 600px;" >
+
+# Shipment Context
+
+<img src="static/img/chapter 4/shipment-diagram.png" alt="Shipment Diagram" style="width: 600px;" >
+
+# Monitoring Context
+
+<img src="static/img/chapter 4/product-diagram.png" alt="Product Diagram" style="width: 600px;" >
+
+# Maintenance Context
+
+<img src="static/img/chapter 4/maintenance-diagram.png" alt="Maintenance Diagram" style="width: 600px;" >
+
+# Support Context
+
+<img src="static/img/chapter 4/support-diagram.png" alt="Support Diagram" style="width: 600px;" >
+
 ### 4.7.2. Class Dictionary
 ## 4.8. Database Design
 ### 4.8.1. Database Diagram
 
+<img src="static/img/chapter 4/database-diagram.png" alt="Product Diagram" style="width: 600px;" >
+
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
+
+**1. Project Management:**   
+  - **Trello:** Herramienta de gestión de tableros para la organización de tareas y sprints. [https://trello.com/es](https://trello.com/es)
+
+**2. Requirements Management:**
+  - **UXPressia:** Herramienta en línea enfocada en experiencia de usuario (UX) que permite crear de forma colaborativa y visual mapas de experiencia del cliente, customer journey maps, personas y mapas de impacto. [https://uxpressia.com/](https://uxpressia.com/)
+
+**3. Product UX/UI Design:**
+  - **Figma:** Herramienta de prototipado y diseño de alta fidelidad y responsivo. [https://www.figma.com/es-es/](https://www.figma.com/es-es/)
+
+**4. Software Development:**
+  - **Webstorm:** IDE de la familia JetBrains para desarrollo con Vue.js (Javascript, HTML, CSS). [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)
+  - **Node.js y npm:** Entorno y gestor de paquetes para la SPA (Single-Page Application) en Vue.js. [https://nodejs.org/es/](https://nodejs.org/es/)
+  - **Vue CLI:** Scaffold y scripts de desarrollo (vue create, vue serve). [https://cli.vuejs.org/#getting-started](https://cli.vuejs.org/#getting-started)   
+    Comando de instalación: ```npm install -g @vue/cli```
+  - **Vue.js:** Framework progresivo para la SPA (Single-Page Application). [https://vuejs.org/](https://vuejs.org/)
+  - **Javascript:** Lenguaje de programación orientado a objectos usado principalmente para crear interactividad y dinamismo en páginas web. [https://developer.mozilla.org/es/docs/Web/JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)   
+  - **CSS:** Lenguaje de estilos que controla la presentación y el diseño visual de una página web. [https://developer.mozilla.org/es/docs/Web/CSS](https://developer.mozilla.org/es/docs/Web/CSS)   
+  - **HTML:** Lenguaje de marcado que define la estructura y el contenido de una página web. [https://developer.mozilla.org/es/docs/Web/HTML](https://developer.mozilla.org/es/docs/Web/HTML)   
+
+**5. Software Deployment:**   
+  - **Azure CLI:** Automatización de despliegues y gestión de recursos. [https://learn.microsoft.com/es-es/cli/azure/what-is-azure-cli?view=azure-cli-latest](https://learn.microsoft.com/es-es/cli/azure/what-is-azure-cli?view=azure-cli-latest)   
+  - **Azure Static Web Apps:** Publicación de la Landing Page y Single-Page Application bundles.   
+
+**6. Software Documentation:**   
+  - **Git:** Sistema de control de versiones distribuido que permite registrar cambios en el código y trabajar de forma colaborativa.   
+  - **GitHub:** Plataforma en la nube basada en Git que facilita la colaboración, gestión de proyectos y hospedaje de repositorios.   
+  - **Markdown:** Lenguaje de marcado ligero y fácil de usar, diseñado para dar formato a texto plano, generalmente usado en la documentación de proyectos. [https://markdown.es/](https://markdown.es/)   
+  - **PlantUML** (plantuml4idea): Herramienta para generar diagramas a partir de texto, integrable en Webstorm mediante el plugin *plantuml4idea*. [https://plugins.jetbrains.com/plugin/7017-plantuml4idea](https://plugins.jetbrains.com/plugin/7017-plantuml4idea)   
+
 ### 5.1.2. Source Code Management
+
+Nuestro proyecto seguirá las convenciones de flujo de trabajo definidas por el modelo GitFlow para el control de versiones de desarrollo. Teniendo a GitHub como plataforma y sistema de control de versiones.   
+
+A continuación detallaremos la implementación del modelo GitFlow y se proporcionará los URL de los repositorios de GitHub de cada producto del trabajo.
+
+**Repositorios de GitHub:**
+- Organización en GitHub: [https://github.com/Software-Keepers](https://github.com/Software-Keepers)   
+- Reporte: [https://github.com/Software-Keepers/software-keepers-storigent-report](https://github.com/Software-Keepers/software-keepers-storigent-report)   
+- Landing Page: [https://github.com/Software-Keepers/software-keepers-storigent-landing-page](https://github.com/Software-Keepers/software-keepers-storigent-landing-page)
+
+**Flujo de Trabajo GitFlow:** GitFlow es un modelo de flujo de trabajo para administrar y gestionar branches en un proyecto Git, propuesto por Vincent Driessen, diseñado para facilitar el desarrollo colaborativo.   
+
+**Estructuras de Ramas o Branches:**
+- **Main Branch:** Es la rama principal de la aplicación, contiene las versiones estables y sin errores listas para ser lanzadas públicamente.
+- **Develop Branch:** Es la rama base para el desarrollo activo, aquí se integran todas las funcionalidades nuevas antes de que se considere un lanzamiento.
+- **Feature Branch:** Es la rama que se usa para desarrollar nuevas funcionalidades o mejoras específicas del proyecto.
+- **Release Branch:** Es la rama que se utiliza para preparar una versión estable del proyecto donde se corrigen bug menores, se actualizan versiones y se ajustan las configuraciones necesarias.
+
+**Versionamiento Semántico:** Aplicaremos el sistema de versionamiento semántico (Semantic Versioning) para dar nombre a los releases de nuestra aplicación.
+
+**Convenciones de Commits:** Para hacer commits claros y estructurados en nuestro proyecto, utilizaremos la especificación Conventional Commits. Aquí tenemos a los que más usaremos en el desarrollo de ete proyecto:   
+- ```feat```: Para nuevas características.
+- ```fix```: Para arreglo de errores o *bugs*.
+- ```docs```: Para cambios en la documentación del proyecto.
+- ```refactor```: Para la refactorización de código que no añade características ni corrige errores.
+- ```chore```: Para actualizaciones que no afectan al código original.
+
 ### 5.1.3. Source Code Style Guide & Conventions
+
+Uno de los principios fundamentales que aplicamos durante el desarrollo de Storigent fue la importancia de mantener un código ordenado, legible y escalable. Es por ello que, nos propusimos a adoptar una cultura de desarrollo consciente, donde cada línea de código aporte claridad, coherencia y mantenibilidad a largo plazo.   
+
+Estas convenciones se emplearon en los entornos utilizados durante el proceso de desarrollo. A continuación, presentaremos nuestras buenas prácticas organizadas por bloques clave: HTML y CSS.   
+
+**Convenciones HTML:**   
+
+**1. Etiquetas Semánticas:** Utilizamos etiquetas semánticas como ```<header>```, ```<footer>```, ```<nav>``` y ```<section>``` para mejorar la estructura lógica del contenido de la página web.   
+
+**2. Jerarquía de Encabezados:** Respetamos el orden de las etiquetas de encabezado (de ```<h1>``` a ```<h6>```) de forma progresiva.   
+
+**3. Cierre Correcto de Etiquetas:** Todas las etiquetas deben ser cerradas explícitamente. Por ejemplo: ```<p>Soy un párrafo de ejemplo</p>```    
+
+**4. Uso Correcto de Minúsculas:** Todos los elementos y atributos se deben escribir en minúscula para mantener una estructura uniforme y limpia.    
+
+**5. Valores de Atributos dentro de Comillas Dobles:** Cuando se asigna un valor a un atributo, estos siempre deberán ir dentro de comillas dobles. Por ejemplo: ```<input type="text" placeholder="Escribe tu correo...">```    
+
+**6. Uso del Atributo ```alt``` y Asignación de Dimensiones en Imágenes:** Las etiquetas ```<img>``` deben incluir los atributos ```alt```, ```width``` y ```height``` para mejorar la accesibilidad y optimizar el tiempo de carga. Por ejemplo: ```<img src="strgn-logo.png" alt="Storigent Logo" width="128" height="128">```   
+
+**7. Evitar Anidamientos Innecesarios:** Evitamos el uso excesivo de la etiqueta ```<div>```. Logrando una estructura de código HTML limpia y fácil de entender.   
+
+**Convenciones CSS:**   
+
+**1. Guiónes como Separadores Por Defecto en Nombres:** Por ejemplo: ```.payment-card```   
+
+**2. Clases Desccriptivas y Reusables:** Usamos nombres como ```.payment-card``` y ```.btn-confirm``` en lugar de nombres genéricos como ```.card1```.   
+
+**3. Uso de Variables CSS:** Definiremos variables como ```--default-bg-color``` y ```--default-font```.   
+
+**4. Evitar Asignar Cero a Unidades:** Se debe escribir así: ```margin: 0;``` Y no así: ```margin: 0px;```   
+
+**5. Separación Visual de Reglas:** Cada selector se escribe en líneas distintas.   
+
+**6. Uso de Animaciones Suaves:** Utilizaremos animaciones como ```transition: all 0.3s ease-in-out;``` para efectos visuales sin sobrecargar la experiencia.   
+
+**Convenciones Generales de Desarrollo:**
+
+**1. Convención de Nombrado:**   
+- Los nombres de los archivos deberán ir en minúscula y separadas por guiones. Por ejemplo: ```artcle-entity.js```   
+- Los nombres de clases o componentes deberán seguir el formato *PascalCase*. Por ejemplo: ```ArticleAssembler```
+- Los nombres de las variables deben ser descriptivas. Evitar usar nombres como: ```x```, ```tmp```
+
+**2. Componentes Reutilizables:** Creamos elementos como ```PrimaryButton``` y ```SecondaryButton``` que pueden agilizar significativamente el desarrollo de las vistas.   
+
+**3. Documentación en el Código:** Agregaremos definiciones y descripciones en funciones, clases y bloques de lógica compleja.   
+
+**4. Versionado y Commits Semánticos:** Crearemos ramas como ```feat/choose-your-plan-view``` y ```fix/contact-form```; y redactaremos commits como ```feat: add validation in register button``` y ```fix: unexpected behavior of calculate function```.   
+
 ### 5.1.4. Software Deployment Configuration
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
+
+<div align="center">
+    <table>
+        <tr>
+            <th>Sprint #</th>
+            <td>Sprint 1</td>
+        </tr>
+        <tr>
+            <th colspan="2">Sprint Planning Background</th>
+        </tr>
+        <tr>
+            <th>Date</th>
+            <td>2025-08-30</td>
+        </tr>
+        <tr>
+            <th>Time</th>
+            <td>05:30 PM</td>
+        </tr>
+        <tr>
+            <th>Location</th>
+            <td>Reunión virtual a través de Google Meet</td>
+        </tr>
+        <tr>
+            <th>Prepared by</th>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+        </tr>
+        <tr>
+            <th>Attendees (to planning meeting)</th>
+            <td>Calixto Iriarte, David Alejandro; Cespedes Pillco, Jarod Jack; Checa Burga, Oscar Diego; Palomino Murga, Daniel Stalin; Zagaceta Bardales, Rodrigo Enrique</td>
+        </tr>
+        <tr>
+            <th>Sprint n - 1 Review Summary</th>
+            <td>No existe sprint previo</td>
+        </tr>
+        <tr>
+            <th>Sprint n - 1 Retrospective Summary</th>
+            <td>No existe sprint previo</td>
+        </tr>
+        <tr>
+            <th colspan="2">Sprint Goal & User Stories</th>
+        </tr>
+        <tr>
+            <th>Sprint 1 Goal</th>
+            <td>Our focues is on deploying the first version of our landing page. We believe it delivers satisfaction and confidence to our team and future users. This will be confirmed when all the members of the team and a end-users navigates our landing page without any issues.</td>
+        </tr>
+        <tr>
+            <th>Sprint 1 Velocity</th>
+            <td>12 Story Points</td>
+        </tr>
+        <tr>
+            <th>Sum of Story Points</th>
+            <td>12 Story Points</td>
+        </tr>
+    </table>
+</div>
+
 #### 5.2.1.2. Aspect Leaders and Collaborators
+
+En este sprint se busca completar la landing page de Storigent, incluyendo el diseño y su despliegue. Para lograr una correcta comunicación, se ha creado la matriz de liderazgo y colaboración (LACX), en la cual se define quien lidera y quien colabora en cada aspecto del sprint.
+
+<div align="center">
+    <table>
+        <tr>
+            <th>Team Member</th>
+            <th>Github Username</th>
+            <th>Landing Page Design</th>
+            <th>Landing Page Deployment</th>
+        </tr>
+        <tr>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>DavidCalixto99</td>
+            <td>Leader</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>PruebaJJC</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>OscarCheca</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>DanielPM23</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>Rodrigo290205</td>
+            <td>Collaborator</td>
+            <td>Leader</td>
+        </tr>
+    </table>
+</div>
+
 #### 5.2.1.3. Sprint Backlog 1
+
+El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page funcional para el proyecto Storigent. A continuación se muestra una captura de pantalla de las historias de usuario que se buscan trabajar en este sprint.
+
+<div align="center">
+    <table>
+        <tr>
+            <th colspan="1">Sprint #</th>
+            <th colspan="7">Sprint 1</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Work-Item / Task</th>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation (Hours)</th>
+            <th>Assigned To</th>
+            <th>Status (To-Do / In-Process / To-Review / Done)</th>
+        </tr>
+        <tr>
+            <td>US01</td>
+            <td>Información general y beneficios</td>
+            <td>T01</td>
+            <td>Diseñar vista principal</td>
+            <td>Crear una sección principal donde presentamos nuestro producto</td>
+            <td>2</td>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US01</td>
+            <td>Información general y beneficios</td>
+            <td>T02</td>
+            <td>Diseñar vista de beneficios</td>
+            <td>Crear una sección donde mencionamos al usuario los beneficios de optar por nuestra plataforma</td>
+            <td>3</td>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US02</td>
+            <td>Características principales</td>
+            <td>T03</td>
+            <td>Diseñar vista de características</td>
+            <td>Crear una sección donde mostramos las características que posee nuestro proyecto</td>
+            <td>2</td>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US05</td>
+            <td>Planes y contacto</td>
+            <td>T04</td>
+            <td>Diseñar vista de planes y precios</td>
+            <td>Crear una sección donde ofrecemos planes con sus respectivos precios</td>
+            <td>2</td>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US05</td>
+            <td>Planes y contactos</td>
+            <td>T05</td>
+            <td>Diseñar vista de contacto</td>
+            <td>Crear una sección donde habrá un formulario de contacto, allí el usuario podrá ingresar sus datos</td>
+            <td>3</td>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>In-Progress</td>
+        </tr>
+        <tr>
+            <td>US03</td>
+            <td>Contenido para emprendedores</td>
+            <td>T06</td>
+            <td>Diseñar vista de casos de uso para emprendedores</td>
+            <td>Crear una vista donde mostramos casos de uso para los usuarios emprendedores o pequeños negocios</td>
+            <td>2</td>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>In-Progress</td>
+        </tr>
+        <tr>
+            <td>US04</td>
+            <td>Contenido para empresas</td>
+            <td>T07</td>
+            <td>Diseñar vista de casos de uso para empresas</td>
+            <td>Crear una vista donde mostramos casos de uso para los usuarios empresa</td>
+            <td>2</td>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>In-Progress</td>
+        </tr>
+        <tr>
+            <td>US06</td>
+            <td>Registro</td>
+            <td>T08</td>
+            <td>Diseñar vista de registro de usuario</td>
+            <td>Crear una vista donde el usuario pueda registrarse, un formulario donde el usuario pueda poner sus datos personales y crear una cuenta en la plataforma</td>
+            <td>3</td>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>To-Do</td>
+        </tr>
+        <tr>
+            <td>US07</td>
+            <td>Editar Pefil</td>
+            <td>T09</td>
+            <td>Diseñar vista de perfil de usuario</td>
+            <td>Crear una vista donde el usuario pueda ver su perfil y los datos que ha registrado a la hora de la creación de su cuenta</td>
+            <td>3</td>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>To-Do</td>
+        </tr>
+        <tr>
+            <td>US08</td>
+            <td>Editar Perfil</td>
+            <td>T10</td>
+            <td>Diseñar vista de edición de datos personales</td>
+            <td>Crear una vista donde el usuario pueda modificar o cambiar los datos de su cuenta actual</td>
+            <td>3</td>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>To-Do</td>
+        </tr>
+    </table>
+</div>
+
 #### 5.2.1.4. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances en la implementación de la solución, específicamente en el desarrollo de la Landing Page correspondiente al alcance del Sprint actual. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas, los ajustes de estilo y las mejoras en la interfaz de usuario. A continuación, se muestra una tabla que resume los commits relevantes asociados a este componente.
+
+<div align="center">
+    <table>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit On (Date)</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
+
+En el primer sprint, logramos desarrollar parcialmente la implementación del despliegue del landing page. Donde se muestra las diferentes divisiones que el usuario podrá visualizar como lo sería la información sobre el startup y nuestro producto. A continuación mostramos algunas evidencias:
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante este Sprint no se desarrollaron ni documentaron Web Services, dado que el enfoque principal estuvo en la implementación de la Landing Page como primer entregable del sistema. Por lo tanto, no se cuenta con endpoints disponibles ni documentación generada en OpenAPI en esta etapa del proyecto.
+
+La documentación de servicios será considerada en los siguientes Sprints, una vez que se inicie el desarrollo del backend y se establezca la estructura básica de la API que permitirá la integración con las vistas web implementadas.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+A continuación mostraremos capturas de la landing page desplegada:
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la Landing Page y la elaboración del reporte del proyecto, dividiéndose por secciones según el diseño y el contenido definido previamente.
+
+A continuación, se detalla la participación específica de cada integrante del equipo:
+
+<div align="center">
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Actividades</th>
+        </tr>
+        <tr>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>Elaboración del Capítulo IV del reporte</td>
+        </tr>
+        <tr>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>Elaboración del Capítulo V del reporte e implementación de la vista de Plans and Prices</td>
+        </tr>
+        <tr>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>Elaboración del Capítulo I del reporte</td>
+        </tr>
+        <tr>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>Elaboración del Capítulo III y parte del Capítulo IV del reporte</td>
+        </tr>
+        <tr>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>Elaboración del Capítulo II del reporte e implementación de la vista de Contact Section and Footer</td>
+        </tr>
+    </table>
+</div>
+
+**Evidencia de Colaboración en GitHub**   
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+**Repositorio de Trabajo:** [https://github.com/Software-Keepers/software-keepers-storigent-report](https://github.com/Software-Keepers/software-keepers-storigent-report)   
+
+Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.
 
 # Conclusiones
 
+El desarrollo del proyecto Storigent ha permitido consolidar una propuesta tecnológica innovadora orientada a mejorar la gestión y conservación de inventarios en diversos sectores empresariales. Desde sus primeras etapas, se definió con claridad el propósito del software, centrado en la optimización de recursos mediante el uso de tecnologías como RFID y monitoreo climatológico, lo cual garantiza una trazabilidad eficiente en el transporte y almacenamiento de productos. Esta visión responde a necesidades reales del mercado, especialmente en empresas que requieren control riguroso de sus materiales y condiciones de conservación.
+
+A lo largo del proceso, se aplicaron metodologías centradas en el usuario, como Lean UX y técnicas de needfinding, que permitieron identificar problemáticas clave, formular hipótesis de valor y comprender profundamente a los usuarios. Herramientas como User Personas, Empathy Maps y User Journey Mapping fueron fundamentales para diseñar una solución alineada con las expectativas del público objetivo, compuesto por empresas pequeñas, grandes y emprendedores. Asimismo, el análisis competitivo y las entrevistas realizadas aportaron información valiosa para validar la propuesta y definir estrategias diferenciadoras frente a otras soluciones del mercado.
+
+En cuanto al diseño del producto, se establecieron lineamientos visuales y arquitectónicos que aseguran coherencia, escalabilidad y facilidad de uso. Se desarrollaron diagramas de arquitectura, componentes y base de datos, además de una estructura clara del backlog y las historias de usuario que guían el desarrollo incremental del software. El primer sprint, enfocado en la implementación de la Landing Page, permitió materializar la propuesta de valor de Storigent en una interfaz funcional y atractiva, que sirve como punto de partida para la validación con usuarios reales y la captación de potenciales clientes.
+
+Finalmente, el trabajo colaborativo del equipo, junto con la aplicación de prácticas ágiles como la planificación de sprints y la documentación de evidencias, ha demostrado una gestión eficiente del proyecto. Este enfoque ha facilitado la toma de decisiones informadas y el avance continuo hacia la implementación completa del producto. Con una base sólida ya establecida, Storigent se encuentra preparado para continuar con el desarrollo de sus servicios y aplicaciones web, consolidando su posicionamiento como una solución integral en el mercado de gestión de inventarios.
+
 # Bibliografía
+
+Sanz Mateo, M. I. (2015). Metodología LEAN para el desarrollo de software. Ejemplo práctico de aplicación en empresa de desarrollo de software (Trabajo Fin de Grado). Universidad de Valladolid. Recuperado de https://uvadoc.uva.es/handle/10324/13538
+
+Bautista Bohórquez, C. L. (2019). Estudio de la adopción de metodologías ágiles para la gestión de proyectos de desarrollo de software (Tesis de Maestría). Universidad Industrial de Santander. Recuperado de https://noesis.uis.edu.co/bitstreams/2ece66e4-aca1-427e-b077-e88f67bd9b84/download
+
+Red Hat. (2019). ¿Qué es la arquitectura basada en eventos?. Red Hat. Recuperado de https://www.redhat.com/es/topics/integration/what-is-event-driven-architecture [¿Qué es la...- Red Hat]
+
+Sánchez, C. (2020). Citar Entrevistas – Referencia Bibliográfica. Normas APA (7ma edición). Recuperado de https://normas-apa.org/referencias/citar-entrevistas/
+
+Carreño Dueñas, D. A., Amaya González, L. F., Ruiz Orjuela, E. T., & Tiboche, F. J. (2019). Diseño de un sistema para la gestión de inventarios de las pymes en el sector alimentario. Industrial Data, 22(1), 113–132. https://doi.org/10.15381/idata.v22i1.16530
+
+Carballo-Huerta, M. A., & González-Ramírez, G. A. (2023). El diseño centrado en el usuario: Estrategia para la actualización docente. Revista Legado de Arquitectura y Diseño, 18(34). Universidad Autónoma del Estado de México. https://www.redalyc.org/articulo.oa?id=477975707014
+
+López Fuentes, F. de A. (2015). Sistemas distribuidos. Universidad Autónoma Metropolitana, Unidad Cuajimalpa. http://dccd.cua.uam.mx/libros/archivos/03IXStream_sistemas_distribuidos.pdf
+
+De la Cruz Medina, S. (2024). Implementación de metodologías ágiles en proyectos tecnológicos educativos de nivel superior. LATAM Revista Latinoamericana de Ciencias Sociales y Humanidades, 5(5). https://dialnet.unirioja.es/descarga/articulo/9789020.pdf
+
+Codina, L. (2019). Bibliografía sobre investigación cualitativa. Recuperado de https://www.lluiscodina.com/investigacion-cualitativa-recursos/bibliografia/ [Bibliograf...uís Codina]
 
 # Anexos
 ### Anexo A: Entrevistas Completas
 - Enlace a las entrevistas: [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215489_upc_edu_pe/EcThJtRL6aJFq7Wk32pNBjQBOfF9F6D4RgZPk9REMN0-uA?e=UzTDLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+

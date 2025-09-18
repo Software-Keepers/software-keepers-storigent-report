@@ -2199,3 +2199,5 @@ Codina, L. (2019). Bibliografía sobre investigación cualitativa. Recuperado de
 ### Anexo A: Entrevistas Completas
 - Enlace a las entrevistas: [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215489_upc_edu_pe/EcThJtRL6aJFq7Wk32pNBjQBOfF9F6D4RgZPk9REMN0-uA?e=UzTDLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+### Anexo B: Videos de Exposiciones
+- TB1: [Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215489_upc_edu_pe/EbNb43GP5w1PuhV8VVmfXeQBbj0yxzQqLifgkmz7JIJq2Q?e=DZdmnw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)

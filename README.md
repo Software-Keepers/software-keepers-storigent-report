@@ -86,22 +86,21 @@
 
 <h1>Student Outcome</h1>
 <table>
-        <thead>
-            <tr>
-                <th>Versión</th>
-                <th>Fecha</th>
-                <th>Autor</th>
-                <th>Descripción de modificaciones</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th></th>
+         <tr>
+                <td>Criterio específico</td>
+                <td>Acciones realizadas</td>
+                <td>Conclusiones</td>
+        </tr>
+        <tr>
+                <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
                 <td></td>
                 <td></td>
+        </tr>
+        <tr>
+                <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
                 <td></td>
-            </tr>
-      </tbody>
+                <td></td>
+        </tr>
 </table>
 
 # Tabla de contenidos

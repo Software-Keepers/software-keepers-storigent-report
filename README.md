@@ -341,6 +341,19 @@ Como grupo, nos comprometemos a resolver este desafío mediante una colaboració
 
 #### 1.2.2.4. Lean UX Canvas
 
+| **1. Business problem** | **5. Solutions** | **2. Business outcomes** |
+|--------------------------|------------------|---------------------------|
+| En el Perú, muchas empresas pequeñas, grandes y emprendedores enfrentan pérdidas económicas por una gestión ineficiente de inventarios, la falta de trazabilidad en el transporte y la ausencia de guías de conservación de productos. Esto genera errores, mermas, sobrecostos logísticos y desorden operativo, afectando directamente su competitividad y sostenibilidad en el mercado. | <br><br>• Implementar un sistema de registro y control inteligente de inventarios.<br>• Incluir guías de conservación y recomendaciones personalizadas por tipo de producto.<br>• Generar reportes automáticos de pérdidas, rotación de stock y alertas de desabastecimiento.<br>• Crear una interfaz amigable, accesible desde dispositivos web.<br>• Espacio exclusivo para que las empresas gestionen usuarios, roles y permisos. | • Optimizar la gestión de inventarios y reducir pérdidas.<br>• Mejorar la trazabilidad de los productos en el transporte.<br>• Ofrecer una plataforma escalable tanto para pequeños negocios como grandes empresas. |
+
+| **3. Users** |   | **4. User outcomes and benefits** |
+|--------------|---|-----------------------------------|
+| • Empresas pequeñas y grandes: buscan optimizar costos, mejorar su control operativo y tener trazabilidad en toda la cadena logística.<br><br>• Emprendedores: requieren una plataforma práctica, económica y sencilla para gestionar inventarios desde cero y crecer de manera ordenada. |   | • Reducir errores en el control de inventario.<br>• Disminuir pérdidas por deterioro o mala conservación de productos.<br>• Contar con trazabilidad en tiempo real del transporte de mercancías.<br>• Aumentar la eficiencia en la operación diaria con una herramienta intuitiva.<br>• Escalar su negocio con una solución adaptable a su tamaño y necesidades. |
+
+| **6. Hypothesis** | **7. ¿Qué es lo más importante que debemos aprender primero?** | **8. ¿Cuál es la menor cantidad de trabajo que necesitamos hacer para resolver las dudas y para hacer lo siguiente más importante?** |
+|-------------------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| • Creemos que los usuarios estarán dispuestos a usar una app de gestión integral de inventarios si esta reduce errores y pérdidas económicas.<br>• Sabremos que hemos tenido éxito cuando al menos el 60% de los usuarios reporten una disminución en sus pérdidas operativas en los primeros 3 meses.<br>• Creemos que las guías de conservación de productos son un valor agregado clave.<br>• Sabremos que hemos tenido éxito cuando al menos el 50% de los usuarios las utilicen de forma recurrente. | • Si las empresas están dispuestas a digitalizar sus procesos de inventario con una plataforma accesible.<br>• Qué nivel de interés real existe en la trazabilidad del transporte en distintos sectores.<br>• Si los usuarios encuentran útiles y aplicables las guías de conservación.<br>• Qué barreras de adopción tecnológica enfrentan los emprendedores y pequeñas empresas. | • Crear un landing page informativo con la propuesta de valor de Storigent.<br>• Realizar entrevistas a emprendedores y empresas para validar sus necesidades.<br>• Desarrollar un video demostrativo que explique cómo la plataforma reduce pérdidas y mejora el control. |
+
+
 ## 1.3. Segmentos objetivo
 
 #### 1. Empresas (pequeñas y grandes)

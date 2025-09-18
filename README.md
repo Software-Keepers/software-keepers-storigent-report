@@ -45,7 +45,8 @@
     <strong>Septiembre, 2025</strong>
 </p>
 <br>
-<h1 align="center">Registro de versiones del Informe</h1>
+
+# Registro de Versiones del Informe
 <table>
     <thead>
         <tr>
@@ -82,9 +83,40 @@
 
 <br><br>
 # Project Report Collaboration Insights
+
+Enlace al repositorio de GitHub TB1: [Repositorio GitHub TB1](https://github.com/Software-Keepers/software-keepers-storigent-report)
+
+Colaboración en el desarrollo del informe del proyecto Storigent:
+
+David Alejandro Calixto Iriarte:
+
+<img src="/static/img/chapter 2/img-collaboration-David.png" alt="David Calixto" style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+Jarod Jack Céspedes Pillco:
+
+<img src="/static/img/chapter 2/img-collaboration-Jarod.png" alt="Jarod Cespedes" style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+Oscar Checa Burga:
+
+<img src="/static/img/chapter 2/img-collaboration-Oscar.png" alt="Oscar Checa" style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+Daniel Stalin Palomino Murga:
+
+<img src="/static/img/chapter 2/img-collaboration-Daniel.png" alt="Daniel Palomino" style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+Rodrigo Enrique Zagaceta Bardales:
+
+<img src="/static/img/chapter 2/img-collaboration-Rodrigo.png" alt="Rodrigo Zagaceta" style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+Todos los integrantes:
+
+<img src="/static/img/chapter 2/img-top-commiters.png" alt="Top Commiters" style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+<img src="/static/img/chapter 2/img-commits-over-time.png" alt="Commits Over Time" style="display: block; margin: auto; max-width: 100%; height: auto;">
+
 <br><br>
 
-<h1>Student Outcome</h1>
+# Student Outcome
 <table>
          <tr>
                 <td>Criterio específico</td>

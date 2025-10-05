@@ -374,130 +374,17 @@ Este análisis permite establecer comparaciones relevantes y detectar espacios d
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
-En esta sección se presentan las estrategias y tácticas preliminares que 
-Storigent aplicará para enfrentar las fortalezas de sus competidores, aprovechar sus debilidades 
-y posicionarse en un contexto de oportunidades y amenazas. El objetivo es construir una ventaja 
-competitiva sostenible que permita a la startup diferenciarse en el mercado de soluciones digitales 
-para la gestión de inventarios.
-
-#### Fortalezas: Enfoque especializado en conservación y trazabilidad
-Gracias a su enfoque en la conservación de productos mediante sensores ambientales y tecnología RFID, Storigent se posiciona como una solución única frente a competidores más generalistas. Esta especialización permite atraer a empresas que manejan productos sensibles, como alimentos, medicinas o tecnología, que requieren condiciones específicas de almacenamiento y transporte.
-
-#### Táctica: 
-Aprovechar esta fortaleza para diferenciarse en el mercado, destacando en campañas de marketing el valor agregado de preservar la calidad del producto, algo que los competidores no ofrecen.
-
-#### Debilidades: Startup en etapa temprana sin validación masiva
-Al ser una startup nueva, Storigent aún no cuenta con una base sólida de clientes ni alianzas estratégicas como sus competidores. Esto puede generar dudas en empresas grandes al momento de adoptar la solución.
-
-#### Táctica: 
-Realizar pilotos con empresas locales, generar casos de éxito y testimonios que validen la efectividad del producto. Además, buscar alianzas con operadores logísticos y distribuidores para ganar confianza y visibilidad.
-
-#### Oportunidades: Nichos desatendidos y sectores sensibles
-Existen sectores como la logística farmacéutica, agroindustria y tecnología que requieren soluciones específicas para la conservación de productos, pero que no están bien atendidos por los competidores actuales.
-
-#### Táctica: 
-Enfocar el desarrollo comercial en estos nichos, creando contenido técnico, guías de cuidado y demostraciones personalizadas que muestren cómo Storigent resuelve problemas reales en estos sectores.
-
-#### Amenazas: Competidores con mayor presencia y capacidad de reacción
-Competidores como Zoho o Katana MRP tienen recursos para adaptar sus productos rápidamente si identifican a Storigent como una amenaza. Esto podría incluir mejoras en trazabilidad o ajustes en precios.
-
-#### Táctica: 
-Mantener una estrategia de innovación constante, escuchando activamente a los usuarios y mejorando el producto de forma ágil. Además, aprovechar el tamaño reducido de la startup para moverse con rapidez y flexibilidad frente a los cambios del mercado.
-
 ## 2.2. Entrevistas
-Se presenta el enfoque metodológico utilizado para recolectar información cualitativa 
-a través de entrevistas a usuarios potenciales. El objetivo es comprender sus necesidades, 
-comportamientos, frustraciones y expectativas frente a soluciones como Storigent.
-
 ### 2.2.1. Diseño de entrevistas
-Se presenta el diseño estructurado de las entrevistas, incluyendo preguntas principales y complementarias 
-para cada segmento (empresas y emprendedores). Las preguntas están orientadas a recolectar información demográfica, 
-tecnológica, emocional y funcional, necesaria para el desarrollo de arquetipos y la validación del producto.
-
-#### Segmento Objetivo 1: Empresas
-- Nombre completo
-- Edad
-- Distrito de residencia
-- Estado civil
-- Profesión / Cargo
-- Nombre y rubro de la empresa
-- ¿Cómo gestionan actualmente sus inventarios?
-- ¿Qué tipo de productos almacenan y transportan?
-- ¿Han tenido problemas con la conservación o transporte de productos?
-- ¿Qué tecnologías usan actualmente (RFID, sensores, software)?
-- ¿Qué dispositivos usan con mayor frecuencia en su trabajo diario?
-- ¿Qué canales digitales utilizan para gestionar sus operaciones logísticas?
-- ¿Qué habilidades considera clave en su equipo para manejar inventarios?
-- ¿Qué frustraciones han tenido con sistemas anteriores?
-- ¿Qué tipo de notificaciones les serían útiles para el control de inventario?
-- ¿Qué funcionalidades les gustaría tener en un software de gestión de inventarios?
-- ¿Qué marcas o softwares han utilizado anteriormente?
-- ¿Qué objetivos tienen respecto a la optimización de sus almacenes?
-- ¿Estarían dispuestos a probar una solución como Storigent? ¿Por qué?
-
-#### Segmento Objetivo 2: Emprendedores
-- Nombre completo
-- Edad
-- Distrito de residencia
-- Estado civil
-- Profesión / Tipo de emprendimiento
-- ¿Cómo gestionas actualmente tus productos e inventario?
-- ¿Qué dificultades enfrentas al conservar o transportar tus productos?
-- ¿Qué herramientas digitales usas para tu negocio?
-- ¿Qué dispositivos usas para gestionar tu emprendimiento?
-- ¿Qué canales digitales usas para interactuar con clientes o proveedores?
-- ¿Qué habilidades consideras que te faltan para mejorar la gestión de tu inventario?
-- ¿Qué frustraciones has tenido al manejar tus productos?
-- ¿Qué tipo de información te gustaría recibir sobre tus productos en tránsito?
-- ¿Qué funcionalidades te gustaría que tenga un software como Storigent?
-- ¿Qué marcas o soluciones similares conoces o has usado?
-- ¿Qué objetivos tienes para escalar tu negocio?
-- ¿Estarías dispuesto a usar una solución como esta? ¿Por qué?
-
 ### 2.2.2. Registro de entrevistas
-Se documenta la información obtenida durante las entrevistas, incluyendo los perfiles de los participantes, 
-sus respuestas más relevantes y observaciones que aportan valor al análisis posterior. 
-Este registro permite tener una base sólida para la interpretación de resultados.
-
 ### 2.2.3. Análisis de entrevistas
-Se analiza la información recopilada en las entrevistas, identificando patrones comunes, insights clave 
-y necesidades recurrentes. Este análisis contribuye a la construcción de arquetipos y a la definición de 
-funcionalidades relevantes para el producto.
-
 ## 2.3. Needfinding
-Se describe el proceso de identificación profunda de necesidades reales de los usuarios, 
-utilizando herramientas de diseño centrado en el usuario. Este proceso permite comprender mejor sus motivaciones, 
-frustraciones y objetivos, más allá de lo evidente.
-
 ### 2.3.1. User Personas
-Se presentan perfiles representativos de los usuarios objetivo, construidos a partir de los datos obtenidos 
-en entrevistas. Estos perfiles incluyen información demográfica, comportamientos, objetivos, frustraciones y 
-preferencias tecnológicas, y sirven como guía para el diseño del producto.
-
 ### 2.3.2. User Task Matrix
-Se organiza la información sobre las tareas clave que los usuarios realizan en relación con la gestión 
-de inventarios, vinculándolas con sus objetivos y necesidades. Esta matriz permite identificar oportunidades 
-de mejora en la experiencia del usuario.
-
 ### 2.3.3. User Journey Mapping
-Se visualiza el recorrido del usuario al interactuar con el producto, identificando momentos críticos, 
-emociones, puntos de dolor y oportunidades de mejora. Este mapeo ayuda a entender la experiencia completa 
-del usuario y a diseñar soluciones más efectivas.
-
 ### 2.3.4. Empathy Mapping
-Se representa gráficamente lo que el usuario piensa, siente, dice y hace, con el objetivo 
-de comprender su experiencia desde una perspectiva más humana y empática. Esta herramienta permite 
-profundizar en la dimensión emocional del usuario.
-
-## 2.4. Big Picture EventStorming
-Se realiza una exploración colaborativa de los eventos clave dentro del sistema, 
-permitiendo entender el flujo general de procesos y detectar áreas críticas para el diseño funcional 
-de Storigent. Esta técnica facilita la alineación entre el equipo y la visión del producto.
-
+## 2.4. Big Picture EventStorming.
 ## 2.5. Ubiquitous Language
-Se define un lenguaje común entre todos los actores del proyecto, que facilite la comunicación clara 
-y coherente durante el desarrollo de Storigent. Este lenguaje compartido evita ambigüedades y asegura 
-que todos los involucrados comprendan los conceptos clave de forma unificada.
 
 # Capítulo III: Requirements Specification
 ## 3.1. User Stories

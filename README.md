@@ -523,18 +523,6 @@ Enlace del video del prototipo interactivo de la aplicación web de Storigent: h
 | **Storigent** | Representa el software principal de la startup, encargado de gestionar todo el ecosistema. | - systemId: int <br> - version: string | + run(): void <br> + manageUsers(): void | - Elemento central que integra todos los contextos |
 
 
-✅ **Notas:**
-- La clase `User` es abstracta y sirve como base para los tipos de usuario: `Company` y `Entrepreneur`.  
-- `MonitoringDevice` y `MaintenanceTask` pertenecen al contexto técnico-operativo.  
-- `Product` e `Inventory` conforman el contexto de gestión logística.  
-- `Feedback` y `Report` forman parte del contexto de análisis y comunicación.  
-- `Storigent` actúa como el integrador principal entre todos los bounded contexts.
-
----
-
-
-
-
 ## 4.8. Database Design
 ### 4.8.1. Database Diagram
 

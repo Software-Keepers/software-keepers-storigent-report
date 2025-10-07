@@ -528,7 +528,7 @@ Enlace del video del prototipo interactivo de la aplicación web de Storigent: h
 
 <img src="static/img/chapter 4/database-diagram.png" alt="Product Diagram" style="width: 600px;" >
 
-# Capítulo V: Product Implementation, Validation & Deployment
+# Capítulo V: Product Implementation, Validation & Deployment 
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
 ### 5.1.2. Source Code Management

@@ -3003,3 +3003,6 @@ Codina, L. (2019). Bibliografía sobre investigación cualitativa. Recuperado de
 
 ### Anexo B: Videos de Exposción
 - TB1: [Video de la presentación del TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215489_upc_edu_pe/EbNb43GP5w1PuhV8VVmfXeQBKXyZb7Is-4myhDAHb3akpg?e=Fhugjt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+### Anexo C: Landing Page, Web Application y Web Services Desplegados
+- Landing Page: [Storigent Landing Page](https://software-keepers.github.io/software-keepers-storigent-landing-page/)

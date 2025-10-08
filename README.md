@@ -1722,7 +1722,10 @@ En esta sección se presentan los wireframes de la landing page de Storigent, di
 ### 4.3.2. Landing Page Mock-up
 Se presentan los mock-ups de la landing page de Storigent, que reflejan el diseño visual final basado en las directrices de estilo establecidas. Los mock-ups incluyen detalles como tipografía, colores, imágenes y botones, proporcionando una vista previa realista de cómo se verá la página en producción.
 
+Enlace de figma: https://www.figma.com/design/qwHi79P94qIkriNRHf70fj/storigent-landing-page?node-id=0-1&t=haJoorRm55obVpz2-1
+
 <img src="static/img/chapter 4/img-landing-page-mockup.png" alt="Mock-up Landing Page" style="width: 600px;">
+
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
@@ -1790,6 +1793,8 @@ Guías:
 ### 4.4.2. Web Applications Mock-ups
 
 Se presentan los mock-ups de la aplicación web de Storigent, que reflejan el diseño visual final basado en las directrices de estilo establecidas. Los mock-ups incluyen detalles como tipografía, colores, imágenes y botones, proporcionando una vista previa realista de cómo se verá la aplicación en producción.
+
+Enlace de figma: https://www.figma.com/design/hkuxm77RRZjlHUsfjd7c9q/storigent-landing-page-mockup?node-id=0-1&t=DCyUCVsK7JzQDL8F-1
 
 Inicio de session:
 

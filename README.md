@@ -2956,6 +2956,16 @@ A continuación, se detalla la participación específica de cada integrante del
     </table>
 </div>
 
+**Evidencia de Colaboración en GitHub**   
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+<div style="text-align: center; margin-top: 10px;">
+    <img src="static/img/chapter-5-team-collaboration-evidence.png" alt="Team Collab" />
+</div>
+
+**Repositorio de Trabajo:** [Web Application Storigent](https://github.com/Software-Keepers/software-keepers-storigent-frontend-web-application)
+
+Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.
 
 # Conclusiones
 

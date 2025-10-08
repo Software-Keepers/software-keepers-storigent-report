@@ -314,12 +314,45 @@ Este monto resulta mínimo en comparación con las pérdidas generadas por una g
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 
-En un contexto donde la gestión de inventarios y la trazabilidad logística se han convertido en factores clave para la competitividad empresarial, se hace evidente la necesidad de una plataforma digital que facilite el control, conservación y transporte de productos de manera eficiente. Dicha solución debe proporcionar a empresas y emprendedores una experiencia práctica, confiable y adaptable a las características de su operación.
+En el contexto actual, las empresas y emprendedores enfrentan un entorno altamente competitivo donde la eficiencia operativa y la gestión inteligente de inventarios se han convertido en factores determinantes para mantener la rentabilidad y la confianza del cliente. Sin embargo, muchas organizaciones aún dependen de procesos manuales o sistemas aislados que dificultan el control, la trazabilidad y la conservación adecuada de sus productos.
 
-Como grupo, nos comprometemos a resolver este desafío mediante una colaboración estrecha con los usuarios que requieren optimizar la administración de sus inventarios, así como con empresas que buscan mejorar su trazabilidad y reducir pérdidas operativas. Nos enfocaremos en comprender profundamente las necesidades y expectativas de nuestros clientes, utilizando esta información para diseñar y desarrollar una solución innovadora que satisfaga sus requerimientos de manera integral.
+Ante esta situación, se identifica la necesidad de una solución integral y digital que permita optimizar la administración de inventarios, garantizar la trazabilidad en toda la cadena logística y ofrecer herramientas de conservación adaptadas a las características de cada producto.
 
+#### Domain:
 
-#### 1.2.2.2. Lean UX Assumptions.
+El proyecto se enmarca en el ámbito de la gestión de inventarios y trazabilidad logística, un sector clave para el desempeño empresarial. Este dominio abarca procesos de control, almacenamiento, transporte y conservación de productos, los cuales influyen directamente en la eficiencia operativa y la satisfacción del cliente final.
+
+#### Customer Segments:
+
+El público objetivo está compuesto por empresas pequeñas, medianas y grandes, así como emprendedores que buscan mejorar la gestión de sus inventarios mediante herramientas tecnológicas. Mientras las empresas consolidadas necesitan sistemas escalables y precisos, los emprendedores requieren soluciones prácticas y accesibles que les permitan crecer de manera organizada y competitiva.
+
+#### Pain Points:
+
+Los principales problemas que enfrentan los usuarios incluyen:
+
+-Falta de integración entre control de inventarios, trazabilidad y conservación de productos.
+
+-Procesos manuales que generan errores, desorden y pérdida de información.
+
+-Desconocimiento del estado y ubicación de los productos en tiempo real.
+
+-Deterioro o vencimiento por ausencia de guías de cuidado adecuadas.
+
+-Sobrecostos logísticos derivados de excesos, quiebres de stock o ineficiencias en el transporte.
+
+#### Gap: 
+
+Aunque existen softwares de gestión de inventarios, la mayoría se enfoca únicamente en el registro de stock sin incorporar trazabilidad logística ni guías de conservación. Este vacío tecnológico impide ofrecer una solución integral que responda a las necesidades reales de control, monitoreo y prevención de pérdidas.
+
+#### Vision / Strategy:
+
+La visión del proyecto Storigent es desarrollar una plataforma digital integral y adaptable que combine gestión de inventarios, trazabilidad en transporte y guías de conservación en un solo entorno. La estrategia se centra en el diseño colaborativo con los usuarios, validando continuamente sus necesidades y ajustando la solución para maximizar su valor, usabilidad y eficiencia operativa.
+
+#### Initial Segment:
+
+El segmento inicial de validación está conformado por emprendedores y pequeñas empresas del sector retail y alimentario, quienes presentan mayores desafíos en la conservación de productos y control de stock. A través de este grupo se busca obtener aprendizajes clave para mejorar la plataforma y posteriormente escalarla hacia sectores más amplios y empresas de mayor tamaño.
+
+#### 1.2.2.2. Lean UX Assumptions
 
 #### Bussiness Assumptions
 
@@ -347,18 +380,86 @@ Como grupo, nos comprometemos a resolver este desafío mediante una colaboració
 
 •	Valoran la seguridad y transparencia en el manejo de sus datos y operaciones.
 
+#### Feature Assumptions
+
+•	Creemos que la integración de módulos de inventario, trazabilidad y conservación será clave para generar valor real al usuario, permitiéndole centralizar todo el control en una sola plataforma.
+
+•	Creemos que las alertas automáticas sobre stock, vencimiento y transporte ayudarán a los usuarios a anticiparse a problemas y tomar decisiones oportunas.
+
+•	Creemos que los reportes inteligentes permitirán visualizar pérdidas, rotación de productos y desempeño logístico, facilitando una gestión basada en datos.
+
+•	Creemos que un panel de control centralizado simplificará la administración de inventarios en empresas con múltiples sedes o líneas de producto.
+
+•	Creemos que una interfaz intuitiva, visual y personalizable incrementará la adopción y satisfacción del usuario, al reducir la curva de aprendizaje y el tiempo de uso diario.
+
+#### User Outcome Assumptions
+
+•	Los usuarios lograrán reducir pérdidas por deterioro, exceso o quiebre de stock.
+
+•	Experimentarán mayor control y visibilidad de sus operaciones en tiempo real.
+
+•	Mejorarán la eficiencia y organización interna, dedicando menos tiempo a tareas repetitivas.
+
+•	Sentirán mayor confianza y seguridad en sus procesos logísticos al contar con trazabilidad completa.
+
+•	Percibirán a Storigent como una herramienta indispensable para la gestión diaria de su negocio.
+
+#### Business Outcomes
+
+•	Las empresas que utilicen Storigent podrán disminuir hasta un 30 % sus costos logísticos y de almacenamiento.
+
+•	El proyecto obtendrá mayor retención de clientes debido al impacto positivo en la eficiencia operativa.
+
+•	Storigent fortalecerá su posicionamiento competitivo en el mercado tecnológico B2B y emprendedor.
+
+•	El uso continuo de la plataforma generará crecimiento sostenible mediante planes escalables de suscripción.
+
+•	El éxito medible se reflejará en usuarios satisfechos, reducción de pérdidas y rentabilidad del producto.
+
+
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-•  Creemos que los emprendedores y empresas necesitan una solución integral para gestionar sus inventarios, conservar sus productos y garantizar la trazabilidad en el transporte.
+#### Hypothesis Statement 1:
 
-•  Creemos que si ofrecemos una plataforma accesible y fácil de usar, los usuarios estarán más dispuestos a adoptar Storigent en lugar de depender de métodos manuales o herramientas dispersas.
+**Creemos que** la implementación de un módulo de trazabilidad en tiempo real permitirá que los usuarios controlen con mayor precisión el estado y ubicación de sus productos, optimizando la gestión logística.
 
-•  Creemos que al brindar información clara y en tiempo real, los usuarios reducirán errores en el control de inventarios, mejorarán la eficiencia operativa y disminuirán pérdidas por deterioro o exceso de stock.
+**Sabremos que hemos tenido éxito** 
 
-•  Creemos que si garantizamos seguridad y transparencia en los datos, los usuarios confiarán en la plataforma y la utilizarán como parte esencial de sus operaciones.
+**Cuando** observemos una reducción del 20% en incidencias logísticas y un incremento en la satisfacción de los usuarios respecto al seguimiento de productos.
 
-•  Creemos que al demostrar un impacto positivo en la reducción de costos y riesgos, los usuarios estarán dispuestos a invertir en Storigent como una solución sostenible y escalable.
+#### Hypothesis Statement 2:
+
+**Creemos que** el uso de alertas automáticas de stock y vencimiento permitirá que los usuarios anticipen roturas de inventario o pérdidas por caducidad, mejorando la eficiencia operativa.
+
+**Sabremos que hemos tenido éxito** 
+
+**Cuando** se registre una reducción del 15% en productos vencidos o fuera de stock, junto con una mayor frecuencia en el uso de las alertas dentro del sistema.
+
+#### Hypothesis Statement 3:
+
+**Creemos que** la integración de reportes inteligentes y visuales permitirá que los usuarios tomen decisiones informadas basadas en datos actualizados y precisos.
+
+**Sabremos que hemos tenido éxito**
+
+**Cuando** se evidencie un aumento del 25% en la utilización de los dashboards y reportes, y una mejora en la percepción del control sobre la gestión del inventario.
+
+#### Hypothesis Statement 4:
+
+**Creemos que** una interfaz intuitiva, visual y personalizable facilitará la adopción de la plataforma y mejorará la experiencia del usuario desde el primer uso.
+
+**Sabremos que hemos tenido éxito**
+
+**Cuando** la plataforma alcance una tasa de retención de usuarios superior al 80% en los primeros seis meses y una reducción notable en solicitudes de soporte por dificultades de uso.
+
+#### Hypothesis Statement 5:
+
+**Creemos que** la integración de múltiples puntos de venta o sedes en un solo sistema permitirá que los usuarios gestionen de forma unificada su inventario, favoreciendo la escalabilidad.
+
+**Sabremos que hemos tenido éxito** 
+
+**Cuando** se observe un aumento del 30% en empresas que implementan la solución en más de una sede y una disminución en los tiempos de consolidación de información logística.
+
 
 #### 1.2.2.4. Lean UX Canvas
 

@@ -1729,28 +1729,49 @@ Se presentan los mock-ups de la landing page de Storigent, que reflejan el dise�
 
 Se presentan los wireframes de la aplicación web de Storigent, diseñados para optimizar la experiencia del usuario en la gestión de inventarios y trazabilidad. Los wireframes muestran la estructura básica de las diferentes secciones de la aplicación, incluyendo el dashboard, módulos de inventario, monitoreo climático, trazabilidad y reportes.
 
+Inicio de session:
+
 <img src="static/img/chapter 4/img-login.png" alt="Wireframe Web App" style="width: 600px;" >
+
+Registrarse:
 
 <img src="static/img/chapter 4/img-register.png" alt="Wireframe Web App" style="width: 600px;" >
 
+Dashboard:
+
 <img src="static/img/chapter 4/img-dashboard.png" alt="Wireframe Web App" style="width: 600px;" >
+
+Inventario:
 
 <img src="static/img/chapter 4/img-inventory.png" alt="Wireframe Web App" style="width: 600px;" >
 
+Registro de producto:
+
 <img src="static/img/chapter 4/img-inventory1.png" alt="Wireframe Web App" style="width: 600px;" >
+
+Visualizacion del producto añadido:
 
 <img src="static/img/chapter 4/img-product-info.png" alt="Wireframe Web App" style="width: 600px;" >
 
+Reportes:
+
 <img src="static/img/chapter 4/img-reports.png" alt="Wireframe Web App" style="width: 600px;" >
+
+Monitoreo de clima:
 
 <img src="static/img/chapter 4/img-monitoreo.png" alt="Wireframe Web App" style="width: 600px;" >
 
+Trazabilidad:
+
 <img src="static/img/chapter 4/img-traceability.png" alt="Wireframe Web App" style="width: 600px;" >
+
+Guías:
 
 <img src="static/img/chapter 4/img-guide.png" alt="Wireframe Web App" style="width: 600px;" >
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+
 <img src="static/img/chapter 4/img-diagram1.png " alt=" Diagram" style="width: 600px;" >
 
 <img src="static/img/chapter 4/img-diagram2.png " alt=" Diagram" style="width: 600px;" >
@@ -1770,23 +1791,43 @@ Se presentan los wireframes de la aplicación web de Storigent, diseñados para 
 
 Se presentan los mock-ups de la aplicación web de Storigent, que reflejan el diseño visual final basado en las directrices de estilo establecidas. Los mock-ups incluyen detalles como tipografía, colores, imágenes y botones, proporcionando una vista previa realista de cómo se verá la aplicación en producción.
 
+Inicio de session:
+
 <img src="static/img/chapter 4/img-login-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+Registrarse:
 
 <img src="static/img/chapter 4/img-register-m.png" alt="Wireframe Web App" style="width: 600px;" >
 
+Dashboard:
+
 <img src="static/img/chapter 4/img-dashboard-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+inventario:
 
 <img src="static/img/chapter 4/img-inventory-m.png" alt="Wireframe Web App" style="width: 600px;" >
 
+Agregar producto:
+
 <img src="static/img/chapter 4/img-inventory1-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+Visualizar producto:
 
 <img src="static/img/chapter 4/img-product-info-m.png" alt="Wireframe Web App" style="width: 600px;" >
 
+Reportes:
+
 <img src="static/img/chapter 4/img-reports-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+Monitoreo de clima:
 
 <img src="static/img/chapter 4/img-monitoreo-m.png" alt="Wireframe Web App" style="width: 600px;" >
 
+Trazabilidad:
+
 <img src="static/img/chapter 4/img-traceability-m.png" alt="Wireframe Web App" style="width: 600px;" >
+
+Guías:
 
 <img src="static/img/chapter 4/img-guide-m.png" alt="Wireframe Web App" style="width: 600px;" >
 

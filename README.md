@@ -2171,6 +2171,632 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 
 Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.
 
+### 5.2.2. Sprint 2
+#### 5.2.2.1. Sprint Planning 2
+
+<div align="center">
+    <table>
+        <tr>
+            <th>Sprint #</th>
+            <td>Sprint 2</td>
+        </tr>
+        <tr>
+            <th colspan="2">Sprint Planning Background</th>
+        </tr>
+        <tr>
+            <th>Date</th>
+            <td>2025-08-15</td>
+        </tr>
+        <tr>
+            <th>Time</th>
+            <td>12:00 PM</td>
+        </tr>
+        <tr>
+            <th>Location</th>
+            <td>Universidad Peruana de Ciencias Aplicadas</td>
+        </tr>
+        <tr>
+            <th>Prepared by</th>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+        </tr>
+        <tr>
+            <th>Attendees (to planning meeting)</th>
+            <td>Calixto Iriarte, David Alejandro; Cespedes Pillco, Jarod Jack; Checa Burga, Oscar Diego; Palomino Murga, Daniel Stalin; Zagaceta Bardales, Rodrigo Enrique</td>
+        </tr>
+        <tr>
+            <th>Sprint n - 1 Review Summary</th>
+            <td>Se completó la implementación y el despliegue de la Landing Page de Storigent. El equipo cumplió la velocidad de 12 Story Points completando las historias de usuario enfocadas en la presentación de la propuesta de valor y los planes de contacto (E01-US01 a E01-US05).</td>
+        </tr>
+        <tr>
+            <th>Sprint n - 1 Retrospective Summary</th>
+            <td>A mantener: La comunicación diaria y el uso de GitFlow. A mejorar: La estimación inicial de las tareas de despliegue. Lección aprendida: La necesidad de definir el Style Guide de forma más rigurosa antes de iniciar el Front-End de la aplicación.</td>
+        </tr>
+        <tr>
+            <th colspan="2">Sprint Goal & User Stories</th>
+        </tr>
+        <tr>
+            <th>Sprint 2 Goal</th>
+            <td>Desarrollo del Front-End para el Registro de Productos y la Estructura del Dashboard, respaldado por la documentación de los Contextos Delimitados./td>
+        </tr>
+        <tr>
+            <th>Sprint 2 Velocity</th>
+            <td>17 Story Points</td>
+        </tr>
+        <tr>
+            <th>Sum of Story Points</th>
+            <td>17 Story Points</td>
+        </tr>
+    </table>
+</div>
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+En este sprint se busca iniciar la implementación de las funciones clave del negocio, centrándose en el Front-End para el Registro de Productos. Para ello, la meta principal es la definición de los Contextos Delimitados (Bounded Contexts) de Inventario y Autenticación, y la creación de los Mocks de servicio que simularán el Back-End. Para lograr una correcta comunicación y alinear la arquitectura, se ha mantenido la matriz de liderazgo y colaboración (LACX), en la cual se define quien lidera y quien colabora en cada aspecto de arquitectura y desarrollo.
+
+Se asignaron los siguientes roles para cada bounded context:
+
+Product:
+<div align="center">
+    <table>
+        <tr>
+            <th>Team Member</th>
+            <th>Github Username</th>
+            <th>Bounded Context Design</th>
+            <th>Bounded Context Deployment</th>
+        </tr>
+        <tr>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>DavidCalixto99</td>
+            <td>Leader</td>
+            <td>Leader</td>
+        </tr>
+        <tr>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>PruebaJJC</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>OscarCheca</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>DanielPM23</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>Rodrigo290205</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+    </table>
+</div>
+
+Monitoring:
+<div align="center">
+    <table>
+        <tr>
+            <th>Team Member</th>
+            <th>Github Username</th>
+            <th>Bounded Context Design</th>
+            <th>Bounded Context Deployment</th>
+        </tr>
+        <tr>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>DavidCalixto99</td>
+            <td>Collaborator</td>
+            <td>Collaborato</td>
+        </tr>
+        <tr>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>PruebaJJC</td>
+            <td>Leader</td>
+            <td>Leader</td>
+        </tr>
+        <tr>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>OscarCheca</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>DanielPM23</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>Rodrigo290205</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+    </table>
+</div>
+
+Inventory:
+<div align="center">
+    <table>
+        <tr>
+            <th>Team Member</th>
+            <th>Github Username</th>
+            <th>Bounded Context Design</th>
+            <th>Bounded Context Deployment</th>
+        </tr>
+        <tr>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>DavidCalixto99</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>PruebaJJC</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>OscarCheca</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>DanielPM23</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>Rodrigo290205</td>
+            <td>Leader</td>
+            <td>Leader</td>
+        </tr>
+    </table>
+</div>
+
+Shipment:
+<div align="center">
+    <table>
+        <tr>
+            <th>Team Member</th>
+            <th>Github Username</th>
+            <th>Bounded Context Design</th>
+            <th>Bounded Context Deployment</th>
+        </tr>
+        <tr>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>DavidCalixto99</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>PruebaJJC</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>OscarCheca</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>DanielPM23</td>
+            <td>Leader</td>
+            <td>Leader</td>
+        </tr>
+        <tr>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>Rodrigo290205</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+    </table>
+</div>
+
+Report:
+<div align="center">
+    <table>
+        <tr>
+            <th>Team Member</th>
+            <th>Github Username</th>
+            <th>Bounded Context Design</th>
+            <th>Bounded Context Deployment</th>
+        </tr>
+        <tr>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>DavidCalixto99</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>PruebaJJC</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>OscarCheca</td>
+            <td>Leader</td>
+            <td>Leader</td>
+        </tr>
+        <tr>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>DanielPM23</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>Rodrigo290205</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+    </table>
+</div>
+
+Support:
+<div align="center">
+    <table>
+        <tr>
+            <th>Team Member</th>
+            <th>Github Username</th>
+            <th>Bounded Context Design</th>
+            <th>Bounded Context Deployment</th>
+        </tr>
+        <tr>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>DavidCalixto99</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>PruebaJJC</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>OscarCheca</td>
+            <td>Leader</td>
+            <td>Leader</td>
+        </tr>
+        <tr>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>DanielPM23</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>Rodrigo290205</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+    </table>
+</div>
+
+#### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 es desarrollar las funcionalidades base para la gestión de datos de conservación y el inicio de la conectividad de integración. Esto incluye la implementación de un Módulo de Monitoreo en Tiempo Real para la conservación de productos, la configuración de los primeros Endpoints RESTful de API para el inventario, y la creación de una Sección de Guías de Cuidado.
+
+<div align="center">
+    <table>
+        <tr>
+            <th colspan="1">Sprint #</th>
+            <th colspan="7">Sprint 2</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Work-Item / Task</th>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation (Hours)</th>
+            <th>Assigned To</th>
+            <th>Status (To-Do / In-Process / To-Review / Done)</th>
+        </tr>
+        <tr>
+            <td rowspan="4">US010</td>
+            <td rowspan="4">Reportes de inventario</td>
+            <td>T01</td>
+            <td>Diseñar interfaz de reportes</td>
+            <td>Crear la vista donde el administrador puede seleccionar filtros (fechas, categorías, productos) y tipos de reportes.</td>
+            <td>6</td>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T02</td>
+            <td>Implementar lógica de reportes</td>
+            <td>Desarrollar la función de backend para consultar y agregar los datos de inventario según los filtros seleccionados.</td>
+            <td>12</td>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>To-Do</td>
+        </tr>
+        <tr>
+            <td>T03</td>
+            <td>Generar reportes PDF/CSV</td>
+            <td>Implementar la funcionalidad para exportar el reporte generado a formatos descargables (ej. PDF y CSV).</td>
+            <td>8</td>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>To-Do</td>
+        </tr>
+        <tr>
+            <td>T04</td>
+            <td>QA y Pruebas de Data</td>
+            <td>Verificar la exactitud y rendimiento de la generación de datos para los diferentes tipos de reportes.</td>
+            <td>4</td>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td rowspan="4">US011</td>
+            <td rowspan="4">Monitoreo en tiempo real</td>
+            <td>T01</td>
+            <td>Diseñar Dashboard de Monitoreo</td>
+            <td>Crear el diseño del panel de control con indicadores y gráficas para mostrar la temperatura y humedad.</td>
+            <td>8</td>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T02</td>
+            <td>Desarrollar API de Ingesta de Data</td>
+            <td>Implementar un endpoint para recibir y almacenar la data en tiempo real de temperatura y humedad (ej. desde sensores).</td>
+            <td>16</td>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>T03</td>
+            <td>Implementar Consulta en Tiempo Real</td>
+            <td>Desarrollar la lógica de frontend para consumir la API e hidratar las gráficas y medidores del dashboard en tiempo real.</td>
+            <td>10</td>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>T04</td>
+            <td>Configurar Alertas de Rangos</td>
+            <td>Implementar la lógica para disparar alertas o indicadores visuales cuando los valores salgan de los rangos de conservación definidos.</td>
+            <td>6</td>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>To-Do</td>
+        </tr>
+        <tr>
+            <td rowspan="4">US013</td>
+            <td rowspan="4">Guías de cuidado y conservación</td>
+            <td>T01</td>
+            <td>Modelado de Data de Guías</td>
+            <td>Definir la estructura de la base de datos para almacenar el contenido de las guías y su asociación con productos/categorías.</td>
+            <td>4</td>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T02</td>
+            <td>Desarrollar Servicio de Consulta</td>
+            <td>Implementar la lógica de backend para obtener la guía correcta al consultar un producto o categoría.</td>
+            <td>5</td>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>To-Do</td>
+        </tr>
+        <tr>
+            <td>T03</td>
+            <td>Diseñar Vista de Guía</td>
+            <td>Crear la interfaz de usuario para mostrar el contenido de las guías de forma clara y legible.</td>
+            <td>6</td>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T04</td>
+            <td>Integrar Acceso en Producto</td>
+            <td>Agregar el botón o enlace en la página de detalle del producto/categoría que dirija a la guía de conservación correspondiente.</td>
+            <td>3</td>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>To-Do</td>
+        </tr>
+        <tr>
+            <td rowspan="4">US015</td>
+            <td rowspan="4">Consulta de ubicación en tránsito</td>
+            <td>T01</td>
+            <td>Diseñar Interfaz de Búsqueda</td>
+            <td>Crear la vista donde el usuario ingresa el ID o número de seguimiento del envío.</td>
+            <td>4</td>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T02</td>
+            <td>Integración con API de Tracking</td>
+            <td>Conectar el backend con el servicio externo (API) del proveedor logístico para obtener la ubicación y el estado.</td>
+            <td>10</td>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>To-Do</td>
+        </tr>
+        <tr>
+            <td>T03</td>
+            <td>Procesamiento de Data de Tracking</td>
+            <td>Implementar la lógica para normalizar y almacenar los datos de ubicación y estado recibidos del servicio externo.</td>
+            <td>6</td>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T04</td>
+            <td>Mostrar Estado y Ubicación</td>
+            <td>Desarrollar la vista para presentar al usuario el estado actual del envío y su última ubicación conocida (ej. con un mapa simple).</td>
+            <td>8</td>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="4">US018</td>
+            <td rowspan="4">API - Endpoints de Inventario (Developer)</td>
+            <td>T01</td>
+            <td>Diseñar Contrato API Inventory</td>
+            <td>Documentar los endpoints (`/inventory`), métodos (GET, POST, PUT), parámetros y la estructura de los JSON de respuesta/petición.</td>
+            <td>5</td>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T02</td>
+            <td>Implementar Endpoint GET</td>
+            <td>Desarrollar la función para consultar inventario con filtros, paginación y retornar la lista de resultados.</td>
+            <td>8</td>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>T03</td>
+            <td>Implementar Endpoint POST/PUT</td>
+            <td>Desarrollar la función para crear nuevos artículos de inventario (`POST`) y actualizar los existentes (`PUT`/`PATCH`).</td>
+            <td>12</td>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>T04</td>
+            <td>Configurar Seguridad de API</td>
+            <td>Implementar mecanismos de autenticación (ej. token, API key) y autorización para asegurar los endpoints.</td>
+            <td>7</td>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td rowspan="4">US019</td>
+            <td rowspan="4">API - Endpoint de Tracking (Developer)</td>
+            <td>T01</td>
+            <td>Diseñar Contrato API Tracking</td>
+            <td>Documentar el endpoint (`/tracking/{id}`), método (GET), parámetros y la estructura del JSON de respuesta.</td>
+            <td>4</td>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>To-Do</td>
+        </tr>
+        <tr>
+            <td>T02</td>
+            <td>Implementar Endpoint GET Tracking</td>
+            <td>Desarrollar la función para consultar el estado y la ubicación del envío usando el ID y retornar la data.</td>
+            <td>9</td>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>To-Do</td>
+        </tr>
+        <tr>
+            <td>T03</td>
+            <td>Documentación para Integración</td>
+            <td>Crear la documentación técnica dirigida a developers externos para el uso del nuevo endpoint de tracking.</td>
+            <td>6</td>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>To-Do</td>
+        </tr>
+        <tr>
+            <td>T04</td>
+            <td>Pruebas de Stress y Límite</td>
+            <td>Realizar pruebas de rendimiento y configurar límites de tasa de peticiones (rate limiting) al endpoint.</td>
+            <td>5</td>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>In-Process</td>
+        </tr>
+    </table>
+</div>
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances en la implementación de la solución, específicamente en el desarrollo de la Landing Page correspondiente al alcance del Sprint actual. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas, los ajustes de estilo y las mejoras en la interfaz de usuario. A continuación, se muestra una tabla que resume los commits relevantes asociados a este componente.
+
+<div align="center">
+    <table>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit On (Date)</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En el Sprint 2, logramos desarrollar la base para la gestión de la conservación y la integración de datos.
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante este Sprint, se inició el desarrollo de los servicios clave del backend para dar soporte a las funcionalidades de conservación e integración. A diferencia del Sprint 1, en el Sprint 2 sí se crearon y documentaron los primeros endpoints de nuestra API.
+
+Se implementaron y documentaron los Endpoints de Inventario (US018) y se diseñó el contrato del Endpoint de Tracking (US019).
+
+Evidencia de Documentación Generada: La documentación técnica preliminar de estos servicios, incluyendo el contrato de los endpoints con sus parámetros y respuestas, se ha generado en formato OpenAPI (Swagger).
+
+Servicios Disponibles: Los endpoints de consulta, creación y actualización de Inventario ya están disponibles para su consumo por sistemas externos.
+
+La documentación completa de los Web Services será refinada y extendida en los próximos Sprints a medida que se integren las funcionalidades de monitoreo en tiempo real.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+A continuación mostraremos capturas de la Web Application desplegada:
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la Landing Page y la elaboración del reporte del proyecto, dividiéndose por secciones según el diseño y el contenido definido previamente.
+
+A continuación, se detalla la participación específica de cada integrante del equipo:
+
+<div align="center">
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Actividades</th>
+        </tr>
+        <tr>
+            <td>Calixto Iriarte, David Alejandro</td>
+            <td>Elaboración del Bounded Context Product</td>
+        </tr>
+        <tr>
+            <td>Cespedes Pillco, Jarod Jack</td>
+            <td>Elaboración del Bounded Context Monitoring</td>
+        </tr>
+        <tr>
+            <td>Checa Burga, Oscar Diego</td>
+            <td>Elaboración del Bounded Context Support</td>
+        </tr>
+        <tr>
+            <td>Palomino Murga, Daniel Stalin</td>
+            <td>Elaboración del Bounded Context Shipment</td>
+        </tr>
+        <tr>
+            <td>Zagaceta Bardales, Rodrigo Enrique</td>
+            <td>Elaboración del Bounded Context Inventory</td>
+        </tr>
+    </table>
+</div>
+
+
 # Conclusiones
 
 El desarrollo del proyecto Storigent ha permitido consolidar una propuesta tecnológica innovadora orientada a mejorar la gestión y conservación de inventarios en diversos sectores empresariales. Desde sus primeras etapas, se definió con claridad el propósito del software, centrado en la optimización de recursos mediante el uso de tecnologías como RFID y monitoreo climatológico, lo cual garantiza una trazabilidad eficiente en el transporte y almacenamiento de productos. Esta visión responde a necesidades reales del mercado, especialmente en empresas que requieren control riguroso de sus materiales y condiciones de conservación.

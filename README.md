@@ -274,7 +274,7 @@ Visión: Convertirse en un referente en la implementación de tecnologías de ge
 | ![rodrigo](/static/img/img-Rodrigo.jpeg)                                        | Zagaceta Bardales, Rodrigo Enrique     | U202215489 | Ingeniería de Software | Soy Rodrigo Zagaceta tengo conocimientos medios en diversos lenguajes de programación, me considero una persona responsable y con la intención de generar un buen entendimiento entre todos los miembros del equipo. |
 | ![Daniel](/static/img/img-Daniel.jpeg "Daniel Palomino Profile Image")           | Palomino Murga, Daniel Stalin         | U20201B253 | Ingeniería de Software | Soy estudiante de Ingeniería de Software en la UPC, actualmente cursando el 5to ciclo de mi carrera y tengo 21 años. Me considero una persona amable, tranquila y perseverante, cualidades que me ayudan tanto en el ámbito académico como en el trabajo en equipo. Me gusta desarrollar proyectos de manera organizada, prestando atención a los detalles para lograr resultados de calidad. En el trabajo colaborativo, me esfuerzo por aportar ideas y respetar las ideas de mis compañeros, apoyarlos y alcanzar los objetivos en conjunto.Tengo experiencia en C++, Java, JavaScript, HTML y CSS, Python.                                           |
 | ![David]()                                                                           | Calixto Iriarte, David Alejandro    | U20201B441 | Ingeniería de Software |                                                                                                                                                                                                               |
-| ![Jarod](/static/img/img-Jarod.jpeg "Jarod Cespedes Profile Image")                             | Cespedes Pillco, Jarod Jack           | U202318588 | Ingeniería de Software | Soy Jarod Cespedes y actualmente estoy cursando el quinto ciclo de la carrera Ingeniería de Software. Considero que soy atento, creativo y colaborador, siempre intentando apoyar a mi equipo en lo más que puedo. Además, tengo conocimientos en varios lenguajes de programación como C++, C#, Python y Java. |                                                                                          
+| ![Jarod()]()                                        | Cespedes Pillco, Jarod Jack           | U202318588 | Ingeniería de Software |                                                                                                                                                                                                                                          |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
@@ -370,12 +370,45 @@ Este monto resulta mínimo en comparación con las pérdidas generadas por una g
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 
-En un contexto donde la gestión de inventarios y la trazabilidad logística se han convertido en factores clave para la competitividad empresarial, se hace evidente la necesidad de una plataforma digital que facilite el control, conservación y transporte de productos de manera eficiente. Dicha solución debe proporcionar a empresas y emprendedores una experiencia práctica, confiable y adaptable a las características de su operación.
+En el contexto actual, las empresas y emprendedores enfrentan un entorno altamente competitivo donde la eficiencia operativa y la gestión inteligente de inventarios se han convertido en factores determinantes para mantener la rentabilidad y la confianza del cliente. Sin embargo, muchas organizaciones aún dependen de procesos manuales o sistemas aislados que dificultan el control, la trazabilidad y la conservación adecuada de sus productos.
 
-Como grupo, nos comprometemos a resolver este desafío mediante una colaboración estrecha con los usuarios que requieren optimizar la administración de sus inventarios, así como con empresas que buscan mejorar su trazabilidad y reducir pérdidas operativas. Nos enfocaremos en comprender profundamente las necesidades y expectativas de nuestros clientes, utilizando esta información para diseñar y desarrollar una solución innovadora que satisfaga sus requerimientos de manera integral.
+Ante esta situación, se identifica la necesidad de una solución integral y digital que permita optimizar la administración de inventarios, garantizar la trazabilidad en toda la cadena logística y ofrecer herramientas de conservación adaptadas a las características de cada producto.
 
+#### Domain:
 
-#### 1.2.2.2. Lean UX Assumptions.
+El proyecto se enmarca en el ámbito de la gestión de inventarios y trazabilidad logística, un sector clave para el desempeño empresarial. Este dominio abarca procesos de control, almacenamiento, transporte y conservación de productos, los cuales influyen directamente en la eficiencia operativa y la satisfacción del cliente final.
+
+#### Customer Segments:
+
+El público objetivo está compuesto por empresas pequeñas, medianas y grandes, así como emprendedores que buscan mejorar la gestión de sus inventarios mediante herramientas tecnológicas. Mientras las empresas consolidadas necesitan sistemas escalables y precisos, los emprendedores requieren soluciones prácticas y accesibles que les permitan crecer de manera organizada y competitiva.
+
+#### Pain Points:
+
+Los principales problemas que enfrentan los usuarios incluyen:
+
+-Falta de integración entre control de inventarios, trazabilidad y conservación de productos.
+
+-Procesos manuales que generan errores, desorden y pérdida de información.
+
+-Desconocimiento del estado y ubicación de los productos en tiempo real.
+
+-Deterioro o vencimiento por ausencia de guías de cuidado adecuadas.
+
+-Sobrecostos logísticos derivados de excesos, quiebres de stock o ineficiencias en el transporte.
+
+#### Gap: 
+
+Aunque existen softwares de gestión de inventarios, la mayoría se enfoca únicamente en el registro de stock sin incorporar trazabilidad logística ni guías de conservación. Este vacío tecnológico impide ofrecer una solución integral que responda a las necesidades reales de control, monitoreo y prevención de pérdidas.
+
+#### Vision / Strategy:
+
+La visión del proyecto Storigent es desarrollar una plataforma digital integral y adaptable que combine gestión de inventarios, trazabilidad en transporte y guías de conservación en un solo entorno. La estrategia se centra en el diseño colaborativo con los usuarios, validando continuamente sus necesidades y ajustando la solución para maximizar su valor, usabilidad y eficiencia operativa.
+
+#### Initial Segment:
+
+El segmento inicial de validación está conformado por emprendedores y pequeñas empresas del sector retail y alimentario, quienes presentan mayores desafíos en la conservación de productos y control de stock. A través de este grupo se busca obtener aprendizajes clave para mejorar la plataforma y posteriormente escalarla hacia sectores más amplios y empresas de mayor tamaño.
+
+#### 1.2.2.2. Lean UX Assumptions
 
 #### Bussiness Assumptions
 
@@ -403,18 +436,86 @@ Como grupo, nos comprometemos a resolver este desafío mediante una colaboració
 
 •	Valoran la seguridad y transparencia en el manejo de sus datos y operaciones.
 
+#### Feature Assumptions
+
+•	Creemos que la integración de módulos de inventario, trazabilidad y conservación será clave para generar valor real al usuario, permitiéndole centralizar todo el control en una sola plataforma.
+
+•	Creemos que las alertas automáticas sobre stock, vencimiento y transporte ayudarán a los usuarios a anticiparse a problemas y tomar decisiones oportunas.
+
+•	Creemos que los reportes inteligentes permitirán visualizar pérdidas, rotación de productos y desempeño logístico, facilitando una gestión basada en datos.
+
+•	Creemos que un panel de control centralizado simplificará la administración de inventarios en empresas con múltiples sedes o líneas de producto.
+
+•	Creemos que una interfaz intuitiva, visual y personalizable incrementará la adopción y satisfacción del usuario, al reducir la curva de aprendizaje y el tiempo de uso diario.
+
+#### User Outcome Assumptions
+
+•	Los usuarios lograrán reducir pérdidas por deterioro, exceso o quiebre de stock.
+
+•	Experimentarán mayor control y visibilidad de sus operaciones en tiempo real.
+
+•	Mejorarán la eficiencia y organización interna, dedicando menos tiempo a tareas repetitivas.
+
+•	Sentirán mayor confianza y seguridad en sus procesos logísticos al contar con trazabilidad completa.
+
+•	Percibirán a Storigent como una herramienta indispensable para la gestión diaria de su negocio.
+
+#### Business Outcomes
+
+•	Las empresas que utilicen Storigent podrán disminuir hasta un 30 % sus costos logísticos y de almacenamiento.
+
+•	El proyecto obtendrá mayor retención de clientes debido al impacto positivo en la eficiencia operativa.
+
+•	Storigent fortalecerá su posicionamiento competitivo en el mercado tecnológico B2B y emprendedor.
+
+•	El uso continuo de la plataforma generará crecimiento sostenible mediante planes escalables de suscripción.
+
+•	El éxito medible se reflejará en usuarios satisfechos, reducción de pérdidas y rentabilidad del producto.
+
+
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-•  Creemos que los emprendedores y empresas necesitan una solución integral para gestionar sus inventarios, conservar sus productos y garantizar la trazabilidad en el transporte.
+#### Hypothesis Statement 1:
 
-•  Creemos que si ofrecemos una plataforma accesible y fácil de usar, los usuarios estarán más dispuestos a adoptar Storigent en lugar de depender de métodos manuales o herramientas dispersas.
+**Creemos que** la implementación de un módulo de trazabilidad en tiempo real permitirá que los usuarios controlen con mayor precisión el estado y ubicación de sus productos, optimizando la gestión logística.
 
-•  Creemos que al brindar información clara y en tiempo real, los usuarios reducirán errores en el control de inventarios, mejorarán la eficiencia operativa y disminuirán pérdidas por deterioro o exceso de stock.
+**Sabremos que hemos tenido éxito** 
 
-•  Creemos que si garantizamos seguridad y transparencia en los datos, los usuarios confiarán en la plataforma y la utilizarán como parte esencial de sus operaciones.
+**Cuando** observemos una reducción del 20% en incidencias logísticas y un incremento en la satisfacción de los usuarios respecto al seguimiento de productos.
 
-•  Creemos que al demostrar un impacto positivo en la reducción de costos y riesgos, los usuarios estarán dispuestos a invertir en Storigent como una solución sostenible y escalable.
+#### Hypothesis Statement 2:
+
+**Creemos que** el uso de alertas automáticas de stock y vencimiento permitirá que los usuarios anticipen roturas de inventario o pérdidas por caducidad, mejorando la eficiencia operativa.
+
+**Sabremos que hemos tenido éxito** 
+
+**Cuando** se registre una reducción del 15% en productos vencidos o fuera de stock, junto con una mayor frecuencia en el uso de las alertas dentro del sistema.
+
+#### Hypothesis Statement 3:
+
+**Creemos que** la integración de reportes inteligentes y visuales permitirá que los usuarios tomen decisiones informadas basadas en datos actualizados y precisos.
+
+**Sabremos que hemos tenido éxito**
+
+**Cuando** se evidencie un aumento del 25% en la utilización de los dashboards y reportes, y una mejora en la percepción del control sobre la gestión del inventario.
+
+#### Hypothesis Statement 4:
+
+**Creemos que** una interfaz intuitiva, visual y personalizable facilitará la adopción de la plataforma y mejorará la experiencia del usuario desde el primer uso.
+
+**Sabremos que hemos tenido éxito**
+
+**Cuando** la plataforma alcance una tasa de retención de usuarios superior al 80% en los primeros seis meses y una reducción notable en solicitudes de soporte por dificultades de uso.
+
+#### Hypothesis Statement 5:
+
+**Creemos que** la integración de múltiples puntos de venta o sedes en un solo sistema permitirá que los usuarios gestionen de forma unificada su inventario, favoreciendo la escalabilidad.
+
+**Sabremos que hemos tenido éxito** 
+
+**Cuando** se observe un aumento del 30% en empresas que implementan la solución en más de una sede y una disminución en los tiempos de consolidación de información logística.
+
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -1857,6 +1958,28 @@ Estas convenciones se emplearon en los entornos utilizados durante el proceso de
 **4. Versionado y Commits Semánticos:** Crearemos ramas como ```feat/choose-your-plan-view``` y ```fix/contact-form```; y redactaremos commits como ```feat: add validation in register button``` y ```fix: unexpected behavior of calculate function```.   
 
 ### 5.1.4. Software Deployment Configuration
+
+#### Landing Page Deployment
+
+Para poder realizar el despliegue de la landing page utilizando **GitHub Pages**, debemos seguir los siguientes pasos.
+
+**Paso 1:** En el repositorio de la landing page, ingresamos a la pestaña de "Settings" al dar clic sobre el botón con el mismo nombre ubicado en la barra de menú de la página.
+
+![landing-page-deployment-config-1.png](static/img/chapter%205/landing-page/deployment/configuration/landing-page-deployment-config-1.png)
+
+**Paso 2:** Una vez dentro, buscamos entre las diferentes opciones, la que se llama "Pages".
+
+![landing-page-deployment-config-2.png](static/img/chapter%205/landing-page/deployment/configuration/landing-page-deployment-config-2.png)
+
+**Paso 3:** Dentro de la "Pages", buscamos la sección de "Build and Deployment". En "Source", nos aseguramos de elegir la opción "Deploy from a branch" y en "Branch", seleccionamos la rama principal del proyecto. Finalmente le daremos clic a "Save".
+
+![landing-page-deployment-config-3.png](static/img/chapter%205/landing-page/deployment/configuration/landing-page-deployment-config-3.png)
+
+**Paso 4:** Después de este proceso, esperaremos unos minutos a que GitHub despliegue la landing page y volvemos a la página principal del repositorio. Allí mismo podremos encontrar una nueva sección, llamada "Deployments", en el lado derecho de la página. Al dar clic allí se nos proporcionará el link hacia la página web desplegada.
+
+![landing-page-deployment-config-4.png](static/img/chapter%205/landing-page/deployment/configuration/landing-page-deployment-config-4.png)
+![landing-page-deployment-config-5.png](static/img/chapter%205/landing-page/deployment/configuration/landing-page-deployment-config-5.png)
+
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
@@ -2115,6 +2238,35 @@ En esta sección se presentan los avances en la implementación de la solución,
 
 En el primer sprint, logramos desarrollar parcialmente la implementación del despliegue del landing page. Donde se muestra las diferentes divisiones que el usuario podrá visualizar como lo sería la información sobre el startup y nuestro producto. A continuación mostramos algunas evidencias:
 
+- Sección Inicio: En esta sección se muestra la propuesta de valor del producto y una llamada a la acción para que el usuario pueda registrarse o iniciar sesión.
+
+![landing-page-execution-evidence-1.png](static/img/chapter%205/landing-page/execution/landing-page-execution-evidence-1.png)
+
+- Sección Caracteristicas: En esta sección se muestran las características principales del producto.
+
+![landing-page-execution-evidence-2.png](static/img/chapter%205/landing-page/execution/landing-page-execution-evidence-2.png)
+![landing-page-execution-evidence-3.png](static/img/chapter%205/landing-page/execution/landing-page-execution-evidence-3.png)
+
+- Sección ¿Por qué Storigent?: En esta sección se muestran los beneficios de usar el producto.
+
+![landing-page-execution-evidence-4.png](static/img/chapter%205/landing-page/execution/landing-page-execution-evidence-4.png)
+
+- Sección Planes Y Precios: En esta sección se muestran los diferentes planes y precios del producto.
+
+![landing-page-execution-evidence-5.png](static/img/chapter%205/landing-page/execution/landing-page-execution-evidence-5.png)
+
+- Sección Video: En esta sección se muestra un video explicativo del producto.
+
+![landing-page-execution-evidence-6.png](static/img/chapter%205/landing-page/execution/landing-page-execution-evidence-6.png)
+
+- Sección Contáctanos: En esta sección se muestra un formulario de contacto para que el usuario pueda enviar sus consultas o comentarios.
+
+![landing-page-execution-evidence-7.png](static/img/chapter%205/landing-page/execution/landing-page-execution-evidence-7.png)
+
+- Sección Pie de Página: En esta sección se muestra información adicional como enlaces a redes sociales, términos y condiciones, política de privacidad, entre otros.
+
+![landing-page-execution-evidence-8.png](static/img/chapter%205/landing-page/execution/landing-page-execution-evidence-8.png)
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 Durante este Sprint no se desarrollaron ni documentaron Web Services, dado que el enfoque principal estuvo en la implementación de la Landing Page como primer entregable del sistema. Por lo tanto, no se cuenta con endpoints disponibles ni documentación generada en OpenAPI en esta etapa del proyecto.
@@ -2124,6 +2276,14 @@ La documentación de servicios será considerada en los siguientes Sprints, una 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 A continuación mostraremos capturas de la landing page desplegada:
+
+![landing-page-deployed-evidence-1.png](static/img/chapter%205/landing-page/deployment/landing-page-deployed-evidence-1.png)
+![landing-page-deployed-evidence-2.png](static/img/chapter%205/landing-page/deployment/landing-page-deployed-evidence-2.png)
+![landing-page-deployed-evidence-3.png](static/img/chapter%205/landing-page/deployment/landing-page-deployed-evidence-3.png)
+![landing-page-deployed-evidence-4.png](static/img/chapter%205/landing-page/deployment/landing-page-deployed-evidence-4.png)
+![landing-page-deployed-evidence-5.png](static/img/chapter%205/landing-page/deployment/landing-page-deployed-evidence-5.png)
+![landing-page-deployed-evidence-6.png](static/img/chapter%205/landing-page/deployment/landing-page-deployed-evidence-6.png)
+![landing-page-deployed-evidence-7.png](static/img/chapter%205/landing-page/deployment/landing-page-deployed-evidence-7.png)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -2830,6 +2990,3 @@ Codina, L. (2019). Bibliografía sobre investigación cualitativa. Recuperado de
 # Anexos
 ### Anexo A: Entrevistas Completas
 - Enlace a las entrevistas: [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215489_upc_edu_pe/EcThJtRL6aJFq7Wk32pNBjQBOfF9F6D4RgZPk9REMN0-uA?e=UzTDLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
-### Anexo B: Videos de Exposiciones
-- TB1: [Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215489_upc_edu_pe/EbNb43GP5w1PuhV8VVmfXeQBbj0yxzQqLifgkmz7JIJq2Q?e=DZdmnw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
